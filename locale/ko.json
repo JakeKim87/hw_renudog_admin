@@ -1,0 +1,7697 @@
+{
+  "PRXpBm": {
+    "context": "dialog header",
+    "string": "주문 취소"
+  },
+  "ll2dE6": {
+    "context": "PageTypeDeleteWarningDialog multiple assigned items description",
+    "string": "선택한 페이지 타입을 삭제하시겠습니까? 삭제하면 더 이상 생성된 페이지에 이 타입을 할당할 수 없습니다."
+  },
+  "qu8b3v": {
+    "context": "PageTypeDeleteWarningDialog multiple consent label",
+    "string": "네, 해당 페이지 타입과 할당된 페이지들을 삭제하겠습니다."
+  },
+  "tQxBXs": {
+    "context": "PageTypeDeleteWarningDialog single assigned items description",
+    "string": "<b>{typeName}</b> 페이지 타입을 삭제하려고 합니다. 이 타입은 {assignedItemsCount}개의 페이지에 할당되어 있습니다. 이 페이지 타입을 삭제하면 해당 페이지들도 함께 삭제됩니다. 정말로 삭제하시겠습니까?"
+  },
+  "RZ32u5": {
+    "context": "PageTypeDeleteWarningDialog single consent label",
+    "string": "네, 이 페이지 타입과 할당된 페이지들을 삭제하겠습니다."
+  },
+  "VvFJ/T": {
+    "context": "PageTypeDeleteWarningDialog single no assigned items description",
+    "string": "<b>{typeName}</b>을(를) 삭제하시겠습니까? 삭제하면 더 이상 생성된 페이지에 이 타입을 할당할 수 없습니다."
+  },
+  "TnyLrZ": {
+    "context": "PageTypeDeleteWarningDialog with items multiple description",
+    "string": "여러 페이지 타입을 삭제하려고 합니다. 일부는 페이지에 할당되어 있습니다. 해당 페이지 타입을 삭제하면 해당 페이지들도 함께 삭제됩니다."
+  },
+  "2Sx05f": {
+    "context": "Previous discount label",
+    "string": "이전 할인 가격"
+  },
+  "aPqizA": {
+    "context": "ProductTypeDeleteWarningDialog multiple assigned items description",
+    "string": "선택한 상품 타입을 삭제하시겠습니까? 삭제하면 더 이상 생성된 상품에 이 타입을 할당할 수 없습니다."
+  },
+  "0em8tI": {
+    "context": "ProductTypeDeleteWarningDialog multiple consent label",
+    "string": "네, 해당 상품 타입과 할당된 상품들을 삭제하겠습니다."
+  },
+  "ZFfG4L": {
+    "context": "ProductTypeDeleteWarningDialog single assigned items description",
+    "string": "<b>{typeName}</b> 상품 타입을 삭제하려고 합니다. 이 타입은 {assignedItemsCount}개의 상품에 할당되어 있습니다. 이 상품 타입을 삭제하면 해당 상품들도 함께 삭제됩니다. 정말로 삭제하시겠습니까?"
+  },
+  "bk9KUX": {
+    "context": "ProductTypeDeleteWarningDialog single consent label",
+    "string": "네, 이 상품 타입과 할당된 상품들을 삭제하겠습니다."
+  },
+  "HivFnX": {
+    "context": "ProductTypeDeleteWarningDialog single no assigned items description",
+    "string": "<b>{typeName}</b>을(를) 삭제하시겠습니까? 삭제하면 더 이상 생성된 상품에 이 타입을 할당할 수 없습니다."
+  },
+  "3dVKNR": {
+    "context": "ProductTypeDeleteWarningDialog with items multiple description",
+    "string": "여러 상품 타입을 삭제하려고 합니다. 일부는 상품에 할당되어 있습니다. 해당 상품 타입을 삭제하면 해당 상품들도 함께 삭제됩니다."
+  },
+  "nngeI3": {
+    "context": "amount title",
+    "string": "환불된 금액"
+  },
+  "xrPv2K": {
+    "context": "by preposition",
+    "string": "에 의해"
+  },
+  "beuxAP": {
+    "context": "channel publication status",
+    "string": "숨김"
+  },
+  "DIrxt7": {
+    "context": "channel publication date",
+    "string": "{date} 부터 공개"
+  },
+  "nfbabo": {
+    "context": "channel publication date",
+    "string": "{date} 에 공개 예정"
+  },
+  "mDgOmP": {
+    "context": "channel publication status",
+    "string": "공개"
+  },
+  "19/lwV": {
+    "string": "상품 타입을 만드는 데 사용되는 속성을 결정합니다."
+  },
+  "8vJCJ4": {
+    "string": "판매 채널을 정의하고 관리합니다."
+  },
+  "hpMcW8": {
+    "string": "사용자가 스토어를 탐색하는 방법을 정의합니다."
+  },
+  "JPH/uP": {
+    "string": "스토어에서 사용되는 콘텐츠 페이지의 유형을 정의합니다."
+  },
+  "ivJ1qt": {
+    "string": "권한 그룹과 그 권한을 관리합니다."
+  },
+  "n0RwMK": {
+    "string": "판매하는 상품의 유형을 정의합니다."
+  },
+  "zxs6G3": {
+    "string": "주문 배송 방법을 관리합니다."
+  },
+  "5BajZK": {
+    "string": "사이트 설정을 보고 업데이트합니다."
+  },
+  "RQUkVW": {
+    "string": "직원과 그들의 권한을 관리합니다."
+  },
+  "EIULpW": {
+    "string": "스토어의 세금 부과 방식을 관리합니다."
+  },
+  "5RmuD+": {
+    "string": "창고 정보를 관리하고 업데이트합니다."
+  },
+  "m19JfL": {
+    "string": "플러그인과 그 설정을 보고 업데이트합니다."
+  },
+  "yJynYK": {
+    "context": "discount value",
+    "string": "할인"
+  },
+  "ojHyj3": {
+    "context": "discount value label",
+    "string": "할인 가격"
+  },
+  "sHON47": {
+    "context": "refunded products list title",
+    "string": "환불된 상품"
+  },
+  "nki0o/": {
+    "context": "replaced products list title",
+    "string": "교체된 상품"
+  },
+  "L5io1l": {
+    "context": "returned products list title",
+    "string": "반품된 상품"
+  },
+  "a1uffz": {
+    "context": "draft created from replace products list title",
+    "string": "교체된 상품"
+  },
+  "undefined": {
+    "context": "error message",
+    "string": "상태가 유효하지 않습니다."
+  },
+  "/0JckE": {
+    "context": "order marked as paid event title",
+    "string": "주문이 결제 완료로 표시됨 (처리자:"
+  },
+  "AQSmqG": {
+    "context": "order discount was updated automatically event title",
+    "string": "주문 할인이 자동으로 업데이트되었습니다."
+  },
+  "/KWNJW": {
+    "context": "order discount was updated event title",
+    "string": "주문 할인이 업데이트됨 (처리자:"
+  },
+  "Zptsep": {
+    "context": "order was discounted event title",
+    "string": "주문이 할인됨 (처리자:"
+  },
+  "nayZY0": {
+    "context": "returned event title",
+    "string": "상품이 반품됨 (처리자:"
+  },
+  "Zhxu58": {
+    "context": "Fixed amount subtitle",
+    "string": "고정 금액"
+  },
+  "T4wa2Y": {
+    "context": "global config plugin status popup title",
+    "string": "글로벌 플러그인"
+  },
+  "BXkF8Z": {
+    "context": "header",
+    "string": "활동"
+  },
+  "wWTUrM": {
+    "string": "활동 내역을 찾을 수 없습니다."
+  },
+  "zWgbGg": {
+    "string": "오늘"
+  },
+  "By5ZBp": {
+    "context": "header",
+    "string": "안녕하세요, {userName}님"
+  },
+  "aCX8rl": {
+    "context": "subheader",
+    "string": "스토어에 대해 수집된 일부 정보입니다."
+  },
+  "0opVvi": {
+    "context": "number of ordered products",
+    "string": "{amount, plural,one {1개 주문됨} other {{amount}개 주문됨}}"
+  },
+  "rr8fyf": {
+    "context": "header",
+    "string": "인기 상품"
+  },
+  "Q1Uzbb": {
+    "string": "상품을 찾을 수 없습니다."
+  },
+  "6L6Fy2": {
+    "context": "header",
+    "string": "면책 조항"
+  },
+  "5LRkEs": {
+    "string": "새로운 대시보드와 GraphQL API는 프리뷰 버전의 소프트웨어입니다."
+  },
+  "G7mu0y": {
+    "string": "GraphQL API는 베타 버전입니다. 아직 완전히 최적화되지 않았으며, 일부 뮤테이션이나 쿼리가 누락되었을 수 있습니다."
+  },
+  "QBxN6z": {
+    "context": "is filter range or value",
+    "string": "사이"
+  },
+  "I+UwqI": {
+    "context": "is filter range or value",
+    "string": "같음"
+  },
+  "0OtaXa": {
+    "context": "dialog header",
+    "string": "메뉴 생성"
+  },
+  "jhh/D6": {
+    "string": "메뉴 제목"
+  },
+  "G/SYtU": {
+    "string": "{menuName} 메뉴를 삭제하시겠습니까?"
+  },
+  "QzseV7": {
+    "context": "dialog header",
+    "string": "메뉴 삭제"
+  },
+  "E54eoT": {
+    "string": "네비게이션 구조는 드래그 앤 드롭으로 만듭니다. 새 메뉴 항목을 만들고 원하는 위치로 드래그하세요. 항목을 서로의 안으로 이동하여 트리 구조를 만들고, 위아래로 드래그하여 계층 구조를 만들 수 있습니다."
+  },
+  "H3Uirw": {
+    "context": "create new menu item, header",
+    "string": "항목 추가"
+  },
+  "fzDI3A": {
+    "context": "add link to navigation",
+    "string": "링크: {url}"
+  },
+  "KKQUMK": {
+    "context": "edit menu item, header",
+    "string": "항목 수정"
+  },
+  "Urh2N3": {
+    "context": "label",
+    "string": "링크"
+  },
+  "28GZnc": {
+    "string": "검색을 시작하려면 입력하세요..."
+  },
+  "0Vyr8h": {
+    "context": "menu item name",
+    "string": "이름"
+  },
+  "Uf3oHA": {
+    "context": "add new menu item",
+    "string": "새 항목 생성"
+  },
+  "dEUZg2": {
+    "context": "header",
+    "string": "메뉴 항목"
+  },
+  "WwZfNK": {
+    "string": "메뉴를 만들려면 새 메뉴 항목을 추가하세요."
+  },
+  "ugnggZ": {
+    "string": "메뉴가 생성되었습니다."
+  },
+  "bj1U23": {
+    "string": "{menuName}을(를) 삭제하시겠습니까?"
+  },
+  "svK+kv": {
+    "string": "{counter,plural,one {이 메뉴를 삭제하시겠습니까?} other {{displayQuantity}개의 메뉴를 삭제하시겠습니까?}}"
+  },
+  "1LBYpE": {
+    "context": "dialog header",
+    "string": "메뉴 삭제"
+  },
+  "OwG/0z": {
+    "string": "메뉴가 삭제되었습니다."
+  },
+  "0nL1D6": {
+    "context": "number of menu items",
+    "string": "항목"
+  },
+  "DWs4ba": {
+    "string": "메뉴를 찾을 수 없습니다."
+  },
+  "JXRYQg": {
+    "context": "button",
+    "string": "메뉴 생성"
+  },
+  "MTl5o6": {
+    "context": "new discount label",
+    "string": "새 할인 가격"
+  },
+  "saKXY3": {
+    "context": "product label",
+    "string": "퍼블리싱 안됨"
+  },
+  "YI6Fhj": {
+    "context": "no address is set in draft order",
+    "string": "설정 안됨"
+  },
+  "PX2zWy": {
+    "context": "customer is not set in draft order",
+    "string": "설정 안됨"
+  },
+  "e7yOai": {
+    "context": "shipping address is not set in draft order",
+    "string": "설정 안됨"
+  },
+  "5Jo3C5": {
+    "context": "vat not included in order price",
+    "string": "해당 없음"
+  },
+  "BftZHy": {
+    "context": "window title",
+    "string": "페이지 타입 생성"
+  },
+  "W5SK5c": {
+    "string": "콘텐츠 타입 선택"
+  },
+  "gz9v22": {
+    "context": "PluginChannelConfigurationCell channel title",
+    "string": "채널별"
+  },
+  "P/oGtb": {
+    "context": "product availability",
+    "string": "구매 가능"
+  },
+  "KupNHw": {
+    "context": "product field",
+    "string": "카테고리"
+  },
+  "jxoMLL": {
+    "context": "product field",
+    "string": "컬렉션"
+  },
+  "YVIajc": {
+    "context": "product field",
+    "string": "설명"
+  },
+  "W8i2Ez": {
+    "context": "product field",
+    "string": "이름"
+  },
+  "6y+k8V": {
+    "context": "product field",
+    "string": "상품 이미지"
+  },
+  "7JAAul": {
+    "context": "product field",
+    "string": "상품 무게 내보내기"
+  },
+  "QVNg8A": {
+    "context": "product field",
+    "string": "세금 부과"
+  },
+  "Q/Nbku": {
+    "context": "product field",
+    "string": "타입"
+  },
+  "HYHLsB": {
+    "context": "product field",
+    "string": "옵션 ID 내보내기"
+  },
+  "Uo5MoU": {
+    "context": "product field",
+    "string": "옵션 이미지"
+  },
+  "5kvaFR": {
+    "context": "product field",
+    "string": "옵션 SKU 내보내기"
+  },
+  "XBwpUv": {
+    "context": "product field",
+    "string": "옵션 무게 내보내기"
+  },
+  "4qe6hO": {
+    "context": "product stock, section header",
+    "string": "재고"
+  },
+  "SSWFo8": {
+    "context": "window title",
+    "string": "상품 타입 생성"
+  },
+  "bq1eEx": {
+    "context": "header",
+    "string": "상품 타입 생성"
+  },
+  "mUb8Gt": {
+    "context": "section header",
+    "string": "세금"
+  },
+  "9xUIAh": {
+    "string": "세금 그룹"
+  },
+  "OgFBAj": {
+    "context": "input label",
+    "string": "가격"
+  },
+  "vuKrlW": {
+    "string": "재고"
+  },
+  "ABgQcF": {
+    "context": "variant stock, header",
+    "string": "재고"
+  },
+  "oIMMcO": {
+    "context": "no warehouses info",
+    "string": "스토어에 설정된 창고가 없습니다. 재고 수량을 제공하지 않고 옵션을 설정할 수 있습니다."
+  },
+  "Gjo89T": {
+    "context": "header",
+    "string": "창고"
+  },
+  "D8nsBc": {
+    "context": "no warehouses info",
+    "string": "스토어에 설정된 창고가 없습니다. 옵션에 재고 수량을 추가하려면 <a>창고를 설정</a>하세요."
+  },
+  "RLBLPQ": {
+    "context": "no warehouses info",
+    "string": "스토어에 설정된 창고가 없습니다. 상품에 재고 수량을 추가하려면 <a>창고를 설정</a>하세요."
+  },
+  "qJedl0": {
+    "context": "product label",
+    "string": "퍼블리싱 됨"
+  },
+  "ppLwx3": {
+    "context": "number of categories",
+    "string": "카테고리 ({quantity})"
+  },
+  "QdGzUf": {
+    "context": "number of collections",
+    "string": "컬렉션 ({quantity})"
+  },
+  "bNw8PM": {
+    "context": "number of products",
+    "string": "상품 ({quantity})"
+  },
+  "HVlMK2": {
+    "context": "number of variants",
+    "string": "옵션 ({quantity})"
+  },
+  "YFQBs1": {
+    "context": "product availability date label",
+    "string": "판매 가능일 설정"
+  },
+  "Krzyo+": {
+    "context": "shipment refund title",
+    "string": "배송이 환불되었습니다."
+  },
+  "mLZMb6": {
+    "context": "ChannelsSection select field label",
+    "string": "채널"
+  },
+  "yOaNWB": {
+    "context": "delete shipping method",
+    "string": "{name}을(를) 삭제하시겠습니까?"
+  },
+  "LsgHmZ": {
+    "context": "delete shipping zone",
+    "string": "{name}을(를) 삭제하시겠습니까?"
+  },
+  "PV0SQd": {
+    "context": "WarehousesSection select field label",
+    "string": "창고"
+  },
+  "skPoVe": {
+    "context": "button",
+    "string": "수락"
+  },
+  "Y7UlMR": {
+    "context": "app extensions subsection",
+    "string": "앱"
+  },
+  "59XppT": {
+    "context": "button",
+    "string": "승인"
+  },
+  "9q562c": {
+    "context": "apps section name",
+    "string": "앱"
+  },
+  "D/+84n": {
+    "context": "snackbar text",
+    "string": "앱이 활성화되었습니다."
+  },
+  "USO8PB": {
+    "context": "snackbar text",
+    "string": "앱이 비활성화되었습니다."
+  },
+  "YHNozE": {
+    "context": "dialog header",
+    "string": "앱 활성화"
+  },
+  "Q47ovw": {
+    "context": "activate app",
+    "string": "이 앱을 활성화하시겠습니까? 활성화하면 이벤트 수집이 시작됩니다."
+  },
+  "JbUg2b": {
+    "context": "activate app",
+    "string": "{name}을(를) 활성화하시겠습니까? 활성화하면 이벤트 수집이 시작됩니다."
+  },
+  "D3E2b5": {
+    "context": "button label",
+    "string": "활성화"
+  },
+  "W+AFZY": {
+    "context": "button label",
+    "string": "비활성화"
+  },
+  "yMi8I8": {
+    "context": "dialog header",
+    "string": "앱 비활성화"
+  },
+  "73RU3R": {
+    "context": "deactivate app",
+    "string": "이 앱을 비활성화하시겠습니까? 데이터는 앱을 다시 활성화할 때까지 보관됩니다. 앱 구독료는 계속 청구됩니다."
+  },
+  "7O2EsY": {
+    "context": "deactivate local app",
+    "string": "이 앱을 비활성화하시겠습니까? 데이터는 앱을 다시 활성화할 때까지 보관됩니다."
+  },
+  "Np7J92": {
+    "context": "deactivate local named app",
+    "string": "{name}을(를) 비활성화하시겠습니까? 데이터는 앱을 다시 활성화할 때까지 보관됩니다."
+  },
+  "w6Gau0": {
+    "context": "deactivate named app",
+    "string": "{name}을(를) 비활성화하시겠습니까? 데이터는 앱을 다시 활성화할 때까지 보관됩니다. 앱 구독료는 계속 청구됩니다."
+  },
+  "LtqrM8": {
+    "context": "delete custom app",
+    "string": "{name}을(를) 삭제하면 이 앱과 관련된 모든 데이터와 웹훅이 삭제됩니다. 정말로 삭제하시겠습니까?"
+  },
+  "zQX6xO": {
+    "context": "dialog header",
+    "string": "앱 삭제"
+  },
+  "6hLZNA": {
+    "context": "delete app",
+    "string": "이 앱을 삭제하시겠습니까?"
+  },
+  "EWD/wU": {
+    "context": "delete app",
+    "string": "{name}을(를) 삭제하면 앱 설치가 제거됩니다. 앱 구독료를 지불하고 있다면 Saleor 마켓플레이스에서 구독을 취소하는 것을 잊지 마세요. 정말로 앱을 삭제하시겠습니까?"
+  },
+  "whTEcF": {
+    "context": "link",
+    "string": "비활성화"
+  },
+  "Go50v2": {
+    "context": "app privacy policy link",
+    "string": "이 앱의 개인정보 처리방침 보기"
+  },
+  "89PSdB": {
+    "context": "link",
+    "string": "설정 수정"
+  },
+  "a55zOn": {
+    "context": "section header",
+    "string": "데이터 프라이버시"
+  },
+  "Gjb6eq": {
+    "context": "link",
+    "string": "지원 받기"
+  },
+  "HtfL5/": {
+    "context": "button",
+    "string": "앱 열기"
+  },
+  "P5twxk": {
+    "context": "link",
+    "string": "활성화"
+  },
+  "VsGcdP": {
+    "context": "section header",
+    "string": "앱 권한"
+  },
+  "7oQUMG": {
+    "context": "apps about permissions",
+    "string": "이 앱은 다음 권한을 가집니다:"
+  },
+  "jDIRQV": {
+    "context": "section header",
+    "string": "이 앱에 대하여"
+  },
+  "MSItJD": {
+    "string": "대시보드를 벗어나려고 합니다. 계속하시겠습니까?"
+  },
+  "WnlZMO": {
+    "context": "title",
+    "string": "앱에 문제가 있습니다."
+  },
+  "4yRwN+": {
+    "context": "content",
+    "string": "Saleor가 설치에 필요한 중요 정보를 가져올 수 없습니다. 이 정보 없이는 시스템이 Saleor에 앱을 설치할 수 없습니다. 아래 버튼을 사용하여 시스템 대시보드로 돌아가세요."
+  },
+  "906uUr": {
+    "context": "button",
+    "string": "홈페이지로 돌아가기"
+  },
+  "k5lHFp": {
+    "context": "app data privacy link",
+    "string": "데이터 프라이버시에 대해 더 알아보기"
+  },
+  "PkCmGU": {
+    "context": "install button",
+    "string": "앱 설치"
+  },
+  "BL/Lbk": {
+    "context": "install app permissions",
+    "string": "이 앱을 설치하면 다음과 같은 권한이 부여됩니다:"
+  },
+  "Id7C0X": {
+    "context": "section header",
+    "string": "{name}을(를) 설치하려고 합니다."
+  },
+  "UCHtG6": {
+    "context": "button",
+    "string": "정보"
+  },
+  "hdcGSJ": {
+    "context": "button",
+    "string": "지원/FAQ"
+  },
+  "llC1q8": {
+    "context": "button",
+    "string": "앱 홈페이지"
+  },
+  "nIrjSR": {
+    "context": "section header",
+    "string": "진행 중인 설치"
+  },
+  "+c/f61": {
+    "context": "retry installation",
+    "string": "재시도"
+  },
+  "JufWFT": {
+    "context": "app installation error",
+    "string": "설치 중 문제가 발생했습니다."
+  },
+  "1qRwgQ": {
+    "context": "app installation",
+    "string": "앱 설치 중..."
+  },
+  "D4nzdD": {
+    "context": "checkbox label",
+    "string": "이 앱에 스토어 전체 접근 권한 부여"
+  },
+  "flP8Hj": {
+    "context": "card description",
+    "string": "Saleor 시스템의 특정 부분에 접근하도록 앱 권한을 확장하거나 제한합니다."
+  },
+  "GjH9uy": {
+    "context": "header",
+    "string": "새 앱 생성"
+  },
+  "Kxiige": {
+    "string": "생성된 토큰"
+  },
+  "DGCzal": {
+    "string": "이 토큰은 상점의 API에 접근할 수 있게 해주며, 여기에서 찾을 수 있습니다: {url}"
+  },
+  "r86alc": {
+    "context": "button",
+    "string": "복사됨"
+  },
+  "HVFq//": {
+    "context": "button",
+    "string": "토큰 복사"
+  },
+  "ixjvkM": {
+    "string": "기본 토큰을 생성했습니다. 지금 새 개인 접근 토큰을 복사해두세요. 다시는 볼 수 없습니다."
+  },
+  "imYxM9": {
+    "context": "header",
+    "string": "앱 정보"
+  },
+  "foNlhn": {
+    "context": "custom app name",
+    "string": "앱 이름"
+  },
+  "MAsLIT": {
+    "context": "custom app token key",
+    "string": "키"
+  },
+  "bsP4f3": {
+    "string": "토큰을 찾을 수 없습니다."
+  },
+  "0Mg8o5": {
+    "context": "header",
+    "string": "토큰"
+  },
+  "RMB6fU": {
+    "context": "button",
+    "string": "토큰 생성"
+  },
+  "0DRBjg": {
+    "string": "토큰 노트"
+  },
+  "VHuzgq": {
+    "context": "table actions",
+    "string": "작업"
+  },
+  "XB2Jj9": {
+    "context": "create app button",
+    "string": "앱 생성"
+  },
+  "voRaz3": {
+    "context": "custom apps content",
+    "string": "직접 생성한 앱이 여기에 표시됩니다."
+  },
+  "5+Xcrz": {
+    "context": "app deactivated",
+    "string": "비활성화됨"
+  },
+  "TBaMo2": {
+    "context": "about app",
+    "string": "정보"
+  },
+  "9tgY4G": {
+    "context": "apps content",
+    "string": "대시보드에 설치된 앱이 없습니다."
+  },
+  "ZeD2TK": {
+    "context": "section header",
+    "string": "서드파티 앱"
+  },
+  "SwISVH": {
+    "context": "section header",
+    "string": "Saleor 마켓플레이스"
+  },
+  "NskBjH": {
+    "context": "marketplace content",
+    "string": "마켓플레이스가 곧 출시됩니다."
+  },
+  "wxFwUW": {
+    "context": "marketplace button",
+    "string": "마켓플레이스 방문"
+  },
+  "LATpSE": {
+    "context": "marketplace content",
+    "string": "Saleor 마켓플레이스에서 훌륭한 무료 및 유료 앱을 찾아보세요."
+  },
+  "k0rGBI": {
+    "string": "접근 토큰은 서비스 계정을 인증하는 데 사용됩니다."
+  },
+  "t9a9GQ": {
+    "string": "토큰을 생성했습니다. 지금 새 개인 접근 토큰을 복사해두세요. 다시는 볼 수 없습니다."
+  },
+  "T5nU7u": {
+    "context": "header",
+    "string": "토큰 생성"
+  },
+  "isM94c": {
+    "context": "create service token, button",
+    "string": "생성"
+  },
+  "quV5zH": {
+    "context": "dialog title",
+    "string": "토큰 삭제"
+  },
+  "2VSP8C": {
+    "context": "delete token",
+    "string": "{token} 토큰을 삭제하시겠습니까?"
+  },
+  "ac+Y98": {
+    "context": "app settings error",
+    "string": "앱 설정을 가져오는 데 실패했습니다."
+  },
+  "2cjt25": {
+    "context": "window title",
+    "string": "앱 설치"
+  },
+  "5t/4um": {
+    "context": "message title",
+    "string": "{name}을(를) 설치할 수 없습니다."
+  },
+  "0fM/pV": {
+    "context": "message title",
+    "string": "앱이 설치되었습니다."
+  },
+  "ZprV2g": {
+    "context": "app has been installed",
+    "string": "{name}을(를) 사용할 준비가 되었습니다."
+  },
+  "uIPD1i": {
+    "context": "app has been removed",
+    "string": "앱이 성공적으로 제거되었습니다."
+  },
+  "agZQkB": {
+    "context": "window title",
+    "string": "앱 생성"
+  },
+  "oiuwOl": {
+    "context": "button",
+    "string": "할당"
+  },
+  "l2oVCF": {
+    "context": "attributes section name",
+    "string": "속성"
+  },
+  "eWV760": {
+    "string": "이 슬러그를 가진 속성이 이미 존재합니다."
+  },
+  "J/QqOI": {
+    "string": "이 값은 이 속성 내에 이미 존재합니다."
+  },
+  "lG/MDw": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 속성을 삭제하시겠습니까?} other {{displayQuantity}개의 속성을 삭제하시겠습니까?}}"
+  },
+  "rKf4LU": {
+    "context": "dialog title",
+    "string": "속성 삭제"
+  },
+  "JI2Xwp": {
+    "context": "dialog title",
+    "string": "속성 삭제"
+  },
+  "h1rPPg": {
+    "context": "dialog content",
+    "string": "{attributeName}을(를) 삭제하시겠습니까?"
+  },
+  "5XG1CO": {
+    "context": "acre-ft unit",
+    "string": "에이커-피트"
+  },
+  "jBu2yj": {
+    "context": "acre-inch unit",
+    "string": "에이커-인치"
+  },
+  "A9QSur": {
+    "context": "area units type",
+    "string": "지역"
+  },
+  "xOEZjV": {
+    "context": "attribute's label",
+    "string": "기본 라벨"
+  },
+  "P79U4b": {
+    "context": "attribute's slug short code label",
+    "string": "속성 코드"
+  },
+  "Q7uuDr": {
+    "context": "attribute slug input field helper text",
+    "string": "내부적으로 사용됩니다. 공백을 사용하지 마세요."
+  },
+  "l5V0QT": {
+    "context": "boolean attribute type",
+    "string": "부울 (참/거짓)"
+  },
+  "fU+a9k": {
+    "context": "date attribute type",
+    "string": "날짜"
+  },
+  "DzPVnj": {
+    "context": "date time attribute type",
+    "string": "날짜와 시간"
+  },
+  "k/mTEl": {
+    "context": "distance units type",
+    "string": "거리"
+  },
+  "bZksto": {
+    "context": "product attribute type",
+    "string": "드롭다운"
+  },
+  "LnRlch": {
+    "context": "attribute's editor component entity",
+    "string": "엔티티"
+  },
+  "z1y9oL": {
+    "context": "file attribute type",
+    "string": "파일"
+  },
+  "YgE6ga": {
+    "context": "imperial unit system",
+    "string": "야드파운드법"
+  },
+  "oIvtua": {
+    "context": "attribute's editor component",
+    "string": "스토어 소유자를 위한 카탈로그 입력 유형"
+  },
+  "ZayvsI": {
+    "context": "metric unit system",
+    "string": "미터법"
+  },
+  "cKjFfl": {
+    "context": "product attribute type",
+    "string": "다중 선택"
+  },
+  "SNiyXb": {
+    "context": "numeric attribute type",
+    "string": "숫자"
+  },
+  "Iafyt5": {
+    "context": "page attribute entity type",
+    "string": "페이지"
+  },
+  "B0PaVS": {
+    "context": "pint unit",
+    "string": "파인트"
+  },
+  "5TUpjG": {
+    "context": "product attribute entity type",
+    "string": "상품"
+  },
+  "5dLpx0": {
+    "context": "references attribute type",
+    "string": "참조"
+  },
+  "PiSXjb": {
+    "context": "check to require numeric attribute unit",
+    "string": "단위 선택"
+  },
+  "gx4wCT": {
+    "context": "swatch attribute type",
+    "string": "색상 견본"
+  },
+  "fdbqIs": {
+    "context": "text attribute type",
+    "string": "텍스트"
+  },
+  "Orgqv4": {
+    "context": "numeric attribute unit",
+    "string": "단위"
+  },
+  "zWM89r": {
+    "context": "numeric attribute units of",
+    "string": "단위 유형"
+  },
+  "ghje1I": {
+    "context": "numeric attribute unit system",
+    "string": "시스템"
+  },
+  "njBulj": {
+    "context": "check to require attribute to have value",
+    "string": "필수값"
+  },
+  "cy8sV7": {
+    "context": "volume units types",
+    "string": "부피"
+  },
+  "Vdy5g7": {
+    "context": "weight units type",
+    "string": "무게"
+  },
+  "dKPMyh": {
+    "context": "tab name",
+    "string": "모든 속성"
+  },
+  "IGvQ8k": {
+    "context": "button",
+    "string": "속성 생성"
+  },
+  "1div9r": {
+    "string": "속성 검색"
+  },
+  "PsRG+v": {
+    "context": "use attribute in filtering",
+    "string": "스토어프론트에서 필터링 가능"
+  },
+  "rvk9ls": {
+    "context": "attribute can be used only in variants",
+    "string": "옵션 전용"
+  },
+  "HQR2y0": {
+    "context": "attribute value is required",
+    "string": "필수값"
+  },
+  "cvbqJu": {
+    "context": "attribute",
+    "string": "스토어프론트 상품 페이지에 표시"
+  },
+  "ztQgD8": {
+    "string": "속성을 찾을 수 없습니다."
+  },
+  "yKuba7": {
+    "context": "attribute can be searched in dashboard",
+    "string": "검색 가능"
+  },
+  "oJkeS6": {
+    "string": "속성 코드"
+  },
+  "k6WDZl": {
+    "context": "attribute is visible",
+    "string": "표시"
+  },
+  "HjUoHK": {
+    "context": "attribute's label'",
+    "string": "기본 라벨"
+  },
+  "ErNH3D": {
+    "string": "이 속성을 Saleor 시스템 어디에서 사용할지 정의하세요."
+  },
+  "nwvQPg": {
+    "context": "section header",
+    "string": "구성"
+  },
+  "v1pNHW": {
+    "string": "속성 클래스"
+  },
+  "zbJHl7": {
+    "context": "attribute type",
+    "string": "콘텐츠 속성"
+  },
+  "qkRuT0": {
+    "context": "attribute type",
+    "string": "상품 속성"
+  },
+  "8cUEPV": {
+    "context": "page title",
+    "string": "새 속성 생성"
+  },
+  "jswILH": {
+    "context": "add attribute as column in product list table",
+    "string": "열 옵션에 추가"
+  },
+  "AzMSmb": {
+    "context": "caption",
+    "string": "활성화하면 이 속성을 상품 테이블의 열로 사용할 수 있습니다."
+  },
+  "lCxfDe": {
+    "context": "attribute properties regarding dashboard",
+    "string": "대시보드 속성"
+  },
+  "RH+aOF": {
+    "context": "use attribute in filtering",
+    "string": "필터링에 사용"
+  },
+  "Q9wTrz": {
+    "context": "caption",
+    "string": "활성화하면 이 속성을 사용하여 상품 목록에서 상품을 필터링할 수 있습니다."
+  },
+  "AgY5Mv": {
+    "context": "attribute properties regarding storefront",
+    "string": "스토어프론트 속성"
+  },
+  "cJ5ASN": {
+    "context": "attribute position in storefront filters",
+    "string": "패싯 네비게이션에서의 위치"
+  },
+  "x8V/xS": {
+    "context": "attribute visibility in storefront",
+    "string": "공개"
+  },
+  "h2Hta6": {
+    "context": "caption",
+    "string": "활성화하면 고객이 속성에 접근할 수 있습니다."
+  },
+  "I2wCwj": {
+    "context": "swatch attribute image label",
+    "string": "이미지"
+  },
+  "0DgA8v": {
+    "context": "swatch attribute color picker label",
+    "string": "선택기"
+  },
+  "JyQoES": {
+    "context": "delete attribute value",
+    "string": "\"{name}\" 값을 삭제하시겠습니까?"
+  },
+  "WWV8aZ": {
+    "context": "dialog title",
+    "string": "속성 값 삭제"
+  },
+  "no3Ygn": {
+    "string": "\"{name}\" 값을 삭제하시겠습니까? 삭제하면 \"{attributeName}\" 속성을 가진 어떤 상품에도 이 값을 할당할 수 없게 됩니다."
+  },
+  "XYhE8p": {
+    "context": "edit attribute value",
+    "string": "값 수정"
+  },
+  "PqMbma": {
+    "context": "add attribute value",
+    "string": "값 추가"
+  },
+  "UhcALJ": {
+    "context": "attribute name",
+    "string": "이름"
+  },
+  "H60H6L": {
+    "context": "attribute values list: name column header",
+    "string": "기본 스토어 뷰"
+  },
+  "3psvRS": {
+    "context": "attribute values list: slug column header",
+    "string": "관리자"
+  },
+  "g5zIpS": {
+    "context": "No attribute values found",
+    "string": "값을 찾을 수 없습니다."
+  },
+  "J3uE0t": {
+    "context": "section header",
+    "string": "속성 값"
+  },
+  "+iVKR1": {
+    "context": "assign attribute value button",
+    "string": "값 할당"
+  },
+  "NUevU9": {
+    "context": "attribute values list: slug column header",
+    "string": "색상 견본"
+  },
+  "jTifz+": {
+    "string": "속성을 성공적으로 생성했습니다."
+  },
+  "7H2D5m": {
+    "context": "attribute value deleted",
+    "string": "값이 삭제되었습니다."
+  },
+  "V/VAHG": {
+    "string": "속성이 삭제되었습니다."
+  },
+  "xVn5B0": {
+    "context": "added new attribute value",
+    "string": "새 값이 추가되었습니다."
+  },
+  "lw9WIk": {
+    "context": "deleted multiple attributes",
+    "string": "속성이 성공적으로 삭제되었습니다."
+  },
+  "vzgZ3U": {
+    "context": "card header",
+    "string": "로그인"
+  },
+  "AubJ/S": {
+    "context": "button",
+    "string": "로그인"
+  },
+  "5sg7KC": {
+    "string": "비밀번호"
+  },
+  "3tbL7x": {
+    "context": "description",
+    "string": "비밀번호를 잊었나요?"
+  },
+  "ENBELI": {
+    "context": "description",
+    "string": "또는 다음을 사용하여 로그인"
+  },
+  "M4q0Ye": {
+    "context": "error message",
+    "string": "죄송합니다, 로그인에 실패했습니다. 다시 시도해주세요."
+  },
+  "tTtoKd": {
+    "context": "error message",
+    "string": "죄송합니다, 사용자 이름 또는 비밀번호가 올바르지 않습니다. 다시 시도해주세요."
+  },
+  "ChGI4V": {
+    "context": "error message",
+    "string": "Saleor를 사용할 수 없습니다. 네트워크 연결을 확인하고 다시 시도해주세요."
+  },
+  "Ev6SEF": {
+    "string": "새로운 비밀번호"
+  },
+  "S22jIs": {
+    "context": "button",
+    "string": "새 비밀번호 설정"
+  },
+  "vfG+nh": {
+    "string": "비밀번호 확인"
+  },
+  "m0Dz+2": {
+    "string": "계정에 대한 새 비밀번호를 설정해주세요. 기억할 수 있도록 새 비밀번호를 반복해서 입력하세요."
+  },
+  "7Chrsf": {
+    "string": "비밀번호가 일치하지 않습니다."
+  },
+  "WhKGPA": {
+    "context": "page title",
+    "string": "새 비밀번호 설정"
+  },
+  "lm9NSK": {
+    "context": "password reset, button",
+    "string": "재설정 링크가 포함된 이메일 보내기"
+  },
+  "Yy/yDL": {
+    "string": "비밀번호 재설정"
+  },
+  "54M0Gu": {
+    "string": "이메일을 제공해주세요. 데이터베이스에서 해당 이메일을 찾으면 비밀번호 재설정 링크를 보내드립니다. 몇 분 안에 받은 편지함에서 확인할 수 있습니다."
+  },
+  "2oyWT9": {
+    "context": "button",
+    "string": "로그인으로 돌아가기"
+  },
+  "2ob30/": {
+    "string": "성공! 몇 분 안에 비밀번호 재설정 방법에 대한 안내 메시지를 받게 됩니다."
+  },
+  "C0JLNW": {
+    "string": "제공된 이메일 주소가 데이터베이스에 존재하지 않습니다."
+  },
+  "hOxIeP": {
+    "string": "가용성"
+  },
+  "0OfZJA": {
+    "context": "button",
+    "string": "뒤로가기"
+  },
+  "7+GBlj": {
+    "string": "오류 코드 {errorCode} {fieldError}"
+  },
+  "9uNz+T": {
+    "context": "button",
+    "string": "취소"
+  },
+  "dOQB9o": {
+    "context": "payment status",
+    "string": "취소"
+  },
+  "o8f4Sg": {
+    "context": "disabled option description",
+    "string": "결제가 완료될 때까지 처리할 수 없습니다."
+  },
+  "GOdq5V": {
+    "string": "카탈로그"
+  },
+  "sK1FPw": {
+    "context": "categories section name",
+    "string": "카테고리"
+  },
+  "DP6b8U": {
+    "context": "section header",
+    "string": "배경 이미지 (선택 사항)"
+  },
+  "0iMYc+": {
+    "context": "field is optional",
+    "string": "(선택 사항)"
+  },
+  "cgsY/X": {
+    "context": "page header",
+    "string": "새 카테고리 생성"
+  },
+  "wQdR8M": {
+    "string": "이 카테고리를 더 쉽게 찾을 수 있도록 검색 엔진 제목과 설명을 추가하세요."
+  },
+  "xo5UIb": {
+    "context": "dialog title",
+    "string": "카테고리 삭제"
+  },
+  "dJQxHt": {
+    "context": "delete category",
+    "string": "{categoryName}을(를) 삭제하시겠습니까?"
+  },
+  "vEYtiq": {
+    "string": "카테고리 이름"
+  },
+  "8HRy+U": {
+    "string": "카테고리 설명"
+  },
+  "vof5TR": {
+    "context": "button",
+    "string": "카테고리 생성"
+  },
+  "JiXNEV": {
+    "string": "카테고리 검색"
+  },
+  "vy7fjd": {
+    "context": "tab name",
+    "string": "모든 카테고리"
+  },
+  "dM86a2": {
+    "string": "카테고리를 찾을 수 없습니다."
+  },
+  "rrbzZt": {
+    "string": "하위 카테고리를 찾을 수 없습니다."
+  },
+  "BHQrgz": {
+    "context": "number of subcategories",
+    "string": "보조 카테고리"
+  },
+  "k8ZJ5L": {
+    "context": "number of products",
+    "string": "상품 수"
+  },
+  "VQLIXd": {
+    "context": "product",
+    "string": "이름"
+  },
+  "x/pIZ9": {
+    "context": "button",
+    "string": "상품 추가"
+  },
+  "z8jo8h": {
+    "context": "button",
+    "string": "상품 보기"
+  },
+  "+43JV5": {
+    "context": "header",
+    "string": "{categoryName}의 상품"
+  },
+  "JDz5h8": {
+    "context": "number of subcategories in category",
+    "string": "보조 카테고리"
+  },
+  "V+fkAO": {
+    "context": "number of products in category",
+    "string": "상품"
+  },
+  "NivJal": {
+    "context": "section header",
+    "string": "모든 하위 카테고리"
+  },
+  "UycVMp": {
+    "context": "button",
+    "string": "하위 카테고리 생성"
+  },
+  "Irflxf": {
+    "context": "window title",
+    "string": "카테고리 생성"
+  },
+  "7l5Bh9": {
+    "string": "{counter,plural,one {이 상품을 삭제하시겠습니까?} other {{displayQuantity}개의 상품을 삭제하시겠습니까?}}"
+  },
+  "xl7Fag": {
+    "string": "카테고리가 생성되었습니다."
+  },
+  "Pp/7T7": {
+    "string": "{counter,plural,one {이 카테고리를 삭제하시겠습니까?} other {{displayQuantity}개의 카테고리를 삭제하시겠습니까?}}"
+  },
+  "HvJPcU": {
+    "string": "카테고리가 삭제되었습니다."
+  },
+  "KCjd1o": {
+    "context": "dialog title",
+    "string": "상품 삭제"
+  },
+  "3DGvA/": {
+    "string": "이 작업을 수행하면 이 카테고리에 할당된 모든 상품의 고정이 해제되어 스토어프론트에서 사용할 수 없게 됩니다."
+  },
+  "e+L+q3": {
+    "string": "이 작업을 수행하면 이 카테고리에 할당된 모든 상품도 삭제됩니다."
+  },
+  "sG0w22": {
+    "context": "dialog title",
+    "string": "카테고리 삭제"
+  },
+  "xRkj2h": {
+    "string": "{categoryName}을(를) 삭제하시겠습니까?"
+  },
+  "KeO51o": {
+    "string": "채널"
+  },
+  "NlSJMM": {
+    "context": "channels section name",
+    "string": "채널"
+  },
+  "37U5su": {
+    "context": "all variants label",
+    "string": "모든 옵션"
+  },
+  "1w06LC": {
+    "context": "variants count label",
+    "string": "{variantsCount}개 옵션"
+  },
+  "8qL/tV": {
+    "context": "CannotDefineChannelsAvailabilityCard subtitle",
+    "string": "옵션을 생성한 후에 상품의 판매 가능 여부를 정의할 수 있습니다."
+  },
+  "CT5PAn": {
+    "context": "CannotDefineChannelsAvailabilityCard title",
+    "string": "가용성"
+  },
+  "QZoU0r": {
+    "context": "dialog header",
+    "string": "채널 삭제"
+  },
+  "Mz0cx+": {
+    "context": "delete channel",
+    "string": "채널을 삭제하면 이 채널과 관련된 모든 상품 데이터가 삭제됩니다. 정말로 이 채널을 삭제하시겠습니까?"
+  },
+  "sidKce": {
+    "context": "delete channel",
+    "string": "이 채널의 모든 주문 정보는 다른 채널로 이동해야 합니다. 주문 정보를 이동할 채널을 선택하세요."
+  },
+  "BXMSl4": {
+    "context": "currency channel",
+    "string": "주문 정보를 이동할 수 있는 채널이 없습니다. 정보를 이동할 수 있도록 동일한 통화를 사용하는 채널을 생성하세요."
+  },
+  "SZJhvK": {
+    "context": "dialog header",
+    "string": "채널 선택"
+  },
+  "3y4r+z": {
+    "context": "channel settings",
+    "string": "채널 설정"
+  },
+  "39yi8w": {
+    "context": "selected currency",
+    "string": "선택된 통화"
+  },
+  "74Zo/H": {
+    "context": "channel slug",
+    "string": "슬러그"
+  },
+  "ZhaXLU": {
+    "context": "button",
+    "string": "복사"
+  },
+  "9Sz0By": {
+    "context": "channel currency",
+    "string": "통화"
+  },
+  "tV+Dcm": {
+    "string": "기본 국가"
+  },
+  "UymotP": {
+    "context": "channel name",
+    "string": "채널 이름"
+  },
+  "G/pgG3": {
+    "context": "dialog header",
+    "string": "채널 선택"
+  },
+  "nKwgxY": {
+    "context": "select label",
+    "string": "채널 이름"
+  },
+  "X8qjg3": {
+    "context": "inactive",
+    "string": "비활성"
+  },
+  "+tIkAe": {
+    "context": "status",
+    "string": "상태"
+  },
+  "MHVglr": {
+    "context": "deactivate",
+    "string": "비활성화"
+  },
+  "TSJRiZ": {
+    "context": "channel status title",
+    "string": "채널 상태"
+  },
+  "QiN4hv": {
+    "context": "active",
+    "string": "활성화"
+  },
+  "MQwT1W": {
+    "context": "activate",
+    "string": "활성화"
+  },
+  "p/EWEZ": {
+    "context": "channels variants availability dialog title",
+    "string": "채널 관리"
+  },
+  "yHaQWG": {
+    "context": "variants selected label",
+    "string": "{variantsAmount}개 옵션 선택됨"
+  },
+  "8CbACQ": {
+    "context": "add shipping zone title",
+    "string": "배송 지역 추가"
+  },
+  "+G9l7u": {
+    "context": "all selected zones card message",
+    "string": "사용 가능한 모든 배송 지역이 선택되었습니다."
+  },
+  "Ic7Wln": {
+    "context": "card subtitle",
+    "string": "이 채널을 통해 공급될 배송 지역을 선택하세요. 배송 지역을 여러 채널에 할당할 수 있습니다."
+  },
+  "gtKcPf": {
+    "context": "title",
+    "string": "{totalCount}개 중 {zonesCount}개 배송 지역"
+  },
+  "PTW56s": {
+    "context": "alert",
+    "string": "채널 한도에 도달했습니다."
+  },
+  "rZMT44": {
+    "context": "created channels counter",
+    "string": "{max}개 중 {count}개 채널 사용"
+  },
+  "j/vV0n": {
+    "context": "channel name",
+    "string": "채널 이름"
+  },
+  "/glQgs": {
+    "string": "채널을 찾을 수 없습니다."
+  },
+  "OGm8wO": {
+    "context": "button",
+    "string": "채널 생성"
+  },
+  "ZMy18J": {
+    "string": "채널 한도에 도달하여 더 이상 스토어에 채널을 추가할 수 없습니다. 한도를 늘리려면 관리자에게 문의하세요."
+  },
+  "J7mFhU": {
+    "context": "currency code select",
+    "string": "{code} - {countries}"
+  },
+  "DnghuS": {
+    "context": "channel create",
+    "string": "새 채널"
+  },
+  "OrMr/k": {
+    "context": "window title",
+    "string": "채널 생성"
+  },
+  "D9Rg+F": {
+    "context": "window title",
+    "string": "채널 상세"
+  },
+  "AkyGP2": {
+    "string": "채널이 삭제되었습니다."
+  },
+  "eWcvOc": {
+    "context": "button",
+    "string": "파일 선택"
+  },
+  "2FQsYj": {
+    "context": "button",
+    "string": "초기화"
+  },
+  "Qox+kb": {
+    "string": "{fieldName} 필드에서"
+  },
+  "NNT3Lp": {
+    "context": "collections section name",
+    "string": "컬렉션"
+  },
+  "9vQR6c": {
+    "context": "collection label",
+    "string": "공개"
+  },
+  "V8FhTt": {
+    "context": "collection label",
+    "string": "숨김"
+  },
+  "Rj8LxK": {
+    "string": "이 컬렉션을 더 쉽게 찾을 수 있도록 검색 엔진 제목과 설명을 추가하세요."
+  },
+  "Fxa6xp": {
+    "context": "page header",
+    "string": "컬렉션 추가"
+  },
+  "/WXs6H": {
+    "context": "collection name",
+    "string": "이름"
+  },
+  "G4g5Ii": {
+    "context": "tab name",
+    "string": "모든 컬렉션"
+  },
+  "s97tLq": {
+    "string": "컬렉션 검색"
+  },
+  "jyaAlB": {
+    "context": "button",
+    "string": "컬렉션 생성"
+  },
+  "9eC0MZ": {
+    "context": "collection",
+    "string": "숨김"
+  },
+  "lL3YJO": {
+    "context": "collection",
+    "string": "퍼블리싱 됨"
+  },
+  "Yw+9F7": {
+    "string": "컬렉션을 찾을 수 없습니다."
+  },
+  "mWQt3s": {
+    "string": "상품 수"
+  },
+  "VZsE96": {
+    "string": "컬렉션 이름"
+  },
+  "UxdBmI": {
+    "context": "collection availability",
+    "string": "가용성"
+  },
+  "dpY94C": {
+    "context": "collection publication date",
+    "string": "{date}에 게시됨"
+  },
+  "FcVEpe": {
+    "context": "collection publication date",
+    "string": "게시되지 않음"
+  },
+  "Mee46w": {
+    "context": "collection publication date",
+    "string": "{date}에 게시 예정"
+  },
+  "k+HcTv": {
+    "context": "product type",
+    "string": "타입"
+  },
+  "Oe62bR": {
+    "context": "product availability",
+    "string": "가용성"
+  },
+  "/dnWE8": {
+    "context": "products in collection",
+    "string": "{name}의 상품"
+  },
+  "scHVdW": {
+    "context": "button",
+    "string": "상품 할당"
+  },
+  "6AMFki": {
+    "context": "product name",
+    "string": "이름"
+  },
+  "Q8wHwJ": {
+    "string": "컬렉션 삭제"
+  },
+  "56vUeQ": {
+    "string": "컬렉션에 상품이 추가되었습니다."
+  },
+  "MxhVZv": {
+    "string": "컬렉션의 이미지를 삭제하시겠습니까?"
+  },
+  "AulH/n": {
+    "string": "{counter,plural,one {이 상품의 할당을 해제하시겠습니까?} other {{displayQuantity}개 상품의 할당을 해제하시겠습니까?}}"
+  },
+  "WW+Ruy": {
+    "string": "컬렉션에서 상품이 삭제되었습니다."
+  },
+  "I1Mz7h": {
+    "string": "컬렉션 채널 가용성 관리"
+  },
+  "5OtU+V": {
+    "context": "dialog title",
+    "string": "컬렉션에서 상품 할당 해제"
+  },
+  "pVFoOk": {
+    "string": "{collectionName}을(를) 삭제하시겠습니까?"
+  },
+  "ttMauu": {
+    "context": "window title",
+    "string": "컬렉션 생성"
+  },
+  "+wpvnk": {
+    "context": "dialog title",
+    "string": "컬렉션 삭제"
+  },
+  "67V0c0": {
+    "context": "unassign product from collection, button",
+    "string": "할당 해제"
+  },
+  "fzk04H": {
+    "context": "dialog title",
+    "string": "이미지 삭제"
+  },
+  "yT5zvU": {
+    "string": "{counter,plural,one {이 컬렉션을 삭제하시겠습니까?} other {{displayQuantity}개의 컬렉션을 삭제하시겠습니까?}}"
+  },
+  "Ykw8k5": {
+    "context": "dialog title",
+    "string": "컬렉션 삭제"
+  },
+  "C7eDb9": {
+    "string": "권한 그룹"
+  },
+  "Fbr4Vp": {
+    "context": "dialog header",
+    "string": "권한"
+  },
+  "6cS4Rd": {
+    "context": "card section description",
+    "string": "사용 가능한 권한"
+  },
+  "MVU6ol": {
+    "context": "exceeded permissions description",
+    "string": "이 그룹의 권한이 귀하의 권한을 초과합니다. 귀하가 가진 권한만 관리할 수 있습니다."
+  },
+  "VmMDLN": {
+    "context": "permission list item description",
+    "string": "이 그룹은 해당 권한의 마지막 소스입니다."
+  },
+  "vONi+O": {
+    "string": "국가"
+  },
+  "O95R3Z": {
+    "string": "전화번호"
+  },
+  "B52Em/": {
+    "string": "상세 주소 1"
+  },
+  "TE4fIS": {
+    "string": "시군구"
+  },
+  "oYGfnY": {
+    "string": "우편번호"
+  },
+  "oQY0a2": {
+    "string": "상세주소 2"
+  },
+  "9YazHG": {
+    "string": "회사"
+  },
+  "AuwpCm": {
+    "string": "시/도"
+  },
+  "Nv/toB": {
+    "context": "button",
+    "string": "할당 및 저장"
+  },
+  "PkjQS6": {
+    "context": "description",
+    "string": "결과를 찾을 수 없습니다."
+  },
+  "fP9FXB": {
+    "context": "input label",
+    "string": "속성 검색"
+  },
+  "auxEP1": {
+    "context": "input placeholder",
+    "string": "속성 이름으로 검색"
+  },
+  "QM9P8G": {
+    "context": "dialog header",
+    "string": "속성 할당"
+  },
+  "ylobu9": {
+    "context": "assign reference to product, button",
+    "string": "할당"
+  },
+  "GUlwXU": {
+    "context": "dialog header",
+    "string": "속성 값 할당"
+  },
+  "RoKOQJ": {
+    "context": "label",
+    "string": "속성 값 검색"
+  },
+  "NsgWhZ": {
+    "context": "placeholder",
+    "string": "값 이름 등으로 검색..."
+  },
+  "sW9IyX": {
+    "context": "dialog header",
+    "string": "카테고리 할당"
+  },
+  "8hrH/z": {
+    "context": "dialog header",
+    "string": "카테고리 검색"
+  },
+  "sf6FMK": {
+    "context": "dialog search placeholder",
+    "string": "카테고리 이름 등으로 검색..."
+  },
+  "XLYssG": {
+    "context": "assign categories to sale and save",
+    "string": "할당 및 저장"
+  },
+  "5tMkmJ": {
+    "context": "dialog header",
+    "string": "컬렉션 할당"
+  },
+  "f0hXz4": {
+    "context": "dialog header",
+    "string": "컬렉션 검색"
+  },
+  "JiRKgJ": {
+    "context": "dialog search placeholder",
+    "string": "컬렉션 이름 등으로 검색..."
+  },
+  "cryH86": {
+    "context": "assign collections to sale and save",
+    "string": "할당 및 저장"
+  },
+  "/TF6BZ": {
+    "string": "상품 검색"
+  },
+  "SHm7ee": {
+    "string": "상품 이름, 속성, 상품 타입 등으로 검색..."
+  },
+  "dTCDMn": {
+    "context": "dialog header",
+    "string": "상품 할당"
+  },
+  "WQnltU": {
+    "string": "주문 채널에서 주어진 쿼리와 일치하는 상품이 없습니다."
+  },
+  "p4X/0H": {
+    "context": "button, assign variants to sale and save",
+    "string": "할당 및 저장"
+  },
+  "K+vjtE": {
+    "string": "옵션 검색"
+  },
+  "xAHOGV": {
+    "context": "dialog header",
+    "string": "옵션 할당"
+  },
+  "+HuipK": {
+    "context": "variant sku",
+    "string": "SKU {sku}"
+  },
+  "QZVD+5": {
+    "context": "button, unassign attribute from object",
+    "string": "할당 해제 및 저장"
+  },
+  "8uLHBY": {
+    "context": "unassign attribute from object",
+    "string": "{itemTypeName}에서 {attributeName}의 할당을 해제하시겠습니까?"
+  },
+  "z0gGP+": {
+    "context": "number of attributes",
+    "string": "{number}개 속성"
+  },
+  "3ukd9/": {
+    "context": "attributes, section header",
+    "string": "속성"
+  },
+  "j8PV7E": {
+    "context": "attribute values",
+    "string": "가격"
+  },
+  "Ediw6/": {
+    "context": "button label",
+    "string": "참조 할당"
+  },
+  "fgHLXc": {
+    "context": "attribute value",
+    "string": "가격"
+  },
+  "jHJmjf": {
+    "string": "결과 없음"
+  },
+  "XwrKOi": {
+    "context": "unassign multiple attributes from item",
+    "string": "{counter,plural,one {이 속성을 {itemTypeName}에서 할당 해제하시겠습니까?} other {{attributeQuantity}개의 속성을 {itemTypeName}에서 할당 해제하시겠습니까?}}"
+  },
+  "B2LE7A": {
+    "context": "menu item loading",
+    "string": "작업 중..."
+  },
+  "5A6/2C": {
+    "context": "section header",
+    "string": "가용성"
+  },
+  "vY2lpx": {
+    "context": "channels availability text",
+    "string": "{allChannelsCount, plural, one {#개 채널} other {#개 채널}} 중 {selectedChannelsCount}개에서 사용 가능"
+  },
+  "2i81/P": {
+    "context": "section header button",
+    "string": "관리"
+  },
+  "0cVk9I": {
+    "string": "상품 목록에 표시"
+  },
+  "UjsI4o": {
+    "context": "date",
+    "string": "{date}부터"
+  },
+  "Jt3DwJ": {
+    "context": "publish on date",
+    "string": "게시일"
+  },
+  "5ukAFZ": {
+    "string": "이 체크박스를 비활성화하면 상품이 검색 및 카테고리 페이지에서 제거됩니다. 컬렉션 페이지에서는 계속 사용할 수 있습니다."
+  },
+  "Y7Vy19": {
+    "context": "available on date",
+    "string": "판매 가능일 설정"
+  },
+  "U3BQKA": {
+    "string": "게시일 설정"
+  },
+  "tQuE1q": {
+    "string": "{contentType}을(를) 사용 가능하게 할 채널을 선택하세요."
+  },
+  "B9yrkK": {
+    "string": "채널을 찾을 수 없습니다."
+  },
+  "2/L4zZ": {
+    "string": "모든 채널 선택"
+  },
+  "EWCUdP": {
+    "string": "채널 A to Z"
+  },
+  "ybaLoZ": {
+    "string": "채널 검색"
+  },
+  "/lBLBI": {
+    "context": "channels alphabetically title",
+    "string": "채널 (알파벳순)"
+  },
+  "PctLol": {
+    "context": "no channels found title",
+    "string": "채널을 찾을 수 없음"
+  },
+  "zR9Ozi": {
+    "context": "select all channels label",
+    "string": "모든 채널 선택"
+  },
+  "7scATx": {
+    "context": "select title",
+    "string": "{contentType}을(를) 사용 가능하게 할 채널을 선택하세요."
+  },
+  "cFVgOo": {
+    "context": "Channel label",
+    "string": "채널"
+  },
+  "T0Mfxq": {
+    "context": "product status title",
+    "string": "{channelCount} {channelCount,plural, =1 {채널} other {채널}}"
+  },
+  "JgXBAw": {
+    "context": "dropdown label when there are no channels assigned",
+    "string": "채널 없음"
+  },
+  "sdA14A": {
+    "context": "Status label when object is published in a channel",
+    "string": "퍼블리싱 됨"
+  },
+  "GzbSQk": {
+    "context": "Status label when object is scheduled to publish in a channel",
+    "string": "게시 예정"
+  },
+  "s2y5eG": {
+    "context": "Status label",
+    "string": "상태"
+  },
+  "rHoRbE": {
+    "context": "Status label when object is unpublished in a channel",
+    "string": "게시되지 않음"
+  },
+  "TOMgXz": {
+    "context": "button",
+    "string": "초기화"
+  },
+  "62Ywh2": {
+    "context": "number of countries",
+    "string": "{number}개 국가"
+  },
+  "zZCCqz": {
+    "context": "button",
+    "string": "국가 할당"
+  },
+  "7NfoiJ": {
+    "context": "custom search delete, dialog header",
+    "string": "검색 삭제"
+  },
+  "UaYJJ8": {
+    "string": "{name} 검색 탭을 삭제하시겠습니까?"
+  },
+  "LmKz3g": {
+    "string": "스토어프론트"
+  },
+  "/X8Mjx": {
+    "string": "<emphasis>GraphQL API</emphasis>로 테스트하기"
+  },
+  "xwEc8K": {
+    "string": "API"
+  },
+  "4gZl/n": {
+    "string": "<emphasis>데모 스토어프론트</emphasis> 보기"
+  },
+  "7v2oBd": {
+    "context": "header",
+    "string": "에러"
+  },
+  "9mGA/Q": {
+    "context": "button linking to dashboard",
+    "string": "대시보드"
+  },
+  "ypW4Mi": {
+    "context": "button refreshing page",
+    "string": "페이지 새로고침"
+  },
+  "p0SUJj": {
+    "string": "걱정 마세요, 곧 수정하겠습니다. 페이지를 새로고침하거나 대시보드로 돌아가 보세요."
+  },
+  "AQ+9Ez": {
+    "string": "예상치 못한 오류가 발생했습니다."
+  },
+  "OA+fw+": {
+    "context": "conjunction, choice between going to dashboard or refreshing page",
+    "string": "또는"
+  },
+  "QCwBUI": {
+    "context": "button",
+    "string": "검색 삭제"
+  },
+  "qIgdO6": {
+    "string": "사용자 정의 필터"
+  },
+  "DEa1T1": {
+    "context": "button",
+    "string": "검색 저장"
+  },
+  "zSOvI0": {
+    "string": "검색필터"
+  },
+  "HnVtSS": {
+    "context": "search",
+    "string": "결과 없음"
+  },
+  "PLCwT/": {
+    "context": "search results",
+    "string": "더 보기"
+  },
+  "FNpv6K": {
+    "context": "button",
+    "string": "검색필터"
+  },
+  "erC44f": {
+    "context": "filters error messages dependencies missing",
+    "string": "필터에 다른 필터가 필요합니다: {dependencies}"
+  },
+  "34F7Jk": {
+    "context": "filter range separator",
+    "string": "그리고"
+  },
+  "USS3Q7": {
+    "context": "filters error messages unknown error",
+    "string": "알 수 없는 오류가 발생했습니다."
+  },
+  "XkX56I": {
+    "context": "filters error messages value required",
+    "string": "값을 선택하세요."
+  },
+  "sn2awN": {
+    "context": "ExitFormPrompt cancel button",
+    "string": "변경 사항 버리기"
+  },
+  "MPOj0I": {
+    "context": "ExitFormPrompt confirm button",
+    "string": "변경 저장"
+  },
+  "1eEyJv": {
+    "context": "ExitFormPrompt continue editing button",
+    "string": "계속 편집하기"
+  },
+  "TtZg/K": {
+    "context": "ExitFormPrompt title",
+    "string": "변경 사항을 저장하시겠습니까?"
+  },
+  "FWWliu": {
+    "context": "ExitFormPrompt title",
+    "string": "저장되지 않은 변경 사항이 있습니다."
+  },
+  "NxeDbG": {
+    "context": "image upload",
+    "string": "여기에 파일을 드롭하여 업로드하세요."
+  },
+  "62T585": {
+    "context": "button",
+    "string": "{languageName} - {languageCode}"
+  },
+  "LkuDEb": {
+    "context": "metadata field value, header",
+    "string": "가격"
+  },
+  "VcI+Zh": {
+    "context": "header",
+    "string": "메타데이터"
+  },
+  "ETHnjq": {
+    "context": "header",
+    "string": "비공개 메타데이터"
+  },
+  "2+v1wX": {
+    "context": "number of metadata fields in model",
+    "string": "{number,plural,one {{number}개의 필드} other {{number}개의 필드}}"
+  },
+  "nudPsY": {
+    "context": "metadata field name, header",
+    "string": "필드"
+  },
+  "cY6H2C": {
+    "context": "empty metadata text",
+    "string": "이 요소에 대해 생성된 메타데이터가 없습니다. 아래 버튼을 사용하여 새 메타데이터 필드를 추가하세요."
+  },
+  "GiDxS4": {
+    "context": "add metadata field,button",
+    "string": "필드 추가"
+  },
+  "nEixpu": {
+    "context": "table action",
+    "string": "작업"
+  },
+  "hptDxW": {
+    "context": "money",
+    "string": "~ {money}"
+  },
+  "zTdwWM": {
+    "context": "money",
+    "string": "{fromMoney} - {toMoney}"
+  },
+  "lW5uJO": {
+    "context": "money",
+    "string": "{money}부터"
+  },
+  "U2WgwW": {
+    "context": "add custom select input option",
+    "string": "새 값 추가: {value}"
+  },
+  "hX5PAb": {
+    "string": "결과를 찾을 수 없습니다."
+  },
+  "EEW+ND": {
+    "string": "네비게이터"
+  },
+  "8B8E+3": {
+    "context": "navigator placeholder",
+    "string": "주문 번호"
+  },
+  "NqxvFh": {
+    "context": "navigator placeholder",
+    "string": "명령어 입력"
+  },
+  "TpPx7V": {
+    "context": "navigator placeholder",
+    "string": "고객 검색"
+  },
+  "4gT3eD": {
+    "context": "navigator section header",
+    "string": "고객에서 검색"
+  },
+  "BooQvo": {
+    "context": "navigator placeholder",
+    "string": "사용 가능한 작업을 보려면 {key}를 입력하세요."
+  },
+  "AOI4LW": {
+    "context": "navigator placeholder",
+    "string": "카탈로그에서 검색"
+  },
+  "YYkkhx": {
+    "context": "navigator section header",
+    "string": "이동"
+  },
+  "EM+30g": {
+    "context": "navigator notification",
+    "string": "일상 업무를 돕는 새로운 기능입니다. {keyboardShortcut} 단축키를 사용하여 네비게이터를 실행하세요."
+  },
+  "me585h": {
+    "context": "navigator section header",
+    "string": "빠른 작업"
+  },
+  "Gxm7Qx": {
+    "context": "navigator notification title",
+    "string": "네비게이터가 도와드립니다."
+  },
+  "ccXLVi": {
+    "string": "카테고리"
+  },
+  "phAZoj": {
+    "string": "컬렉션"
+  },
+  "M1uijW": {
+    "context": "collection",
+    "string": "게시되지 않음"
+  },
+  "CjSRT1": {
+    "context": "button",
+    "string": "카테고리 생성"
+  },
+  "VdDcxc": {
+    "context": "button",
+    "string": "컬렉션 생성"
+  },
+  "QooeI/": {
+    "context": "button",
+    "string": "고객 생성"
+  },
+  "cfQf0w": {
+    "context": "button",
+    "string": "주문 생성"
+  },
+  "V1mqpZ": {
+    "context": "button",
+    "string": "권한 그룹 생성"
+  },
+  "JFmOfi": {
+    "context": "button",
+    "string": "상품 생성"
+  },
+  "y9cvqE": {
+    "context": "button",
+    "string": "바우처 생성"
+  },
+  "1gzck6": {
+    "string": "{firstName} {lastName}"
+  },
+  "IyHQr0": {
+    "context": "navigator action",
+    "string": "주문 #{orderNumber}로 이동"
+  },
+  "kbkjEc": {
+    "context": "navigator catalog mode description",
+    "string": "카탈로그에서 검색"
+  },
+  "3TlhJS": {
+    "context": "navigator command mode description",
+    "string": "명령어 검색"
+  },
+  "DHBlFi": {
+    "context": "navigator customer mode description",
+    "string": "고객 검색"
+  },
+  "Xel9C+": {
+    "context": "navigator default mode description",
+    "string": "뷰 및 작업 검색"
+  },
+  "iAvKNf": {
+    "context": "navigator help mode description",
+    "string": "도움말 표시"
+  },
+  "usSkzP": {
+    "context": "navigator order mode description",
+    "string": "주문 검색"
+  },
+  "k8bltk": {
+    "string": "결과 없음"
+  },
+  "x/ZVlU": {
+    "string": "제품"
+  },
+  "yH56V+": {
+    "string": "이런!..."
+  },
+  "bj6pTd": {
+    "string": "무언가 빠졌습니다."
+  },
+  "nRiOg+": {
+    "string": "죄송합니다, 페이지를 찾을 수 없습니다."
+  },
+  "95oJ5d": {
+    "context": "button",
+    "string": "대시보드로 돌아가기"
+  },
+  "p3eRUm": {
+    "context": "indicator that feature is in preview mode",
+    "string": "프리뷰"
+  },
+  "KGsaGO": {
+    "context": "tooltip",
+    "string": "이 기능은 프리뷰 상태이며 나중에 변경될 수 있습니다."
+  },
+  "WHkx+F": {
+    "string": "가격은 0보다 작을 수 없습니다."
+  },
+  "fNFEkh": {
+    "string": "행 수:"
+  },
+  "liLrVs": {
+    "context": "save filter tab, header",
+    "string": "사용자 정의 검색 저장"
+  },
+  "QcIFCs": {
+    "context": "save search tab",
+    "string": "검색 이름"
+  },
+  "w2Cewo": {
+    "string": "검색 엔진 제목"
+  },
+  "CXTIq8": {
+    "string": "검색 엔진 설명"
+  },
+  "s5Imt5": {
+    "context": "button",
+    "string": "웹사이트 SEO 수정"
+  },
+  "TGX4T1": {
+    "string": "검색 엔진 미리보기"
+  },
+  "IoDlcd": {
+    "string": "슬러그"
+  },
+  "ChAjJu": {
+    "context": "character limit",
+    "string": "{maxCharacters}자 중 {numberOfCharacters}자"
+  },
+  "s/sTT6": {
+    "string": "비어있는 경우, 미리보기는 자동으로 생성될 내용을 보여줍니다."
+  },
+  "450Fty": {
+    "string": "없음"
+  },
+  "qu/hXD": {
+    "string": "{number}개 항목 선택됨"
+  },
+  "2HfSiT": {
+    "context": "pagination",
+    "string": "행 수"
+  },
+  "v/1VA6": {
+    "context": "add order note, button",
+    "string": "보내기"
+  },
+  "3evXPj": {
+    "string": "여기에 메모를 남기세요..."
+  },
+  "zyXcBP": {
+    "string": "이 열로 정렬하려면 활성 필터가 필요합니다: {filterName}"
+  },
+  "qLbse5": {
+    "context": "button",
+    "string": "로그아웃"
+  },
+  "X8+Lpa": {
+    "context": "button",
+    "string": "계정 설정"
+  },
+  "2r4cTE": {
+    "context": "button",
+    "string": "다크 모드 활성화"
+  },
+  "akXDST": {
+    "context": "section header",
+    "string": "가시성"
+  },
+  "qMB6d2": {
+    "context": "weight",
+    "string": "~ {value} {unit}"
+  },
+  "5x6yT9": {
+    "context": "weight",
+    "string": "{fromValue} {fromUnit} - {toValue} {toUnit}"
+  },
+  "LICZeR": {
+    "context": "weight",
+    "string": "{value} {unit}부터"
+  },
+  "NtFVFS": {
+    "context": "weight",
+    "string": "{value} {unit}"
+  },
+  "s8FlDW": {
+    "context": "hide error log label in notification",
+    "string": "로그 숨기기"
+  },
+  "w9xgN9": {
+    "context": "see error log label in notification",
+    "string": "오류 로그 보기"
+  },
+  "xfGZsi": {
+    "context": "configuration section name",
+    "string": "설정"
+  },
+  "YZl6cv": {
+    "string": "기타"
+  },
+  "gTr0qE": {
+    "string": "배송 설정"
+  },
+  "HP6m+q": {
+    "string": "속성 및 상품 타입"
+  },
+  "UN+yTt": {
+    "string": "직원 설정"
+  },
+  "HjXnIf": {
+    "string": "콘텐츠 관리"
+  },
+  "jFrdB5": {
+    "string": "상품 설정"
+  },
+  "MWSacl": {
+    "string": "멀티채널"
+  },
+  "DJFPzq": {
+    "context": "button",
+    "string": "확인"
+  },
+  "yHeZRQ": {
+    "string": "상품 내보내기 실패"
+  },
+  "CJEIRC": {
+    "string": "상품 내보내기가 완료되어 이메일 주소로 전송되었습니다."
+  },
+  "JTcz2G": {
+    "context": "csv file exporting has finished, header",
+    "string": "CSV 내보내기 완료"
+  },
+  "ryAyPr": {
+    "string": "요청한 인보이스가 생성되었습니다. 이 뷰의 인보이스 목록 상단에 추가되었습니다. 즐겨보세요!"
+  },
+  "i+Vox0": {
+    "context": "invoice generating has finished, header",
+    "string": "인보이스 생성됨"
+  },
+  "Dhherd": {
+    "context": "dialog header, title",
+    "string": "인보이스 생성"
+  },
+  "8aV98y": {
+    "context": "new version notification content",
+    "string": "Saleor를 최신 버전으로 업데이트해야 합니다. 업데이트하기 전에 데이터 손실을 방지하기 위해 모든 변경 사항을 저장하세요. 아래 버튼을 사용하여 업데이트하세요."
+  },
+  "tEdFmZ": {
+    "context": "notification title",
+    "string": "시스템 업데이트 필요"
+  },
+  "XCIV8H": {
+    "context": "button",
+    "string": "새로고침"
+  },
+  "Rjs1CD": {
+    "context": "button",
+    "string": "계속"
+  },
+  "H5NKfr": {
+    "context": "button",
+    "string": "생성"
+  },
+  "w4R/SO": {
+    "string": "로컬 앱"
+  },
+  "McN+wq": {
+    "context": "customers section name",
+    "string": "고객"
+  },
+  "gQGUsN": {
+    "context": "dialog title",
+    "string": "주소 수정"
+  },
+  "W0kQd+": {
+    "context": "dialog title",
+    "string": "주소 추가"
+  },
+  "rjy9/k": {
+    "context": "button",
+    "string": "주소 추가"
+  },
+  "kErneR": {
+    "string": "이 고객은 주소록에 추가된 주소가 없습니다. 아래 버튼을 사용하여 주소를 추가할 수 있습니다."
+  },
+  "n5vskv": {
+    "context": "customer's address book, header",
+    "string": "{fullName}님의 주소록"
+  },
+  "MpR4zK": {
+    "context": "customer details, header",
+    "string": "{fullName}님 상세 정보"
+  },
+  "y/UWBR": {
+    "string": "이 고객에 대해 표시할 주소가 없습니다."
+  },
+  "CWqmRU": {
+    "context": "customer's address book when no customer name is available, header",
+    "string": "주소록"
+  },
+  "hMRP6J": {
+    "string": "기본 주소"
+  },
+  "VyzsWZ": {
+    "string": "기본 청구지 주소"
+  },
+  "nLML8Y": {
+    "string": "기본 배송지 주소"
+  },
+  "puikeb": {
+    "context": "button",
+    "string": "주소 삭제"
+  },
+  "w+8BfK": {
+    "context": "button",
+    "string": "주소 수정"
+  },
+  "hLOEeb": {
+    "context": "button",
+    "string": "기본 청구지로 설정"
+  },
+  "+7OsyM": {
+    "context": "button",
+    "string": "기본 주소로 설정"
+  },
+  "BfJGij": {
+    "context": "header",
+    "string": "주소 정보"
+  },
+  "Zd3Eew": {
+    "context": "subsection header",
+    "string": "배송지 주소"
+  },
+  "bHdFph": {
+    "context": "subsection header",
+    "string": "주소"
+  },
+  "3d1RXL": {
+    "string": "이 고객은 아직 주소가 없습니다."
+  },
+  "biVFKU": {
+    "context": "subsection header",
+    "string": "청구지"
+  },
+  "jGGnSZ": {
+    "context": "page header",
+    "string": "기본 주소"
+  },
+  "wNQzS/": {
+    "string": "이 고객의 기본 주소입니다."
+  },
+  "fjPWOA": {
+    "context": "header",
+    "string": "고객 개요"
+  },
+  "qNcoRY": {
+    "context": "notes about customer header",
+    "string": "노트"
+  },
+  "uUQ+Al": {
+    "context": "note about customer",
+    "string": "노트"
+  },
+  "w3sGrD": {
+    "string": "이 고객에 대한 추가 정보를 입력하세요."
+  },
+  "N76zUg": {
+    "context": "page header",
+    "string": "고객 생성"
+  },
+  "+NUzaQ": {
+    "context": "check to mark this account as active",
+    "string": "사용자 계정 활성"
+  },
+  "MjUyhA": {
+    "context": "section subheader",
+    "string": "{date}부터 활성 회원"
+  },
+  "SMakqb": {
+    "context": "customer contact section, header",
+    "string": "연락처 정보"
+  },
+  "4v5gfh": {
+    "context": "account information, header",
+    "string": "계정 정보"
+  },
+  "2mRLis": {
+    "string": "고객 검색"
+  },
+  "QLVddq": {
+    "context": "button",
+    "string": "고객 생성"
+  },
+  "xQK2EC": {
+    "context": "tab name",
+    "string": "모든 고객"
+  },
+  "icz/jb": {
+    "context": "customer",
+    "string": "가입일"
+  },
+  "fhksPD": {
+    "string": "주문 수"
+  },
+  "E8VDeH": {
+    "string": "주문 수"
+  },
+  "FpIcp9": {
+    "string": "고객을 찾을 수 없습니다."
+  },
+  "97l2MO": {
+    "string": "고객 이메일"
+  },
+  "Gr1SAu": {
+    "string": "고객 이름"
+  },
+  "pURrk1": {
+    "context": "order status",
+    "string": "상태"
+  },
+  "1LiVhv": {
+    "context": "section header",
+    "string": "최근 주문"
+  },
+  "nTF6tG": {
+    "context": "number of order",
+    "string": "주문 번호"
+  },
+  "3+990c": {
+    "context": "button",
+    "string": "모든 주문 보기"
+  },
+  "ri3kK9": {
+    "context": "order placement date",
+    "string": "날짜"
+  },
+  "taX/V3": {
+    "context": "order total amount",
+    "string": "합계"
+  },
+  "RlfqSV": {
+    "string": "주문을 찾을 수 없습니다."
+  },
+  "FNAZoh": {
+    "string": "마지막 로그인"
+  },
+  "HMD+ib": {
+    "string": "마지막 주문"
+  },
+  "e7Nyu7": {
+    "context": "section header",
+    "string": "고객 기록"
+  },
+  "2p0tZx": {
+    "context": "delete customer, dialog content",
+    "string": "{email}을(를) 삭제하시겠습니까?"
+  },
+  "ey0lZj": {
+    "context": "dialog header",
+    "string": "고객 삭제"
+  },
+  "qLOBff": {
+    "context": "dialog header",
+    "string": "주소 삭제"
+  },
+  "nX2pCU": {
+    "context": "window title",
+    "string": "고객 생성"
+  },
+  "/kWzY1": {
+    "string": "사용자 주소록에서 이 주소를 삭제하시겠습니까?"
+  },
+  "PXatmC": {
+    "string": "고객이 제거되었습니다."
+  },
+  "ftcHpD": {
+    "string": "고객이 생성되었습니다."
+  },
+  "N2SbNc": {
+    "string": "{counter,plural,one {이 고객을 삭제하시겠습니까?} other {{displayQuantity}명의 고객을 삭제하시겠습니까?}}"
+  },
+  "q8ep2I": {
+    "context": "dialog header",
+    "string": "고객 삭제"
+  },
+  "hzSNj4": {
+    "string": "대시보드"
+  },
+  "P7PLVj": {
+    "string": "날짜"
+  },
+  "JqiqNj": {
+    "string": "문제가 발생했습니다."
+  },
+  "ufmuTp": {
+    "context": "button",
+    "string": "삭제"
+  },
+  "i0AcKY": {
+    "context": "notification message after log in",
+    "string": "알려드립니다... 현재 데모 모드입니다. 대시보드를 둘러볼 수는 있지만 변경 사항을 저장할 수는 없습니다."
+  },
+  "Q8Qw5B": {
+    "string": "설명"
+  },
+  "bZenNC": {
+    "string": "설명 (선택 사항)"
+  },
+  "n+Gwbu": {
+    "string": "할인"
+  },
+  "g3qjSf": {
+    "context": "button",
+    "string": "카테고리 할당"
+  },
+  "AbyDC7": {
+    "context": "section header",
+    "string": "적용 가능 카테고리"
+  },
+  "Uu76vj": {
+    "context": "no categories",
+    "string": "카테고리를 찾을 수 없습니다."
+  },
+  "fV6yX5": {
+    "context": "table head",
+    "string": "카테고리 이름"
+  },
+  "QGjJcT": {
+    "context": "number of products",
+    "string": "상품"
+  },
+  "/6uK4C": {
+    "context": "button",
+    "string": "컬렉션 할당"
+  },
+  "XNeJay": {
+    "context": "section header",
+    "string": "적용 가능 컬렉션"
+  },
+  "IoCMjg": {
+    "context": "no collections",
+    "string": "컬렉션을 찾을 수 없습니다."
+  },
+  "ht9yOD": {
+    "context": "table head",
+    "string": "컬렉션 이름"
+  },
+  "cvVIV/": {
+    "context": "dialog header",
+    "string": "국가 할당"
+  },
+  "dGqEJ9": {
+    "context": "search box placeholder",
+    "string": "국가 이름으로 검색"
+  },
+  "dWK/Ck": {
+    "string": "바우처를 제한할 국가를 아래 목록에서 선택하세요."
+  },
+  "8EGagh": {
+    "context": "search box label",
+    "string": "국가 필터링"
+  },
+  "wgA48T": {
+    "context": "country selection",
+    "string": "국가 A to Z"
+  },
+  "AVF5T5": {
+    "context": "voucher end date, switch button",
+    "string": "종료일 설정"
+  },
+  "zKOGkU": {
+    "context": "time during discount is active, header",
+    "string": "활성 기간"
+  },
+  "U8eeLW": {
+    "context": "button",
+    "string": "상품 할당"
+  },
+  "xqXYF+": {
+    "context": "section header",
+    "string": "적용 가능 상품"
+  },
+  "OrR3Qy": {
+    "context": "no products",
+    "string": "상품을 찾을 수 없습니다."
+  },
+  "6cMkfT": {
+    "context": "table head",
+    "string": "상품 이름"
+  },
+  "bPFp8B": {
+    "context": "product type",
+    "string": "상품 타입"
+  },
+  "ySqrUU": {
+    "context": "button",
+    "string": "옵션 할당"
+  },
+  "lehGc9": {
+    "context": "section header",
+    "string": "적용 가능 옵션"
+  },
+  "/oyr6M": {
+    "context": "no variants",
+    "string": "옵션을 찾을 수 없습니다."
+  },
+  "Q1HhPk": {
+    "context": "table head",
+    "string": "상품 타입"
+  },
+  "lHccsy": {
+    "context": "table head",
+    "string": "옵션 이름"
+  },
+  "2E1xZ0": {
+    "context": "page header",
+    "string": "세일 생성"
+  },
+  "F56hOz": {
+    "context": "sale name",
+    "string": "이름"
+  },
+  "MSD3A/": {
+    "string": "세일 검색"
+  },
+  "JHfbXR": {
+    "context": "button",
+    "string": "세일 생성"
+  },
+  "Yjhgle": {
+    "context": "tab name",
+    "string": "모든 세일"
+  },
+  "AnqH4p": {
+    "context": "sale status",
+    "string": "활성화"
+  },
+  "1BNKCZ": {
+    "context": "sale channel",
+    "string": "채널"
+  },
+  "RBxYJf": {
+    "context": "sale status",
+    "string": "만료됨"
+  },
+  "XDBeA+": {
+    "context": "discount type",
+    "string": "고정 금액"
+  },
+  "s17U7u": {
+    "context": "discount type",
+    "string": "비율"
+  },
+  "BanAhF": {
+    "context": "sale status",
+    "string": "예약됨"
+  },
+  "zjHH6b": {
+    "context": "sale start date",
+    "string": "시작됨"
+  },
+  "SpngiS": {
+    "context": "sale status",
+    "string": "상태"
+  },
+  "KHZlmi": {
+    "string": "할인 유형"
+  },
+  "XZR590": {
+    "context": "sale value",
+    "string": "가격"
+  },
+  "giF5UV": {
+    "context": "sale end date",
+    "string": "종료"
+  },
+  "51HE+Q": {
+    "string": "할인상품을 찾지 못했습니다."
+  },
+  "iBSq6l": {
+    "context": "sale start date",
+    "string": "시작"
+  },
+  "WkxE8/": {
+    "context": "percentage or fixed, header",
+    "string": "할인 유형"
+  },
+  "JnzDrI": {
+    "context": "discount type",
+    "string": "고정 금액"
+  },
+  "wHdMAX": {
+    "context": "sale value, header",
+    "string": "가격"
+  },
+  "x3g4Ry": {
+    "context": "sale discount",
+    "string": "할인 가격"
+  },
+  "cehiWu": {
+    "context": "channels sale info",
+    "string": "할인이 할당되지 않은 채널은 상위 채널을 사용하여 가격을 정의합니다. 가격은 채널의 통화로 변환됩니다."
+  },
+  "Hj3T7P": {
+    "context": "column title",
+    "string": "채널 이름"
+  },
+  "PsclSa": {
+    "context": "page header",
+    "string": "바우처 생성"
+  },
+  "YjcN9w": {
+    "context": "time during voucher is active, header",
+    "string": "활성 기간"
+  },
+  "jd/LWa": {
+    "string": "바우처는 모든 국가에 적용됩니다."
+  },
+  "glT6fm": {
+    "string": "바우처는 이 국가들로 제한됩니다."
+  },
+  "ibnmEd": {
+    "context": "voucher country range",
+    "string": "국가"
+  },
+  "jvKNMP": {
+    "string": "할인 코드"
+  },
+  "mSLr9d": {
+    "context": "voucher code, button",
+    "string": "코드 생성"
+  },
+  "vTgRTZ": {
+    "context": "limit voucher",
+    "string": "고객당 1회 사용으로 제한"
+  },
+  "Qj/3sH": {
+    "context": "limit voucher",
+    "string": "이 할인의 총 사용 횟수 제한"
+  },
+  "+jHXT3": {
+    "context": "limit voucher",
+    "string": "직원 전용으로 제한"
+  },
+  "s51tHd": {
+    "context": "limit voucher",
+    "string": "사용 제한"
+  },
+  "pzSF+b": {
+    "context": "voucher usage limit, header",
+    "string": "사용 제한"
+  },
+  "o8S0Ac": {
+    "context": "usage limit uses left caption",
+    "string": "남은 사용 횟수"
+  },
+  "pNrF72": {
+    "context": "tab name",
+    "string": "모든 바우처"
+  },
+  "IruP2T": {
+    "string": "바우처 검색"
+  },
+  "GbhZJ4": {
+    "context": "button",
+    "string": "바우처 생성"
+  },
+  "amQg6f": {
+    "context": "voucher status",
+    "string": "활성화"
+  },
+  "NLybdq": {
+    "context": "voucher channel",
+    "string": "채널"
+  },
+  "t7UwLY": {
+    "context": "voucher status",
+    "string": "만료됨"
+  },
+  "Jj0de8": {
+    "context": "voucher status",
+    "string": "예약됨"
+  },
+  "ujFo4A": {
+    "context": "voucher start date",
+    "string": "시작됨"
+  },
+  "uy+tB8": {
+    "context": "voucher status",
+    "string": "상태"
+  },
+  "h75GAF": {
+    "context": "voucher",
+    "string": "사용 횟수"
+  },
+  "JV+EiM": {
+    "context": "voucher value",
+    "string": "가격"
+  },
+  "tuYPlG": {
+    "context": "minimum amount of spent money to activate voucher",
+    "string": "최소 사용 금액"
+  },
+  "b6L9n7": {
+    "context": "voucher is active until date",
+    "string": "종료"
+  },
+  "yHwvLL": {
+    "context": "voucher uses",
+    "string": "사용량"
+  },
+  "5u7b3V": {
+    "context": "voucher is active from date",
+    "string": "시작"
+  },
+  "JsPIOX": {
+    "context": "voucher code",
+    "string": "코드"
+  },
+  "U2mOqA": {
+    "string": "바우처를 찾을 수 없습니다"
+  },
+  "GVinbz": {
+    "context": "column title",
+    "string": "가격"
+  },
+  "K+ROF8": {
+    "string": "할인이 할당되지 않은 채널은 상위 채널을 사용하여 가격을 정의합니다. 가격은 채널의 통화로 변환됩니다."
+  },
+  "yhv3HX": {
+    "context": "voucher requirements, header",
+    "string": "최소 요구사항"
+  },
+  "u/hkKO": {
+    "context": "voucher has no requirements",
+    "string": "없음"
+  },
+  "XT/ZvF": {
+    "context": "voucher requirement",
+    "string": "최소 아이템 수량"
+  },
+  "bh9+8A": {
+    "context": "voucher requirement",
+    "string": "최소 주문 금액"
+  },
+  "FOa+Xd": {
+    "context": "voucher value requirement",
+    "string": "최소 주문 금액"
+  },
+  "bcf60I": {
+    "context": "voucher",
+    "string": "적용 대상"
+  },
+  "HLqWXA": {
+    "context": "voucher value requirement",
+    "string": "사용 제한"
+  },
+  "6cq+c+": {
+    "context": "header",
+    "string": "할인 유형"
+  },
+  "sS5aVm": {
+    "context": "voucher discount type",
+    "string": "무료 배송"
+  },
+  "fEfCtO": {
+    "context": "voucher discount type",
+    "string": "비율"
+  },
+  "vXFPD6": {
+    "context": "voucher discount type",
+    "string": "고정 금액"
+  },
+  "1shOIS": {
+    "context": "column title",
+    "string": "가격"
+  },
+  "/oaqFS": {
+    "context": "section header",
+    "string": "가격"
+  },
+  "mmcHeH": {
+    "string": "할인 가격"
+  },
+  "5c2JVF": {
+    "context": "voucher application, switch button",
+    "string": "주문당 한 번만"
+  },
+  "9UHfux": {
+    "string": "바우처 특정 정보"
+  },
+  "ObRk1O": {
+    "string": "이 옵션이 비활성화되면, 할인은 모든 적용 가능한 상품에 대해 계산됩니다."
+  },
+  "bP7ZLP": {
+    "context": "voucher discount",
+    "string": "전체 주문"
+  },
+  "45zP+r": {
+    "context": "voucher discount",
+    "string": "특정 제품"
+  },
+  "WasHjQ": {
+    "context": "voucher discount",
+    "string": "배송"
+  },
+  "n7Fg8i": {
+    "string": "세일을 성공적으로 생성했습니다."
+  },
+  "ESDTC/": {
+    "string": "세일 채널 가용성 관리"
+  },
+  "SqcGBK": {
+    "context": "channel availability dialog header",
+    "string": "채널 가용성 관리"
+  },
+  "4C7I61": {
+    "context": "sale Details delete button",
+    "string": "세일이 제거되었습니다."
+  },
+  "V3fvcD": {
+    "context": "dialog content",
+    "string": "세일이 제거되었습니다."
+  },
+  "1/oG76": {
+    "context": "dialog header",
+    "string": "세일 삭제"
+  },
+  "/V7UOC": {
+    "context": "unassign category from sale and save, button",
+    "string": "할당 해제 및 저장"
+  },
+  "GiJm1v": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 카테고리의 할당을 해제하시겠습니까?} other {{displayQuantity}개 카테고리의 할당을 해제하시겠습니까?}}"
+  },
+  "B5yE8S": {
+    "context": "dialog header",
+    "string": "세일에서 카테고리 할당 해제"
+  },
+  "6RtE2D": {
+    "context": "unassign collection from sale and save, button",
+    "string": "할당 해제 및 저장"
+  },
+  "UjoSZB": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 컬렉션의 할당을 해제하시겠습니까?} other {{displayQuantity}개 컬렉션의 할당을 해제하시겠습니까?}}"
+  },
+  "0TQuo4": {
+    "context": "dialog header",
+    "string": "세일에서 컬렉션 할당 해제"
+  },
+  "rNzkIt": {
+    "context": "dialog content",
+    "string": "{saleName}을(를) 삭제하시겠습니까?"
+  },
+  "opIDox": {
+    "context": "unassign product from sale and save, button",
+    "string": "할당 해제 및 저장"
+  },
+  "AHK0K9": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 상품의 할당을 해제하시겠습니까?} other {{displayQuantity}개 상품의 할당을 해제하시겠습니까?}}"
+  },
+  "n7GIKB": {
+    "context": "dialog header",
+    "string": "세일에서 상품 할당 해제"
+  },
+  "Uj2hj8": {
+    "context": "unassign variant from sale and save, button",
+    "string": "할당 해제 및 저장"
+  },
+  "iWyoZn": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 옵션의 할당을 해제하시겠습니까?} other {{displayQuantity}개 옵션의 할당을 해제하시겠습니까?}}"
+  },
+  "Kyyr7D": {
+    "context": "dialog header",
+    "string": "세일에서 옵션 할당 해제"
+  },
+  "ZWIjvr": {
+    "context": "dialog header",
+    "string": "세일 삭제"
+  },
+  "FPzzh7": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 세일을 삭제하시겠습니까?} other {{displayQuantity}개의 세일을 삭제하시겠습니까?}}"
+  },
+  "Eau5AV": {
+    "string": "상품 채널 가용성 관리"
+  },
+  "Q8mpW3": {
+    "string": "바우처를 성공적으로 생성했습니다."
+  },
+  "MmGlkp": {
+    "context": "dialog header",
+    "string": "바우처에서 컬렉션 할당 해제"
+  },
+  "cNSLLO": {
+    "context": "button",
+    "string": "할당 해제 및 저장"
+  },
+  "cKCfSW": {
+    "context": "dialog header",
+    "string": "바우처에서 상품 할당 해제"
+  },
+  "LOSNq0": {
+    "context": "dialog header",
+    "string": "바우처에서 카테고리 할당 해제"
+  },
+  "NEJo1I": {
+    "context": "dialog content",
+    "string": "{voucherCode}을(를) 삭제하시겠습니까?"
+  },
+  "EM730i": {
+    "string": "채널 가용성 관리"
+  },
+  "Hgz44z": {
+    "context": "dialog header",
+    "string": "바우처 삭제"
+  },
+  "O9QPe1": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 바우처를 삭제하시겠습니까?} other {{displayQuantity}개의 바우처를 삭제하시겠습니까?}}"
+  },
+  "Q0JJ4F": {
+    "context": "dialog header",
+    "string": "바우처 삭제"
+  },
+  "eOrLzG": {
+    "context": "button",
+    "string": "완료"
+  },
+  "toDL5R": {
+    "context": "order status",
+    "string": "임시"
+  },
+  "YMBn8d": {
+    "context": "draft orders section name",
+    "string": "임시 주문"
+  },
+  "2atspc": {
+    "string": "임시 주문"
+  },
+  "Ja7gHc": {
+    "context": "button",
+    "string": "수정"
+  },
+  "hJZwTS": {
+    "string": "이메일 주소"
+  },
+  "T4GOiX": {
+    "string": "종료일"
+  },
+  "juBV+h": {
+    "string": "종료 시간"
+  },
+  "KN7zKn": {
+    "string": "에러"
+  },
+  "j0ugM4": {
+    "context": "Manage and Update your warehouse information",
+    "string": "환율"
+  },
+  "Q6wcZ5": {
+    "string": "이름"
+  },
+  "pkjXPD": {
+    "context": "order status",
+    "string": "완료"
+  },
+  "pkUbrL": {
+    "string": "일반 정보"
+  },
+  "HSmg1/": {
+    "context": "gift cards section name",
+    "string": "기프트 카드"
+  },
+  "mbj1J5": {
+    "context": "bulk issue gift cards success alert description",
+    "string": "요청한 {cardsAmount}개의 카드가 성공적으로 발급되었습니다."
+  },
+  "3bQz2o": {
+    "context": "bulk issue gift cards success alert title",
+    "string": "기프트 카드 발급됨"
+  },
+  "7dhhzL": {
+    "context": "bulk issue gift cards dialog title",
+    "string": "기프트 카드 대량 발급"
+  },
+  "YBqLHs": {
+    "context": "expiry date label",
+    "string": "정확한 날짜"
+  },
+  "fzl482": {
+    "context": "expires on label",
+    "string": "만료일:"
+  },
+  "rl1t+o": {
+    "context": "expires in label",
+    "string": "만료 기간"
+  },
+  "rzhcpD": {
+    "context": "set expiry date selected label",
+    "string": "기프트 카드 만료일 설정"
+  },
+  "n9JOI3": {
+    "context": "money amount input label",
+    "string": "금액 입력"
+  },
+  "vDnheO": {
+    "context": "gift card bulk create success dialog accept button",
+    "string": "확인"
+  },
+  "NZtcLb": {
+    "context": "gift card bulk create success dialog content",
+    "string": "요청한 모든 기프트 카드를 발급했습니다. 아래 버튼을 사용하여 새 기프트 카드 목록을 다운로드할 수 있습니다."
+  },
+  "IVOjqW": {
+    "context": "gift card bulk create success dialog export button",
+    "string": "이메일로 내보내기"
+  },
+  "WyPitj": {
+    "context": "gift card bulk create success dialog title",
+    "string": "기프트 카드 대량 발급"
+  },
+  "hnBvH7": {
+    "context": "copied to clipboard alert title",
+    "string": "클립보드에 복사됨"
+  },
+  "RXbkle": {
+    "context": "copy code button label",
+    "string": "코드 복사"
+  },
+  "zjZuhM": {
+    "context": "created gift card code label",
+    "string": "생성된 기프트 카드 코드는 다음과 같습니다:"
+  },
+  "WzHfj8": {
+    "context": "successfully created gift card alert title",
+    "string": "기프트 카드가 성공적으로 생성되었습니다."
+  },
+  "MgdgpT": {
+    "context": "customer input label",
+    "string": "고객"
+  },
+  "uilt7q": {
+    "context": "issued cards amount label",
+    "string": "발급된 카드 수"
+  },
+  "PilTI6": {
+    "context": "issue gift card button label",
+    "string": "발급"
+  },
+  "UKgP89": {
+    "context": "note input label",
+    "string": "노트"
+  },
+  "ZuqkSp": {
+    "context": "note input subtitle",
+    "string": "이 기프트 카드가 발급된 이유. 이 노트는 고객에게 표시되지 않습니다. 노트는 기프트 카드 기록에 저장됩니다."
+  },
+  "ArctEg": {
+    "context": "requires activation checkbox caption",
+    "string": "모든 발급된 카드는 사용 전에 직원의 활성화가 필요합니다."
+  },
+  "vCw7BP": {
+    "context": "requires activation checkbox label",
+    "string": "활성화 필요"
+  },
+  "JftRtx": {
+    "context": "issue gift card dialog title",
+    "string": "기프트 카드 발급"
+  },
+  "uQk8gB": {
+    "context": "export all items to csv file",
+    "string": "모든 기프트 카드 ({number})"
+  },
+  "n97Ii0": {
+    "context": "export selected items to csv file",
+    "string": "선택된 기프트 카드 ({number})"
+  },
+  "CRAfpd": {
+    "context": "gift card export dialog confirm button label",
+    "string": "코드 내보내기"
+  },
+  "dsJ+Wv": {
+    "context": "note on export gift cards",
+    "string": "참고: 활성 상태이고 사용되지 않은 기프트 카드만 내보내집니다."
+  },
+  "3kwdxJ": {
+    "context": "gift card export type label",
+    "string": "기프트 카드"
+  },
+  "bDHiYK": {
+    "context": "gift card export success alert description",
+    "string": "현재 기프트 카드 코드를 내보내고 있습니다. 파일이 준비되는 대로 이메일 주소로 전송됩니다."
+  },
+  "YEpYMB": {
+    "context": "gift card export csv success alert title",
+    "string": "CSV 내보내는 중"
+  },
+  "DQJnB4": {
+    "context": "gift card export dialog title",
+    "string": "기프트 카드 코드 내보내기"
+  },
+  "KqbfFa": {
+    "context": "expiry date selection info message",
+    "string": "구매 후 특정 시간이 지나면 만료되도록 기프트 카드를 설정할 수 있습니다. 일부 국가에서는 법으로 기프트 카드 만료가 금지되어 있음을 기억하세요."
+  },
+  "1J/bhZ": {
+    "context": "expiry date section header",
+    "string": "만료일"
+  },
+  "xHj9Qe": {
+    "context": "gift card settings header",
+    "string": "기프트 카드 설정"
+  },
+  "fExm0/": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 {activatedBy}에 의해 활성화되었습니다."
+  },
+  "pCy5EP": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 활성화되었습니다."
+  },
+  "aEc9Ar": {
+    "context": "gift card history message",
+    "string": "기프트 카드 잔액이 {resetBy}에 의해 재설정되었습니다."
+  },
+  "PcQRxi": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 주문 {orderNumber}에서 구매되었습니다."
+  },
+  "gAqkrG": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 {deactivatedBy}에 의해 비활성화되었습니다."
+  },
+  "NvwS/N": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 비활성화되었습니다."
+  },
+  "vQunFc": {
+    "context": "gift card history message",
+    "string": "기프트 카드 만료일이 {expiryUpdatedBy}에 의해 업데이트되었습니다."
+  },
+  "fLhj3a": {
+    "context": "gift card history message",
+    "string": "기프트 카드 만료일이 업데이트되었습니다."
+  },
+  "4Z0O2B": {
+    "context": "section header title",
+    "string": "기프트 카드 타임라인"
+  },
+  "30X9S8": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 {issuedBy}에 의해 발급되었습니다."
+  },
+  "jDovoJ": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 발급되었습니다."
+  },
+  "JgNb8X": {
+    "context": "notifier message",
+    "string": "노트를 추가하는 중 오류가 발생했습니다."
+  },
+  "WS4ov0": {
+    "context": "notifier message",
+    "string": "노트가 성공적으로 추가되었습니다."
+  },
+  "gj3MUg": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 재전송되었습니다."
+  },
+  "tsL3IW": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 고객에게 전송되었습니다."
+  },
+  "vkAWwY": {
+    "context": "gift card history message",
+    "string": "기프트 카드 태그가 업데이트되었습니다."
+  },
+  "Uu2B2G": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 주문 {orderLink}에서 <buyer>에 의해</buyer> 결제 수단으로 사용되었습니다."
+  },
+  "408KSO": {
+    "context": "gift card history message",
+    "string": "기프트 카드가 주문 {orderLink}에서 결제 수단으로 사용되었습니다."
+  },
+  "v01/tY": {
+    "context": "consent to send gift card to different address checkbox label",
+    "string": "네, 기프트 카드를 다른 주소로 보내고 싶습니다."
+  },
+  "ttk0w7": {
+    "context": "resend code to customer description",
+    "string": "기프트 카드 코드는 결제 시 제공된 이메일로 재전송됩니다. 원하시면 다른 이메일 주소를 제공할 수 있습니다."
+  },
+  "AqHafs": {
+    "context": "provided email input placeholder",
+    "string": "제공된 이메일 주소"
+  },
+  "NLNonj": {
+    "context": "send to channel select label",
+    "string": "채널로 보내기"
+  },
+  "s1IQuN": {
+    "context": "resend button label",
+    "string": "재전송"
+  },
+  "JQH+Iy": {
+    "context": "resent code success message",
+    "string": "고객에게 코드를 성공적으로 재전송했습니다!"
+  },
+  "mslSpp": {
+    "context": "resend code to customer title",
+    "string": "고객에게 코드 재전송"
+  },
+  "STJx8N": {
+    "context": "change button label",
+    "string": "변경"
+  },
+  "kFkMoG": {
+    "context": "set balance dialog subtitle",
+    "string": "카드 잔액을 얼마로 설정하시겠습니까? 잔액을 변경하면 두 값 모두 변경됩니다."
+  },
+  "tKxCld": {
+    "context": "set balance dialog title label",
+    "string": "잔액 설정"
+  },
+  "XAPFHP": {
+    "context": "card update success alert title",
+    "string": "카드 잔액이 성공적으로 업데이트되었습니다."
+  },
+  "Z/7hyu": {
+    "context": "card balance label",
+    "string": "카드 잔액"
+  },
+  "PJDcQs": {
+    "context": "set balance button label",
+    "string": "잔액 설정"
+  },
+  "a+kgkq": {
+    "context": "tag label",
+    "string": "카드 태그"
+  },
+  "Zj/7QZ": {
+    "context": "details title",
+    "string": "상세"
+  },
+  "//k1GX": {
+    "context": "expired on label",
+    "string": "{date}에 만료됨"
+  },
+  "JKbpH9": {
+    "context": "expiry date checkbox label",
+    "string": "기프트 카드 만료"
+  },
+  "nFTvQW": {
+    "context": "expiration date label",
+    "string": "만료일"
+  },
+  "Jo01VZ": {
+    "context": "bought by label",
+    "string": "구매자"
+  },
+  "/AbHy4": {
+    "context": "creation label",
+    "string": "생성"
+  },
+  "+pLi+M": {
+    "context": "issued by app label",
+    "string": "앱에서 발급"
+  },
+  "V+h02n": {
+    "context": "issued by label",
+    "string": "발급자"
+  },
+  "9TbDQD": {
+    "context": "order number label",
+    "string": "주문 번호"
+  },
+  "kc4c4d": {
+    "context": "product label",
+    "string": "기프트 카드를 받기 위해 구매한 상품"
+  },
+  "Eh6KYS": {
+    "context": "info card title",
+    "string": "카드 정보"
+  },
+  "kS5Qgk": {
+    "context": "used by label",
+    "string": "사용자"
+  },
+  "EA7rjI": {
+    "context": "disabled status label",
+    "string": "비활성화됨"
+  },
+  "aPYFO1": {
+    "context": "expired status label",
+    "string": "만료됨"
+  },
+  "lCPxtT": {
+    "context": "resend code label",
+    "string": "코드 재전송"
+  },
+  "GibKGn": {
+    "context": "success gift card disable message",
+    "string": "기프트 카드를 성공적으로 비활성화했습니다."
+  },
+  "bDO9DN": {
+    "context": "success gift card enable message",
+    "string": "기프트 카드를 성공적으로 활성화했습니다."
+  },
+  "29L5Yq": {
+    "context": "gift card not found message",
+    "string": "기프트 카드를 찾을 수 없습니다."
+  },
+  "xPnZ0R": {
+    "context": "title",
+    "string": "상세"
+  },
+  "kcMVsB": {
+    "context": "balance amound missing error message",
+    "string": "잔액 금액이 누락되었습니다."
+  },
+  "bVbEZ/": {
+    "context": "amount filter label",
+    "string": "총액"
+  },
+  "tXIgmR": {
+    "context": "balance curreny missing error message",
+    "string": "잔액 통화가 누락되었습니다."
+  },
+  "osPBn1": {
+    "context": "currency filter label",
+    "string": "통화"
+  },
+  "e/61NZ": {
+    "context": "current balance filter label",
+    "string": "현재 잔액"
+  },
+  "tTuCYj": {
+    "context": "all gift cards label",
+    "string": "모든 기프트 카드"
+  },
+  "+WTmpr": {
+    "context": "disabled status option label",
+    "string": "비활성화됨"
+  },
+  "vC8vyb": {
+    "context": "enabled status option label",
+    "string": "활성화됨"
+  },
+  "VceXrc": {
+    "context": "initial balance filter label",
+    "string": "초기 잔액"
+  },
+  "Sjd7wm": {
+    "context": "product filter label",
+    "string": "제품"
+  },
+  "labkPK": {
+    "context": "search gift card placeholder",
+    "string": "기프트 카드 검색, 예: {exampleGiftCardCode}"
+  },
+  "D4CsYK": {
+    "context": "status filter label",
+    "string": "상태"
+  },
+  "mE+fru": {
+    "context": "tag filter label",
+    "string": "태그"
+  },
+  "WMGoqz": {
+    "context": "used by filter label",
+    "string": "사용자"
+  },
+  "31hYP2": {
+    "context": "alert card message",
+    "string": "기프트 카드는 주문이 처리된 후 나타납니다. <link>기프트 카드가 포함된 주문 보기</link>"
+  },
+  "qkt/Km": {
+    "context": "bulk delete label",
+    "string": "삭제"
+  },
+  "IzEVek": {
+    "context": "bulk disable label",
+    "string": "비활성화"
+  },
+  "hz+9ES": {
+    "context": "bulk activate label",
+    "string": "활성화"
+  },
+  "KcsJKm": {
+    "context": "error with activatation alert message",
+    "string": "기프트 카드 활성화 중 오류 발생 ({count}개)"
+  },
+  "C90nKP": {
+    "context": "error with deactivatation alert message",
+    "string": "기프트 카드 비활성화 중 오류 발생 ({count}개)"
+  },
+  "IwEQvz": {
+    "context": "success activate alert message",
+    "string": "{count}개 기프트 카드를 성공적으로 활성화했습니다."
+  },
+  "SO56cv": {
+    "context": "success deactivate alert message",
+    "string": "{count}개 기프트 카드를 성공적으로 비활성화했습니다."
+  },
+  "9hab/1": {
+    "context": "bulk issue menu item",
+    "string": "대량 발급"
+  },
+  "38dS1A": {
+    "context": "code ending with label",
+    "string": "코드가 {last4CodeChars}로 끝남"
+  },
+  "HqeqEV": {
+    "context": "create gift card product alert message",
+    "string": "기프트 카드 상품 생성"
+  },
+  "8Hq18g": {
+    "context": "create gift card product type alert message",
+    "string": "기프트 카드 상품 타입 생성"
+  },
+  "exvX+Z": {
+    "context": "export card codes menu item",
+    "string": "카드 코드 내보내기"
+  },
+  "rCy3Fe": {
+    "context": "invalid date in expirydate field content",
+    "string": "과거 만료일로 기프트 카드를 생성할 수 없습니다."
+  },
+  "l1/Hwb": {
+    "context": "invalid date in expirydate field header",
+    "string": "잘못된 날짜 입력"
+  },
+  "AJgl5u": {
+    "context": "gift card product message",
+    "string": "기프트 카드 상품"
+  },
+  "MbZHXE": {
+    "context": "column title balance",
+    "string": "잔액"
+  },
+  "MJBAqv": {
+    "context": "column title used by/customer",
+    "string": "사용자/고객"
+  },
+  "eLJQSh": {
+    "context": "column title gift card",
+    "string": "기프트 카드"
+  },
+  "bwJc6V": {
+    "context": "column title product",
+    "string": "제품"
+  },
+  "FEWgh/": {
+    "context": "column title tag",
+    "string": "태그"
+  },
+  "RfPJ1E": {
+    "context": "issue card button label",
+    "string": "카드 발급"
+  },
+  "E22x4H": {
+    "context": "no card defuned alert message",
+    "string": "기프트 카드 상품을 정의하지 않았습니다!"
+  },
+  "Rd0s80": {
+    "context": "no cards found title message",
+    "string": "기프트 카드를 찾을 수 없습니다."
+  },
+  "VI+X8H": {
+    "context": "no gift card product types alert message",
+    "string": "스토어에서 기프트 카드를 판매하려면 {createGiftCardProductType}."
+  },
+  "jmh0rV": {
+    "context": "no gift card products alert message",
+    "string": "스토어에서 기프트 카드를 판매하려면 {createGiftCardProduct}."
+  },
+  "U9o2bV": {
+    "context": "no gift card products and types alert message",
+    "string": "스토어에서 기프트 카드를 판매하려면 {createGiftCardProductType} 및 {giftCardProduct}."
+  },
+  "F69lwk": {
+    "context": "settings menu item",
+    "string": "설정"
+  },
+  "vWTM6Y": {
+    "context": "customer gift cards card no cards subtitle",
+    "string": "이 고객에게 할당된 기프트 카드가 없습니다."
+  },
+  "Utq1fE": {
+    "context": "customer gift cards card title",
+    "string": "기프트 카드"
+  },
+  "mbOuGl": {
+    "context": "customer gift cards card issue button",
+    "string": "새 카드 발급"
+  },
+  "vzce9B": {
+    "context": "customer gift cards card subtitle",
+    "string": "여기에는 최신 5개의 기프트 카드만 표시됩니다."
+  },
+  "FQc5z6": {
+    "context": "customer gift cards card view all button",
+    "string": "모두 보기"
+  },
+  "Yxihwg": {
+    "context": "consent removal of gift cards with balance button label",
+    "string": "{selectedItemsCount,plural,one {잔액이 있는 기프트 카드를 제거하고 있음을 인지합니다.} other {잔액이 있는 기프트 카드를 제거하고 있음을 인지합니다.}}"
+  },
+  "S52JMl": {
+    "context": "default gift card delete description",
+    "string": "{selectedItemsCount,plural,one {이 기프트 카드를 삭제하시겠습니까?} other {{selectedItemsCount}개의 기프트 카드를 삭제하시겠습니까?}}"
+  },
+  "zLtb4N": {
+    "context": "gift card removed success alert message",
+    "string": "{selectedItemsCount,plural,one {기프트 카드를 성공적으로 삭제했습니다.} other {기프트 카드를 성공적으로 삭제했습니다.}}"
+  },
+  "a+iRI1": {
+    "context": "single gift card title",
+    "string": "{selectedItemsCount,plural,one {기프트 카드 삭제} other {기프트 카드 삭제}}"
+  },
+  "RLZ1jd": {
+    "context": "delete gift cards with balance description",
+    "string": "{selectedItemsCount,plural,one {삭제하려는 기프트 카드에 사용 가능한 잔액이 있습니다. 이 카드를 삭제하면 고객이 사용 가능한 잔액이 제거될 수 있습니다.} other {사용 가능한 잔액이 있는 기프트 카드를 삭제하려고 합니다. 정말로 삭제하시겠습니까?}}"
+  },
+  "LA13a5": {
+    "context": "channel select label",
+    "string": "채널"
+  },
+  "0sd4ez": {
+    "context": "selected customer channel subtitle",
+    "string": "고객은 이 채널의 이메일 주소를 통해 기프트 카드 코드를 받게 됩니다."
+  },
+  "FRJRmi": {
+    "context": "selected customer gift card is sent to subtitle",
+    "string": "선택된 고객에게 생성된 기프트 카드 코드가 전송됩니다. 다른 사람이 기프트 카드 코드를 사용할 수 있습니다. 기프트 카드는 코드를 사용한 계정에 할당됩니다."
+  },
+  "Um3g00": {
+    "context": "send to customer selected label",
+    "string": "고객에게 기프트 카드 보내기"
+  },
+  "ps+h1G": {
+    "context": "checkbox label description",
+    "string": "기프트 카드가 발급되면 만료일이 자동으로 설정됩니다."
+  },
+  "j2l6cL": {
+    "context": "checkbox label",
+    "string": "기프트 카드 만료 기간 설정"
+  },
+  "XFtKV5": {
+    "context": "input placeholder tag",
+    "string": "태그"
+  },
+  "mzASqs": {
+    "context": "days after label",
+    "string": "발급 후 일"
+  },
+  "54KYgS": {
+    "context": "months after label",
+    "string": "발급 후 개월"
+  },
+  "15fg+o": {
+    "context": "weeks after label",
+    "string": "발급 후 주"
+  },
+  "Qe4XHv": {
+    "context": "years after label",
+    "string": "발급 후 년"
+  },
+  "4JW9iJ": {
+    "context": "home section name",
+    "string": "홈"
+  },
+  "sjRXXz": {
+    "string": "주문 #{orderId}이(가) {userEmail}에 의해 임시 주문에서 생성되었습니다."
+  },
+  "BNTZLv": {
+    "string": "주문 #{orderId}이(가) 임시 주문에서 생성되었습니다."
+  },
+  "5SPHkk": {
+    "string": "주문 #{orderId}이(가) 전액 결제되었습니다."
+  },
+  "0dPP8O": {
+    "string": "주문 #{orderId}이(가) 생성되었습니다."
+  },
+  "Nuq83+": {
+    "string": "새 채널 생성"
+  },
+  "E9Jssl": {
+    "string": "처리할 준비가 된 주문이 없습니다."
+  },
+  "5dyOs0": {
+    "string": "결제 대기 중인 결제가 없습니다."
+  },
+  "bFhzRX": {
+    "string": "품절된 상품이 없습니다."
+  },
+  "c0H45L": {
+    "string": "{amount, plural,one {1개의 주문이 처리 준비 완료} other {{amount}개의 주문이 처리 준비 완료}}"
+  },
+  "md326v": {
+    "string": "{amount, plural,one {1개의 결제 대기 중} other {{amount}개의 결제 대기 중}}"
+  },
+  "cdxwA8": {
+    "string": "{amount, plural,one {1개의 상품 품절} other {{amount}개의 상품 품절}}"
+  },
+  "gSQ0Ge": {
+    "string": "옵션 {name}이(가) 기본값으로 설정되었습니다."
+  },
+  "26+K4N": {
+    "string": "업로드한 파일에 문제가 있어 이미지로 사용할 수 없습니다. 다른 파일을 시도해 주세요."
+  },
+  "Yo2kC+": {
+    "string": "이미지를 처리할 수 없습니다."
+  },
+  "DOkfyZ": {
+    "string": "권한이 부족합니다."
+  },
+  "aheQdn": {
+    "string": "성"
+  },
+  "8oIbMI": {
+    "string": "이 플랜의 한도에 도달했습니다."
+  },
+  "IbVKSH": {
+    "context": "button",
+    "string": "관리"
+  },
+  "9C7PZE": {
+    "context": "navigation section name",
+    "string": "네비게이션"
+  },
+  "wlQTfb": {
+    "context": "go to next step, button",
+    "string": "다음"
+  },
+  "oUWADl": {
+    "string": "아니오"
+  },
+  "s9sOcC": {
+    "context": "button",
+    "string": "확인"
+  },
+  "lzdvwp": {
+    "context": "field is optional",
+    "string": "선택 사항"
+  },
+  "Ta9j04": {
+    "context": "orders section name",
+    "string": "주문"
+  },
+  "+svQBN": {
+    "context": "alert",
+    "string": "주문 한도 도달"
+  },
+  "TPW2tP": {
+    "string": "주문 한도에 도달했습니다. 한도를 초과하는 주문에 대해서는 추가 요금이 청구됩니다. 한도를 늘리려면 관리자에게 문의하세요."
+  },
+  "aY0HAT": {
+    "context": "section header",
+    "string": "판매 채널"
+  },
+  "NJbzcP": {
+    "context": "dialog header",
+    "string": "주문 취소"
+  },
+  "i+JSEZ": {
+    "string": "{counter,plural,one {이 주문을 취소하시겠습니까?} other {{displayQuantity}개의 주문을 취소하시겠습니까?}}"
+  },
+  "VSztEE": {
+    "string": "이 주문을 취소하면 미처리된 재고가 해제되어 다른 고객이 구매할 수 있게 됩니다. <b>주문 취소 시 환불되지 않으니 수동으로 처리해야 합니다.</b> 정말 이 주문을 취소하시겠습니까?"
+  },
+  "NhQboB": {
+    "context": "dialog header",
+    "string": "Saleor가 주문을 취소할 수 없습니다."
+  },
+  "b+jcaN": {
+    "string": "이 주문에 대해 생성된 처리가 여전히 있습니다. 주문을 취소하기 전에 먼저 처리를 취소하세요."
+  },
+  "FIZvTx": {
+    "context": "dialog content",
+    "string": "주소를 변경할 방법을 선택하세요."
+  },
+  "D4W/LE": {
+    "context": "dialog header",
+    "string": "고객 청구지 주소 변경"
+  },
+  "RzDYi8": {
+    "context": "checkbox label",
+    "string": "청구지 주소와 동일하게 설정"
+  },
+  "r4g/vD": {
+    "context": "search modal billing title",
+    "string": "결제 주소"
+  },
+  "vf56In": {
+    "context": "address type",
+    "string": "고객 주소 중 하나 사용"
+  },
+  "qov29K": {
+    "context": "dialog content",
+    "string": "고객 주소 중 하나를 선택하거나 새 주소를 추가하세요:"
+  },
+  "CG+awx": {
+    "context": "dialog content",
+    "string": "선택된 고객의 배송지 주소로 어떤 주소를 사용하시겠습니까?"
+  },
+  "PBd/e+": {
+    "context": "dialog header",
+    "string": "주문 주소 변경"
+  },
+  "9gb9b4": {
+    "context": "address type",
+    "string": "새로운 주소 추가"
+  },
+  "Qph0GE": {
+    "context": "dialog content",
+    "string": "새 주소 추가:"
+  },
+  "xWEFrR": {
+    "context": "dialog content",
+    "string": "이 고객은 주소록에 주소가 없습니다. 주문 주소를 제공하세요:"
+  },
+  "kQq6/o": {
+    "context": "info when addresses search is unsuccessful",
+    "string": "결과를 찾을 수 없습니다."
+  },
+  "zqarUF": {
+    "context": "modal information under title",
+    "string": "아래 목록에서 사용할 주소를 선택하세요."
+  },
+  "129wyQ": {
+    "context": "dialog header",
+    "string": "고객 배송지 주소 변경"
+  },
+  "txOXvy": {
+    "context": "checkbox label",
+    "string": "배송지 주소와 동일하게 설정"
+  },
+  "2OH46U": {
+    "context": "search modal shipping title",
+    "string": "배송 주소"
+  },
+  "s6lW8R": {
+    "context": "option label",
+    "string": "주소 변경"
+  },
+  "Zg0dRo": {
+    "context": "dialog description",
+    "string": "이 주문에 할당된 고객을 변경했습니다. 배송지 주소는 어떻게 하시겠습니까?"
+  },
+  "iue6mV": {
+    "context": "option label",
+    "string": "주소 유지"
+  },
+  "uD93er": {
+    "context": "dialog header",
+    "string": "고객 변경됨"
+  },
+  "VrFy8e": {
+    "string": "고객 메모 없음"
+  },
+  "puALFo": {
+    "context": "notes about customer, header",
+    "string": "노트"
+  },
+  "4Jp83O": {
+    "context": "subheader",
+    "string": "연락처 정보"
+  },
+  "hkSkNx": {
+    "string": "고객 검색"
+  },
+  "VCzrEZ": {
+    "context": "link",
+    "string": "프로필 보기"
+  },
+  "DP5VOH": {
+    "string": "배송지 주소"
+  },
+  "Y7M1YQ": {
+    "context": "section header",
+    "string": "고객"
+  },
+  "GLX9II": {
+    "context": "billing address",
+    "string": "배송주소와 같음"
+  },
+  "Qovenh": {
+    "string": "익명 사용자"
+  },
+  "c7/79+": {
+    "string": "청구지"
+  },
+  "R98JLZ": {
+    "context": "OrderCustomer Fulfillment from All Warehouses",
+    "string": "모든 창고에서 처리"
+  },
+  "/w919H": {
+    "context": "OrderCustomer Fulfillment from Local Warehouse",
+    "string": "로컬 재고에서 처리"
+  },
+  "AqXzM2": {
+    "string": "주문 #{orderNumber}"
+  },
+  "9ZtJhn": {
+    "context": "cancel button",
+    "string": "주문취소"
+  },
+  "maxT+q": {
+    "context": "save button",
+    "string": "주문 확인"
+  },
+  "+RjQjs": {
+    "context": "return button",
+    "string": "반품 / 교환 주문"
+  },
+  "QSnh4Y": {
+    "context": "add button label",
+    "string": "추가"
+  },
+  "nvSJNR": {
+    "context": "discount reason input lavel",
+    "string": "사유"
+  },
+  "GAmGog": {
+    "context": "value input label",
+    "string": "할인 가격"
+  },
+  "fo7nfa": {
+    "context": "fixed amount",
+    "string": "고정 금액"
+  },
+  "IN5iJz": {
+    "context": "value input helper text",
+    "string": "잘못된 값"
+  },
+  "WTj17Z": {
+    "context": "dialog title item discount",
+    "string": "항목 할인"
+  },
+  "YFDAaX": {
+    "context": "dialog title order discount",
+    "string": "이 주문 할인:"
+  },
+  "WUf3Iu": {
+    "context": "percentage option",
+    "string": "비율"
+  },
+  "APcoSA": {
+    "context": "dialog header",
+    "string": "임시 주문 삭제"
+  },
+  "mxtAFx": {
+    "string": "임시 주문 #{orderNumber}을(를) 삭제하시겠습니까?"
+  },
+  "32dfzI": {
+    "context": "price or ordered products",
+    "string": "가격"
+  },
+  "nEWp+k": {
+    "context": "quantity of ordered products",
+    "string": "수량"
+  },
+  "UD7/q8": {
+    "string": "주문에 추가된 상품이 없습니다."
+  },
+  "lVwmf5": {
+    "context": "total price of ordered products",
+    "string": "합계"
+  },
+  "Myx1Qp": {
+    "context": "add discount button",
+    "string": "할인 추가"
+  },
+  "BjxQ3u": {
+    "context": "add shipping address first label",
+    "string": "배송지 주소를 먼저 추가하세요."
+  },
+  "Jb1/3V": {
+    "context": "add shipping carrier button",
+    "string": "배송사 추가"
+  },
+  "+8v1ny": {
+    "context": "discount button",
+    "string": "할인"
+  },
+  "M9LXb5": {
+    "context": "no shipping carriers title",
+    "string": "적용 가능한 배송사가 없습니다."
+  },
+  "xUvWaP": {
+    "context": "subtotal price",
+    "string": "부분 합계"
+  },
+  "mQtoRO": {
+    "context": "taxes title",
+    "string": "세금 (VAT 포함)"
+  },
+  "S/yAtJ": {
+    "context": "total price",
+    "string": "합계"
+  },
+  "18wvf7": {
+    "context": "section header",
+    "string": "주문 상세"
+  },
+  "C50ahv": {
+    "context": "button",
+    "string": "상품 추가"
+  },
+  "w2eTzO": {
+    "context": "placed orders counter",
+    "string": "{max}개 중 {count}개 주문"
+  },
+  "LshEVn": {
+    "context": "button",
+    "string": "주문 생성"
+  },
+  "7a1S4K": {
+    "context": "tab name",
+    "string": "모든 임시 주문"
+  },
+  "NJEe12": {
+    "string": "임시 주문 검색"
+  },
+  "vwMO04": {
+    "context": "draft order",
+    "string": "생성됨"
+  },
+  "iEeIhY": {
+    "context": "draft order",
+    "string": "고객"
+  },
+  "KIh25E": {
+    "string": "임시 주문을 찾을 수 없습니다."
+  },
+  "ps0WUQ": {
+    "string": "주문 번호"
+  },
+  "hkENym": {
+    "string": "고객"
+  },
+  "mCP0UD": {
+    "context": "order draft creation date",
+    "string": "날짜"
+  },
+  "1Uj0Wd": {
+    "context": "order draft total price",
+    "string": "합계"
+  },
+  "PAqicb": {
+    "context": "button",
+    "string": "주문취소"
+  },
+  "4Z14xW": {
+    "context": "button",
+    "string": "완료"
+  },
+  "6u4K7e": {
+    "context": "page header",
+    "string": "주문"
+  },
+  "kPIZ65": {
+    "context": "page header",
+    "string": "주문 #{orderNumber}"
+  },
+  "CJpx4E": {
+    "context": "page header",
+    "string": "주문 번호 {orderNumber} - 처리 추가"
+  },
+  "N5UuEK": {
+    "context": "header",
+    "string": "배송 준비된 상품"
+  },
+  "z9wQ/U": {
+    "context": "no variant stock in warehouse",
+    "string": "재고 없음"
+  },
+  "vW3tb6": {
+    "context": "name",
+    "string": "상품명"
+  },
+  "Kg0Fiu": {
+    "context": "quantity of fulfilled products",
+    "string": "처리할 수량"
+  },
+  "0VDwAP": {
+    "context": "checkbox label",
+    "string": "고객에게 배송 정보 보내기"
+  },
+  "fw+VAN": {
+    "context": "product's sku",
+    "string": "재고 관리 코드"
+  },
+  "BLX9dz": {
+    "context": "fulfill order, button",
+    "string": "주문 출고"
+  },
+  "Uh9R9m": {
+    "context": "prepare order fulfillment, button",
+    "string": "처리 준비"
+  },
+  "bS7A8u": {
+    "context": "add tracking button",
+    "string": "추적 추가"
+  },
+  "dTkmON": {
+    "context": "edit tracking button",
+    "string": "추적 수정"
+  },
+  "K//bUK": {
+    "context": "refund button",
+    "string": "환불"
+  },
+  "4PlW0w": {
+    "context": "tracking number",
+    "string": "송장 번호: {trackingNumber}"
+  },
+  "EHsnZX": {
+    "context": "dialog description",
+    "string": "이 처리를 승인하시겠습니까?"
+  },
+  "SqhC7g": {
+    "context": "checkbox label, fulfillment approval",
+    "string": "고객에게 배송 정보 보내기"
+  },
+  "UQu75k": {
+    "context": "dialog header",
+    "string": "이 처리 승인"
+  },
+  "xco5tZ": {
+    "string": "처리를 취소하시겠습니까? 처리를 취소하면 선택한 창고에 상품이 재입고됩니다."
+  },
+  "aHc89n": {
+    "context": "select warehouse to restock items",
+    "string": "창고 선택"
+  },
+  "bb4nSp": {
+    "context": "dialog header",
+    "string": "처리 취소"
+  },
+  "2MKkgX": {
+    "context": "checkbox label",
+    "string": "결제 없이 처리 허용"
+  },
+  "XwQQ1f": {
+    "context": "checkbox label description",
+    "string": "모든 처리가 자동으로 승인됩니다."
+  },
+  "05hqq6": {
+    "context": "checkbox label",
+    "string": "모든 처리 자동 승인"
+  },
+  "l9ETHu": {
+    "context": "checkbox label description",
+    "string": "주문 결제 없이 상품을 처리할 수 있습니다."
+  },
+  "G3ay2p": {
+    "context": "section header",
+    "string": "처리 설정"
+  },
+  "yT/GAp": {
+    "string": "송장 번호"
+  },
+  "/BJQIq": {
+    "context": "dialog header",
+    "string": "송장 번호 추가"
+  },
+  "RLTaAR": {
+    "context": "order history message",
+    "string": "주문 주소가 업데이트되었습니다."
+  },
+  "fkplbE": {
+    "context": "order history message",
+    "string": "주문이 결제 완료로 표시되었습니다."
+  },
+  "nHmugP": {
+    "context": "order history message",
+    "string": "{quantity}개 상품이 처리되었습니다."
+  },
+  "GLy2UR": {
+    "context": "order history message",
+    "string": "처리가 취소되었습니다."
+  },
+  "GJAX0z": {
+    "context": "order history message",
+    "string": "주문되었습니다"
+  },
+  "OzHN0Z": {
+    "context": "order history message",
+    "string": "주문의 디지털 상품 링크가 전송되었습니다."
+  },
+  "OKGd/k": {
+    "context": "order history message",
+    "string": "임시 주문에서 주문이 생성되었습니다."
+  },
+  "4Z6BtA": {
+    "context": "order history message",
+    "string": "결제 확인이 고객에게 전송되었습니다."
+  },
+  "wOeIR4": {
+    "context": "order history message",
+    "string": "{quantity}개 상품이 재입고되었습니다."
+  },
+  "6WRFp2": {
+    "context": "order history message",
+    "string": "주문에 메모가 추가되었습니다."
+  },
+  "oQ27V4": {
+    "context": "order history message",
+    "string": "주문 접수 정보가 고객에게 전송되었습니다."
+  },
+  "cqZ5UH": {
+    "context": "order history message",
+    "string": "주문 확인이 고객에게 전송되었습니다."
+  },
+  "chvryR": {
+    "context": "order history message",
+    "string": "{requestedBy}에 의해 인보이스가 요청되었습니다."
+  },
+  "8RnPGF": {
+    "context": "order history message",
+    "string": "결제가 무효화되었습니다."
+  },
+  "fehqPs": {
+    "context": "order history message",
+    "string": "주문에서 상품이 삭제되었습니다."
+  },
+  "P/EDn1": {
+    "context": "order history message",
+    "string": "주문 전액 지불"
+  },
+  "ubasgL": {
+    "context": "order history message",
+    "string": "주문이 확인되었습니다."
+  },
+  "2yV+s8": {
+    "context": "order history message",
+    "string": "결제가 완료되었습니다."
+  },
+  "aq5ZiN": {
+    "context": "order history message",
+    "string": "처리 확인이 고객에게 전송되었습니다."
+  },
+  "hWO1SD": {
+    "context": "order history message",
+    "string": "임시 주문이 생성되었습니다."
+  },
+  "GVM/fi": {
+    "context": "order history message",
+    "string": "결제가 승인되었습니다."
+  },
+  "j3yE7I": {
+    "context": "order history message",
+    "string": "배송 송장 번호가 고객에게 전송되었습니다."
+  },
+  "3fgyFh": {
+    "context": "order history message",
+    "string": "결제가 환불되었습니다."
+  },
+  "D3WUc/": {
+    "context": "order history message",
+    "string": "{refundedBy}에 의해 주문이 환불되었습니다."
+  },
+  "U1eJIw": {
+    "context": "order history message",
+    "string": "주문에 상품이 추가되었습니다."
+  },
+  "PcPMjC": {
+    "context": "order history message",
+    "string": "처리가 승인 대기 중입니다."
+  },
+  "6RQKxH": {
+    "context": "order history message",
+    "string": "인보이스 번호 {invoiceNumber}가 업데이트되었습니다."
+  },
+  "XBfvKN": {
+    "string": "주문 기록"
+  },
+  "Fl3ORD": {
+    "context": "order history message",
+    "string": "{quantity}개 상품이 초과 판매되었습니다."
+  },
+  "9piUVz": {
+    "context": "order history message",
+    "string": "주문 환불 정보가 고객에게 전송되었습니다."
+  },
+  "e92Uxp": {
+    "context": "order history message",
+    "string": "처리 그룹의 송장 번호가 업데이트되었습니다."
+  },
+  "TCR639": {
+    "context": "order history message",
+    "string": "결제 실패"
+  },
+  "06bR4Z": {
+    "context": "order history message",
+    "string": "주문 취소 정보가 고객에게 전송되었습니다."
+  },
+  "BCPrmK": {
+    "context": "order history message",
+    "string": "배송 상세 정보가 고객에게 전송되었습니다."
+  },
+  "pTpx0p": {
+    "context": "order history message",
+    "string": "인보이스 번호 {invoiceNumber}가 {generatedBy}에 의해 생성되었습니다."
+  },
+  "qddy2Z": {
+    "context": "order history message",
+    "string": "인보이스가 {sentBy}에 의해 고객에게 전송되었습니다."
+  },
+  "zRrcOG": {
+    "context": "order history message",
+    "string": "주문이 취소되었습니다."
+  },
+  "kVOslW": {
+    "context": "reason for discount label",
+    "string": "할인 사유"
+  },
+  "kvSYZh": {
+    "context": "replacement created order history message description",
+    "string": "교체된 상품을 위해 생성되었습니다."
+  },
+  "A0Wlg7": {
+    "context": "product discount removed title",
+    "string": "{productName} 할인이 제거되었습니다 (처리자:"
+  },
+  "MPfyne": {
+    "string": "이 인보이스({invoiceNumber})를 고객에게 보내시겠습니까?"
+  },
+  "5JT4v2": {
+    "context": "dialog header",
+    "string": "인보이스 보내기"
+  },
+  "Gzg8hy": {
+    "context": "section header",
+    "string": "인보이스"
+  },
+  "F0AXNs": {
+    "context": "invoice create date prefix",
+    "string": "생성됨"
+  },
+  "hPB89Y": {
+    "string": "표시할 인보이스가 없습니다."
+  },
+  "m6IBe5": {
+    "context": "invoice number prefix",
+    "string": "인보이스"
+  },
+  "e0RKe+": {
+    "context": "generate invoice button",
+    "string": "생성"
+  },
+  "zyceue": {
+    "context": "placed order counter",
+    "string": "{max}개 중 {count}개 주문"
+  },
+  "WbV1Xm": {
+    "context": "button",
+    "string": "주문 설정"
+  },
+  "wTHjt3": {
+    "string": "주문 검색..."
+  },
+  "WRkCFt": {
+    "context": "tab name",
+    "string": "모든 주문"
+  },
+  "lJP1iw": {
+    "context": "order",
+    "string": "채널"
+  },
+  "biAxKR": {
+    "context": "click and collect",
+    "string": "매장 픽업"
+  },
+  "PzXIXh": {
+    "context": "order",
+    "string": "고객"
+  },
+  "JUQwne": {
+    "context": "order",
+    "string": "기프트 카드"
+  },
+  "s5v6m0": {
+    "context": "order",
+    "string": "기프트 카드 주문됨"
+  },
+  "Kgxlsf": {
+    "context": "order",
+    "string": "기프트 카드로 결제됨"
+  },
+  "a4qX2+": {
+    "context": "order",
+    "string": "생성됨"
+  },
+  "JYvf8/": {
+    "context": "is preorder",
+    "string": "선주문"
+  },
+  "NWxomz": {
+    "string": "처리 상태"
+  },
+  "p+UDec": {
+    "context": "payment status",
+    "string": "결제"
+  },
+  "5blVMu": {
+    "context": "e-mail or full name",
+    "string": "고객"
+  },
+  "PHUcrU": {
+    "context": "date when order was placed",
+    "string": "날짜"
+  },
+  "k9hf7F": {
+    "context": "total order price",
+    "string": "합계"
+  },
+  "EbVf0Z": {
+    "context": "transaction reference",
+    "string": "거래 참조"
+  },
+  "rwOx2s": {
+    "string": "아래 입력을 사용하여 거래 참조를 제공하세요:"
+  },
+  "sfEbeB": {
+    "string": "이 주문을 결제 완료로 표시하려고 합니다."
+  },
+  "+B25o/": {
+    "context": "dialog header",
+    "string": "주문을 결제 완료로 표시"
+  },
+  "+PbHKD": {
+    "context": "dialog header",
+    "string": "결제 완료"
+  },
+  "OhdPS1": {
+    "context": "amount of refunded money",
+    "string": "총액"
+  },
+  "euRfu+": {
+    "string": "이 결제를 무효화하시겠습니까?"
+  },
+  "KszPFx": {
+    "context": "dialog header",
+    "string": "결제 무효화"
+  },
+  "BZ7BkQ": {
+    "context": "capture payment, button",
+    "string": "캡쳐"
+  },
+  "V+gwx7": {
+    "context": "order payment",
+    "string": "지정된 금액"
+  },
+  "ghGLbJ": {
+    "context": "OrderPayment click&collect shipping method",
+    "string": "매장 픽업"
+  },
+  "u0S2be": {
+    "context": "order discount",
+    "string": "할인"
+  },
+  "pr513b": {
+    "context": "ordered products",
+    "string": "{quantity}개 항목"
+  },
+  "+5HkZN": {
+    "context": "order, button",
+    "string": "결제로 표시"
+  },
+  "5te3Tp": {
+    "context": "order payment",
+    "string": "미결제 잔액"
+  },
+  "vM9quW": {
+    "context": "order payment",
+    "string": "기프트 카드로 결제됨"
+  },
+  "SC/eNC": {
+    "context": "Payment card title",
+    "string": "결제 상태"
+  },
+  "uUsZ7m": {
+    "context": "order payment",
+    "string": "사전승인된 금액"
+  },
+  "HaQ8cg": {
+    "context": "button",
+    "string": "환불"
+  },
+  "q+gCyP": {
+    "context": "order payment",
+    "string": "환불된 금액"
+  },
+  "+CeEe3": {
+    "context": "order shipping method name",
+    "string": "배송"
+  },
+  "uzAPCt": {
+    "context": "OrderPayment does not require shipping",
+    "string": "해당 없음"
+  },
+  "Rsknyh": {
+    "context": "order does not require shipping",
+    "string": "해당 없음"
+  },
+  "QJG+d/": {
+    "context": "staff added type order discount",
+    "string": "직원 추가"
+  },
+  "T8rvXs": {
+    "context": "order subtotal price",
+    "string": "부분 합계"
+  },
+  "r+dgiv": {
+    "string": "세금"
+  },
+  "zb4eBO": {
+    "context": "order total price",
+    "string": "합계"
+  },
+  "dJVXIb": {
+    "context": "vat included in order price",
+    "string": "VAT 포함"
+  },
+  "sEjRyz": {
+    "context": "voucher type order discount",
+    "string": "바우처"
+  },
+  "myyWNp": {
+    "context": "dialog header",
+    "string": "상품 추가"
+  },
+  "b810WJ": {
+    "context": "product price",
+    "string": "가격"
+  },
+  "WE8IFE": {
+    "context": "product name",
+    "string": "제품"
+  },
+  "tvpAXl": {
+    "context": "ordered product quantity",
+    "string": "수량"
+  },
+  "8J81ri": {
+    "context": "ordered product sku",
+    "string": "재고 관리 코드"
+  },
+  "qT6YYk": {
+    "context": "order line total price",
+    "string": "합계"
+  },
+  "5aiFbL": {
+    "context": "tabel column header",
+    "string": "가격"
+  },
+  "FNT4b+": {
+    "context": "tabel column header",
+    "string": "제품"
+  },
+  "Tl+7X4": {
+    "context": "tabel column header",
+    "string": "환불된 수량"
+  },
+  "2W4EBM": {
+    "context": "button",
+    "string": "최대 수량 설정"
+  },
+  "+PclgM": {
+    "context": "tabel column header",
+    "string": "합계"
+  },
+  "xoyCZ/": {
+    "context": "error message",
+    "string": "잘못된 값"
+  },
+  "MewrtN": {
+    "context": "section header",
+    "string": "주문 출고"
+  },
+  "H/f9KR": {
+    "context": "section header returned",
+    "string": "처리 반품됨"
+  },
+  "i/ZhxL": {
+    "context": "section header returned",
+    "string": "처리 승인 대기 중"
+  },
+  "0krqBj": {
+    "context": "page header",
+    "string": "주문 번호 {orderNumber} - 환불"
+  },
+  "rVIlBs": {
+    "context": "page header with order number",
+    "string": "주문 #{orderNumber}"
+  },
+  "0oo+BT": {
+    "context": "section header",
+    "string": "환불된 금액"
+  },
+  "8F2D1H": {
+    "context": "order refund amount, input button",
+    "string": "{currency} {amount} 환불"
+  },
+  "JEIN47": {
+    "context": "label",
+    "string": "자동 금액"
+  },
+  "FOehC/": {
+    "context": "label",
+    "string": "수동 금액"
+  },
+  "EP+jcU": {
+    "context": "checkbox",
+    "string": "배송비 환불"
+  },
+  "zzfj8H": {
+    "context": "label",
+    "string": "환불 없음"
+  },
+  "fbH51z": {
+    "context": "Amount error message",
+    "string": "금액은 최대 환불 금액보다 클 수 없습니다."
+  },
+  "IKvOK+": {
+    "context": "Amount error message",
+    "string": "금액은 0보다 커야 합니다."
+  },
+  "L/O4LQ": {
+    "context": "order refund amount",
+    "string": "승인된 금액"
+  },
+  "lrq8O6": {
+    "context": "order refund amount, input label",
+    "string": "총액"
+  },
+  "I7HyJZ": {
+    "context": "order refund amount",
+    "string": "최대 환불"
+  },
+  "Q55cTG": {
+    "context": "order refund amount",
+    "string": "이전에 환불됨"
+  },
+  "wDUBLR": {
+    "context": "order refund amount",
+    "string": "제안된 환불 금액"
+  },
+  "QkFeOa": {
+    "context": "order refund amount button",
+    "string": "환불"
+  },
+  "AKv2BI": {
+    "context": "order refund subtitle",
+    "string": "환불된 상품은 처리할 수 없습니다."
+  },
+  "C6bb6x": {
+    "context": "order refund amount",
+    "string": "총 환불 금액"
+  },
+  "i56GGQ": {
+    "context": "order refund amount",
+    "string": "교체된 상품 가격"
+  },
+  "bgO+7G": {
+    "context": "order return amount button",
+    "string": "반품 및 교환"
+  },
+  "Uo5/Ov": {
+    "context": "order return subtitle",
+    "string": "반품된 상품은 처리할 수 없습니다."
+  },
+  "kak5vT": {
+    "context": "order refund amount",
+    "string": "선택된 상품 가격"
+  },
+  "WGp+Fw": {
+    "context": "order refund amount",
+    "string": "배송비"
+  },
+  "B/y6LC": {
+    "context": "section header",
+    "string": "미처리 상품"
+  },
+  "iUIn50": {
+    "context": "section notice",
+    "string": "미처리 상품은 재입고됩니다."
+  },
+  "bqAJCT": {
+    "context": "section header",
+    "string": "주문 환불"
+  },
+  "LKpQYh": {
+    "context": "refund type",
+    "string": "기타 환불"
+  },
+  "CLB1k9": {
+    "context": "refund type",
+    "string": "상품 환불"
+  },
+  "Y299ST": {
+    "context": "table column header",
+    "string": "가격"
+  },
+  "0qg33z": {
+    "context": "table column header",
+    "string": "반품"
+  },
+  "aAAxKp": {
+    "context": "table column header",
+    "string": "제품"
+  },
+  "ikM00B": {
+    "context": "table column header",
+    "string": "교체"
+  },
+  "EtkIxE": {
+    "context": "cancelled fulfillment, section header",
+    "string": "취소됨 ({quantity})"
+  },
+  "RlbhwF": {
+    "context": "product no longer exists error description",
+    "string": "이 상품은 더 이상 데이터베이스에 없으므로 교체하거나 반품할 수 없습니다."
+  },
+  "iJrw63": {
+    "context": "section header",
+    "string": "처리됨 ({quantity})"
+  },
+  "ZPOyI1": {
+    "context": "fulfilled fulfillment, section header",
+    "string": "{warehouseName}에서 처리됨"
+  },
+  "oQhFlK": {
+    "context": "refunded fulfillment, section header",
+    "string": "환불됨 ({quantity})"
+  },
+  "jNSOSu": {
+    "context": "cancelled fulfillment, section header",
+    "string": "환불 및 반품됨 ({quantity})"
+  },
+  "3stu21": {
+    "context": "refunded fulfillment, section header",
+    "string": "교체됨 ({quantity})"
+  },
+  "eCRaHe": {
+    "context": "refunded fulfillment, section header",
+    "string": "반품됨 ({quantity})"
+  },
+  "p4zuQp": {
+    "context": "product no longer exists error title",
+    "string": "상품이 더 이상 존재하지 않습니다."
+  },
+  "NxRsHQ": {
+    "context": "section header",
+    "string": "처리 - #{fulfilmentId}"
+  },
+  "BkFke9": {
+    "context": "section header",
+    "string": "미처리 상품"
+  },
+  "/xXvjF": {
+    "context": "section header",
+    "string": "미완료"
+  },
+  "9ssWj+": {
+    "context": "unapproved fulfillment, section header",
+    "string": "승인 대기 중 ({quantity})"
+  },
+  "BBIQxQ": {
+    "context": "page header",
+    "string": "주문 번호 {orderNumber} - 교체/반품"
+  },
+  "Vu9nol": {
+    "context": "header",
+    "string": "주문 설정"
+  },
+  "yuiyES": {
+    "string": "일반 설정"
+  },
+  "CLYlsu": {
+    "context": "section header",
+    "string": "설정"
+  },
+  "7UG1Lx": {
+    "context": "checkbox gift cards label",
+    "string": "배송 불가 기프트 카드 자동 처리"
+  },
+  "Nfh9QM": {
+    "context": "checkbox gift cards label description",
+    "string": "활성화되면 배송 불가 기프트 카드는 자동으로 처리 완료로 설정되어 고객에게 전송됩니다."
+  },
+  "wpAXKX": {
+    "context": "checkbox label description",
+    "string": "모든 주문이 자동으로 확인되고 모든 결제가 완료됩니다."
+  },
+  "RLYfMF": {
+    "context": "checkbox label",
+    "string": "모든 주문 자동 확인"
+  },
+  "V/YxJa": {
+    "context": "dialog header",
+    "string": "배송 방법 수정"
+  },
+  "/Xwjww": {
+    "context": "button",
+    "string": "주문 출고"
+  },
+  "ND5x+V": {
+    "string": "요청한 인보이스를 생성 중입니다. 잠시만 기다려주세요."
+  },
+  "9RCuN3": {
+    "string": "결제가 성공적으로 완료되었습니다."
+  },
+  "c4gbXr": {
+    "string": "임시 주문이 성공적으로 완료되었습니다."
+  },
+  "9OtpHt": {
+    "string": "주문 항목이 삭제되었습니다."
+  },
+  "CZmloB": {
+    "string": "처리가 성공적으로 업데이트되었습니다."
+  },
+  "Fn3bE0": {
+    "string": "주문 항목이 업데이트되었습니다."
+  },
+  "lL1HTg": {
+    "string": "주문이 결제 완료로 표시되었습니다."
+  },
+  "HlCkMT": {
+    "string": "주문 항목이 추가되었습니다."
+  },
+  "W/Es0H": {
+    "string": "주문이 성공적으로 취소되었습니다."
+  },
+  "KmPicj": {
+    "string": "노트가 성공적으로 추가되었습니다."
+  },
+  "L87bp7": {
+    "string": "주문 결제가 성공적으로 무효화되었습니다."
+  },
+  "j2fPVo": {
+    "string": "주문이 성공적으로 업데이트되었습니다."
+  },
+  "+sX7yS": {
+    "string": "처리가 성공적으로 승인되었습니다."
+  },
+  "3u+4NZ": {
+    "string": "인보이스 이메일이 전송되었습니다."
+  },
+  "PKJqcq": {
+    "string": "인보이스 생성 중"
+  },
+  "7U8GRy": {
+    "string": "배송 방법이 성공적으로 업데이트되었습니다."
+  },
+  "uMpv1v": {
+    "string": "처리가 성공적으로 취소되었습니다."
+  },
+  "TLNf6K": {
+    "context": "window title",
+    "string": "임시 주문 #{orderNumber}"
+  },
+  "GbBCmr": {
+    "context": "window title",
+    "string": "주문 #{orderNumber}"
+  },
+  "qbmeUI": {
+    "context": "dialog header",
+    "string": "임시 주문 삭제"
+  },
+  "ra2O4j": {
+    "string": "임시 주문이 삭제되었습니다."
+  },
+  "6udlH+": {
+    "string": "임시 주문이 성공적으로 생성되었습니다."
+  },
+  "Q6VRrE": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 임시 주문을 삭제하시겠습니까?} other {{displayQuantity}개의 임시 주문을 삭제하시겠습니까?}}"
+  },
+  "2MKBk2": {
+    "context": "window title",
+    "string": "주문 처리 #{orderNumber}"
+  },
+  "CYEnGq": {
+    "context": "order fulfilled success message",
+    "string": "처리된 상품"
+  },
+  "NzifUg": {
+    "context": "window title",
+    "string": "주문 처리"
+  },
+  "XRf1Bi": {
+    "context": "order refunded success message",
+    "string": "환불된 상품"
+  },
+  "XQBVEJ": {
+    "context": "order return error description when cannot refund",
+    "string": "상품 환불 중 문제가 발생했습니다. 상품이 환불되지 않았습니다. 다시 시도해 주세요."
+  },
+  "l9Lwjh": {
+    "context": "order return error title when cannot refund",
+    "string": "상품을 환불할 수 없습니다."
+  },
+  "/z9uo1": {
+    "context": "order returned success message",
+    "string": "상품이 성공적으로 반품되었습니다!"
+  },
+  "a9S9Je": {
+    "context": "page types section name",
+    "string": "페이지 타입"
+  },
+  "kTr2o8": {
+    "string": "속성 이름"
+  },
+  "uxPpRx": {
+    "context": "button",
+    "string": "속성 할당"
+  },
+  "nf3XSt": {
+    "context": "attribute internal name",
+    "string": "슬러그"
+  },
+  "iQxjow": {
+    "context": "section header",
+    "string": "콘텐츠 속성"
+  },
+  "2Zyit2": {
+    "context": "delete page types with its pages",
+    "string": "{counter,plural,one {삭제하려는 페이지 타입이 일부 페이지에서 사용 중입니다. 이 페이지 타입을 삭제하면 해당 페이지도 함께 삭제됩니다. 이 페이지 타입을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.} other {삭제하려는 페이지 타입들이 일부 페이지에서 사용 중입니다. 이 페이지 타입들을 삭제하면 해당 페이지도 함께 삭제됩니다. {displayQuantity}개의 페이지 타입을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.}}"
+  },
+  "CcEwXH": {
+    "context": "dialog header",
+    "string": "페이지 타입 삭제"
+  },
+  "RZmdM3": {
+    "context": "delete page types",
+    "string": "{counter,plural,one {이 페이지 타입을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.} other {{displayQuantity}개의 페이지 타입을 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.}}"
+  },
+  "kZfIl/": {
+    "string": "이것은 이 콘텐츠 타입에 대한 일반 정보입니다."
+  },
+  "OVOU1z": {
+    "context": "section header",
+    "string": "메타데이터"
+  },
+  "caqRmN": {
+    "context": "header",
+    "string": "페이지 타입 생성"
+  },
+  "lct0qd": {
+    "string": "이 목록은 이 페이지 타입이 할당된 페이지에 할당될 모든 속성을 보여줍니다."
+  },
+  "jWna9Q": {
+    "string": "콘텐츠 타입 이름"
+  },
+  "umsU70": {
+    "string": "페이지 타입 검색"
+  },
+  "6JlXeD": {
+    "context": "button",
+    "string": "페이지 타입 생성"
+  },
+  "oVDZUb": {
+    "context": "tab name",
+    "string": "모든 페이지 타입"
+  },
+  "BQ2NVl": {
+    "context": "page type name",
+    "string": "콘텐츠 타입 이름"
+  },
+  "6fORLY": {
+    "string": "페이지 타입을 찾을 수 없습니다."
+  },
+  "oHbgcK": {
+    "context": "PageTypeDeleteWarningDialog title",
+    "string": "페이지 타입 삭제 ({selectedTypesCount}개)"
+  },
+  "I8mqqj": {
+    "context": "PageTypeDeleteWarningDialog single assigned items button label",
+    "string": "페이지 보기"
+  },
+  "Rpfa+t": {
+    "context": "dialog header",
+    "string": "페이지 타입에서 속성 할당 해제"
+  },
+  "NGc9kE": {
+    "string": "페이지 타입이 삭제되었습니다."
+  },
+  "WFG7Zk": {
+    "context": "unassign attribute from page type, button",
+    "string": "할당 해제"
+  },
+  "/L8wzi": {
+    "context": "dialog header",
+    "string": "페이지 타입에서 속성 할당 해제"
+  },
+  "5bJ26s": {
+    "string": "페이지 타입을 성공적으로 생성했습니다."
+  },
+  "H6NsC1": {
+    "context": "pages section name",
+    "string": "페이지"
+  },
+  "gr53VQ": {
+    "context": "page header",
+    "string": "페이지 생성"
+  },
+  "jZbT0O": {
+    "string": "이 페이지를 더 쉽게 찾을 수 있도록 검색 엔진 제목과 설명을 추가하세요."
+  },
+  "GZgjK7": {
+    "context": "page",
+    "string": "{date}부터 표시됩니다."
+  },
+  "X26jCC": {
+    "context": "page label",
+    "string": "공개"
+  },
+  "/TK7QD": {
+    "context": "page label",
+    "string": "숨김"
+  },
+  "gMwpNC": {
+    "context": "page content",
+    "string": "콘텐츠"
+  },
+  "gr+oXW": {
+    "context": "page title",
+    "string": "제목"
+  },
+  "AHRDWt": {
+    "context": "button",
+    "string": "페이지 생성"
+  },
+  "Of19Pn": {
+    "context": "Types",
+    "string": "페이지 타입"
+  },
+  "UW1fLs": {
+    "context": "search pages placeholder",
+    "string": "페이지 검색"
+  },
+  "V2+HTM": {
+    "context": "dialog header",
+    "string": "제목"
+  },
+  "5GSYCR": {
+    "context": "page status",
+    "string": "가시성"
+  },
+  "iMJka8": {
+    "string": "페이지를 찾을 수 없습니다."
+  },
+  "I8dAAe": {
+    "context": "page internal name",
+    "string": "슬러그"
+  },
+  "G1KzEx": {
+    "context": "page status",
+    "string": "퍼블리싱 됨"
+  },
+  "UN3qWD": {
+    "context": "page status",
+    "string": "게시되지 않음"
+  },
+  "ufD5Jr": {
+    "string": "콘텐츠 타입"
+  },
+  "jU9GPX": {
+    "context": "section header",
+    "string": "콘텐츠 구성"
+  },
+  "mX7zJJ": {
+    "context": "header",
+    "string": "페이지 생성"
+  },
+  "JMbFNo": {
+    "string": "새 페이지를 성공적으로 생성했습니다."
+  },
+  "C1luwg": {
+    "context": "dialog header",
+    "string": "페이지 삭제"
+  },
+  "4B32Ba": {
+    "context": "delete page",
+    "string": "{title}을(를) 삭제하시겠습니까?"
+  },
+  "41z2Qi": {
+    "context": "notification",
+    "string": "페이지가 제거되었습니다."
+  },
+  "yEmwxD": {
+    "context": "publish page, button",
+    "string": "퍼블리싱"
+  },
+  "yHQQMQ": {
+    "context": "dialog header",
+    "string": "페이지 게시 취소"
+  },
+  "Wd8vG7": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 페이지의 게시를 취소하시겠습니까?} other {{displayQuantity}개 페이지의 게시를 취소하시겠습니까?}}"
+  },
+  "F8gsds": {
+    "context": "unpublish page, button",
+    "string": "퍼블리싱 취소"
+  },
+  "wyvzh9": {
+    "context": "dialog header",
+    "string": "페이지 게시"
+  },
+  "WRPQMM": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 페이지를 게시하시겠습니까?} other {{displayQuantity}개 페이지를 게시하시겠습니까?}}"
+  },
+  "UNwG+4": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 페이지를 삭제하시겠습니까?} other {{displayQuantity}개 페이지를 삭제하시겠습니까?}}"
+  },
+  "AzshS2": {
+    "context": "notification",
+    "string": "페이지가 게시되었습니다."
+  },
+  "3Sz1/t": {
+    "context": "dialog header",
+    "string": "페이지 삭제"
+  },
+  "2pw5dQ": {
+    "context": "payment status",
+    "string": "결제 완료"
+  },
+  "PbqNhi": {
+    "context": "order status",
+    "string": "부분 미완료"
+  },
+  "INNPVX": {
+    "context": "payment status",
+    "string": "부분 결제됨"
+  },
+  "OGemtu": {
+    "context": "payment status",
+    "string": "부분 환불됨"
+  },
+  "26BKkX": {
+    "context": "order status",
+    "string": "부분 반품됨"
+  },
+  "6D+yYX": {
+    "string": "결제 상태"
+  },
+  "hLUYBt": {
+    "context": "payment status",
+    "string": "대기 중"
+  },
+  "DNTxWr": {
+    "context": "permission groups section name",
+    "string": "권한 그룹"
+  },
+  "jUuHVn": {
+    "context": "description",
+    "string": "멤버를 찾을 수 없습니다."
+  },
+  "UQ4Kuh": {
+    "context": "input label",
+    "string": "직원 검색"
+  },
+  "6sjBvJ": {
+    "context": "input placeholder",
+    "string": "이름, 이메일 등으로 검색..."
+  },
+  "9Zlogd": {
+    "context": "staff member status",
+    "string": "활성화"
+  },
+  "7WzUxn": {
+    "context": "staff member status",
+    "string": "비활성"
+  },
+  "DPz5y6": {
+    "context": "dialog header",
+    "string": "직원 할당"
+  },
+  "lT5MYM": {
+    "context": "dialog title",
+    "string": "사용자 할당 해제"
+  },
+  "H/o4Ex": {
+    "context": "dialog content",
+    "string": "이 그룹 멤버를 수정할 수 없습니다. 요청을 계속하려면 이 문제를 해결하세요."
+  },
+  "mAabef": {
+    "context": "checkbox label",
+    "string": "그룹에 스토어 전체 접근 권한 부여"
+  },
+  "CYZse9": {
+    "context": "card description",
+    "string": "Saleor 시스템의 특정 부분에 접근하도록 그룹의 권한을 확장하거나 제한합니다."
+  },
+  "sR0urA": {
+    "context": "dialog content",
+    "string": "{name}을(를) 삭제하시겠습니까?"
+  },
+  "L6+p8a": {
+    "context": "dialog title",
+    "string": "권한 그룹 삭제"
+  },
+  "O22NIZ": {
+    "context": "deletion error message",
+    "string": "권한 범위를 벗어난 그룹은 삭제할 수 없습니다."
+  },
+  "rs815i": {
+    "context": "text field label",
+    "string": "그룹 이름"
+  },
+  "5ftg/B": {
+    "context": "button",
+    "string": "권한 그룹 생성"
+  },
+  "szXISP": {
+    "context": "permission group name",
+    "string": "권한 그룹 이름"
+  },
+  "+a+2ug": {
+    "string": "멤버"
+  },
+  "wL7VAE": {
+    "string": "작업"
+  },
+  "CXn88q": {
+    "string": "권한 그룹을 찾을 수 없습니다."
+  },
+  "gVD1os": {
+    "context": "empty list message",
+    "string": "이 권한 그룹에 아직 멤버를 할당하지 않았습니다."
+  },
+  "qrWOxx": {
+    "string": "멤버를 찾을 수 없습니다."
+  },
+  "xxQxLE": {
+    "string": "이메일 주소"
+  },
+  "OhFGpX": {
+    "context": "button",
+    "string": "멤버 할당"
+  },
+  "zD7/M6": {
+    "context": "empty list message",
+    "string": "멤버 할당 버튼을 사용하여 할당하세요."
+  },
+  "lGlDEH": {
+    "context": "header",
+    "string": "그룹 멤버"
+  },
+  "W32xfN": {
+    "context": "staff member full name",
+    "string": "이름"
+  },
+  "XGBsoK": {
+    "context": "dialog content",
+    "string": "{counter,plural,one{이 멤버의 할당을 해제하시겠습니까?} other{{displayQuantity}명 멤버의 할당을 해제하시겠습니까?}}"
+  },
+  "eUjFjW": {
+    "string": "권한 그룹이 생성되었습니다."
+  },
+  "15PiOX": {
+    "context": "button title",
+    "string": "할당 해제"
+  },
+  "DovGIa": {
+    "string": "권한 그룹이 삭제되었습니다."
+  },
+  "WhvuCb": {
+    "context": "plugins section name",
+    "string": "플러그인"
+  },
+  "6aBkJm": {
+    "context": "section header",
+    "string": "권한"
+  },
+  "Aeq79M": {
+    "context": "PluginDetailsChannelsCard no channels subtitle",
+    "string": "플러그인 설정은 모든 채널에 공통으로 설정됩니다."
+  },
+  "IUeGzv": {
+    "context": "plugin name",
+    "string": "플러그인 이름"
+  },
+  "bL/Wrc": {
+    "context": "plugin status",
+    "string": "상태"
+  },
+  "w424P4": {
+    "context": "section header",
+    "string": "플러그인 정보 및 상태"
+  },
+  "FA+MRz": {
+    "string": "플러그인을 활성으로 설정"
+  },
+  "qCH2eZ": {
+    "context": "header",
+    "string": "인증 필드에 값 추가"
+  },
+  "Xy2T+y": {
+    "context": "header",
+    "string": "인증 필드 수정"
+  },
+  "Egyh2T": {
+    "context": "section header",
+    "string": "플러그인 설정"
+  },
+  "EtGDeK": {
+    "context": "header",
+    "string": "{pluginName} 상세"
+  },
+  "BtErCZ": {
+    "string": "플러그인 검색..."
+  },
+  "aOelhW": {
+    "context": "tab name",
+    "string": "모든 플러그인"
+  },
+  "T/dYnE": {
+    "context": "plugin filters error messages status",
+    "string": "상태가 선택되지 않았습니다."
+  },
+  "zQnYKn": {
+    "context": "status section subtitle",
+    "string": "채널 상태"
+  },
+  "TC/EOG": {
+    "context": "status section title",
+    "string": "채널의 상태"
+  },
+  "gZHmaV": {
+    "context": "plugin filters error messages channels",
+    "string": "선택된 채널이 없습니다."
+  },
+  "cwoN25": {
+    "context": "config type section title",
+    "string": "설정 유형"
+  },
+  "Co2U4u": {
+    "string": "플러그인을 찾을 수 없습니다."
+  },
+  "rQOS7K": {
+    "context": "status label active",
+    "string": "활성화"
+  },
+  "ycrTBX": {
+    "context": "table header channel col label",
+    "string": "채널"
+  },
+  "HedXnw": {
+    "context": "plugin channel availability status title",
+    "string": "{activeChannelsCount,plural, =0 {비활성화됨} other {{activeChannelsCount}에서 활성}}"
+  },
+  "AijtXU": {
+    "context": "table header configuration col label",
+    "string": "설정"
+  },
+  "ho75Lr": {
+    "context": "status label deactivated",
+    "string": "비활성화됨"
+  },
+  "reP5Uf": {
+    "context": "global config plugin status popup description",
+    "string": "글로벌 플러그인은 이커머스의 모든 채널에 걸쳐 설정됩니다. 이러한 유형의 플러그인에 대해서는 상태만 표시됩니다."
+  },
+  "xTIKA/": {
+    "context": "PluginChannelConfigurationCell global title",
+    "string": "글로벌"
+  },
+  "QH74y5": {
+    "context": "table header name col label",
+    "string": "이름"
+  },
+  "8u7els": {
+    "context": "channel config plugin status popup title",
+    "string": "{allChannelsCount}개 중 {activeChannelsCount}개에 할당됨"
+  },
+  "N6lfS/": {
+    "context": "header",
+    "string": "인증 필드 삭제"
+  },
+  "JRfJD9": {
+    "string": "이 필드가 지워지면 플러그인이 작동을 멈출 수 있습니다. 정말로 진행하시겠습니까?"
+  },
+  "6QjMei": {
+    "string": "선주문 종료 시간은 미래로 설정해야 합니다."
+  },
+  "YQ3EXR": {
+    "context": "product types section name",
+    "string": "상품 타입"
+  },
+  "9scTQ0": {
+    "context": "section header",
+    "string": "상품 속성"
+  },
+  "5pHBSU": {
+    "context": "switch button",
+    "string": "상품 타입이 옵션 속성을 사용합니다."
+  },
+  "7nKXni": {
+    "context": "option description",
+    "string": "이 상품은 결제 수단으로 작동합니다."
+  },
+  "kp2IYP": {
+    "context": "option",
+    "string": "기프트 카드 상품 타입"
+  },
+  "xRbqcg": {
+    "context": "option",
+    "string": "일반 상품 타입"
+  },
+  "H5yp8O": {
+    "context": "label",
+    "string": "상품 타입 이름"
+  },
+  "1KSqnn": {
+    "context": "tab name",
+    "string": "모든 상품 타입"
+  },
+  "rpFdD1": {
+    "string": "상품 타입 검색"
+  },
+  "QY7FSs": {
+    "context": "button",
+    "string": "상품 타입 생성"
+  },
+  "X90t9n": {
+    "context": "product type",
+    "string": "설정 가능"
+  },
+  "dS8Adx": {
+    "context": "product",
+    "string": "디지털"
+  },
+  "U5aVd8": {
+    "context": "product",
+    "string": "배송 가능"
+  },
+  "Jsh6+U": {
+    "context": "product type is digital or physical",
+    "string": "타입"
+  },
+  "0nLsyM": {
+    "string": "상품 타입을 찾을 수 없습니다."
+  },
+  "yNb+dT": {
+    "context": "product type",
+    "string": "단일 상품"
+  },
+  "TalJlD": {
+    "context": "tax rate for a product type",
+    "string": "세금"
+  },
+  "jyTwDR": {
+    "context": "product type is either simple or configurable",
+    "string": "타입"
+  },
+  "hHOI7D": {
+    "context": "product type name",
+    "string": "타입 이름"
+  },
+  "asdvmK": {
+    "context": "product type",
+    "string": "디지털"
+  },
+  "ADTNND": {
+    "context": "product type",
+    "string": "실물"
+  },
+  "/2OOMe": {
+    "context": "product type shipping settings, section header",
+    "string": "배송"
+  },
+  "IBw72y": {
+    "context": "switch button",
+    "string": "이 상품은 배송 가능한가요?"
+  },
+  "VOiUXQ": {
+    "string": "특정 무게가 주어지지 않았을 때 이 상품 타입의 상품에 대한 배송비를 계산하는 데 사용됩니다."
+  },
+  "zCb8fX": {
+    "string": "무게"
+  },
+  "vlLyvk": {
+    "string": "{inputType} 속성은 옵션 선택 속성으로 사용할 수 없습니다."
+  },
+  "4k9rMQ": {
+    "context": "variant attribute checkbox",
+    "string": "옵션 선택"
+  },
+  "skEK/i": {
+    "context": "section header",
+    "string": "옵션 속성"
+  },
+  "x3leH4": {
+    "context": "ProductTypeDeleteWarningDialog title",
+    "string": "상품 타입 삭제 ({selectedTypesCount}개)"
+  },
+  "GCPzKf": {
+    "context": "ProductTypeDeleteWarningDialog single assigned items button label",
+    "string": "상품 보기"
+  },
+  "paa4m0": {
+    "string": "상품 타입을 성공적으로 생성했습니다."
+  },
+  "F3Upht": {
+    "string": "상품 타입이 삭제되었습니다."
+  },
+  "UJnqdm": {
+    "context": "dialog header",
+    "string": "상품 타입에서 속성 할당 해제"
+  },
+  "r1aQ2f": {
+    "context": "dialog header",
+    "string": "상품 타입에서 속성 할당 해제"
+  },
+  "S7j+Wf": {
+    "context": "unassign attribute from product type, button",
+    "string": "할당 해제"
+  },
+  "K8xNLe": {
+    "context": "products section name",
+    "string": "상품"
+  },
+  "ulh3kf": {
+    "string": "컬렉션"
+  },
+  "fyE8BN": {
+    "context": "product organization, header",
+    "string": "구성"
+  },
+  "LKoIB1": {
+    "string": "이 상품을 더 쉽게 찾을 수 있도록 검색 엔진 제목과 설명을 추가하세요."
+  },
+  "L7N+0y": {
+    "context": "product rating",
+    "string": "상품 평점"
+  },
+  "JGm7E5": {
+    "context": "option",
+    "string": "모든 창고의 재고 내보내기"
+  },
+  "ZDJEat": {
+    "context": "button",
+    "string": "더 불러오기"
+  },
+  "ve/Sph": {
+    "context": "there are more elements of list that are hidden",
+    "string": "그리고 {number}개 더"
+  },
+  "64aYF0": {
+    "context": "informations about product organization, header",
+    "string": "상품 구성 정보"
+  },
+  "6xC/Ls": {
+    "context": "informations about product seo, header",
+    "string": "SEO 정보"
+  },
+  "qEZ463": {
+    "context": "export selected items to csv file",
+    "string": "선택된 상품 ({number})"
+  },
+  "g6yuk2": {
+    "context": "export items to csv file, choice field label",
+    "string": "내보낼 정보:"
+  },
+  "xtUXnK": {
+    "context": "export all items to csv file",
+    "string": "모든 상품 ({number})"
+  },
+  "WQMTKI": {
+    "context": "list of warehouses",
+    "string": "창고 A to Z"
+  },
+  "/68iG8": {
+    "context": "product export to csv file, header",
+    "string": "내보낸 정보"
+  },
+  "z1puMb": {
+    "context": "export items as csv or spreadsheet file",
+    "string": "내보내기 형식:"
+  },
+  "ki7Mr8": {
+    "context": "product export to csv file, header",
+    "string": "내보내기 설정"
+  },
+  "lQRnYK": {
+    "context": "selectt all options",
+    "string": "모두 선택"
+  },
+  "9Tl/bT": {
+    "context": "export items as spreadsheet",
+    "string": "스프레드시트 (Excel, Numbers 등)"
+  },
+  "YicEbK": {
+    "string": "속성 검색"
+  },
+  "ZRz3hM": {
+    "string": "상품 재고 수량을 CSV로 내보내기"
+  },
+  "xjpTLF": {
+    "context": "informations about product stock, header",
+    "string": "재고 정보"
+  },
+  "li1BBk": {
+    "context": "export items as csv file",
+    "string": "일반 CSV 파일"
+  },
+  "Jwuu4X": {
+    "context": "select product informations to be exported",
+    "string": "내보낸 정보:"
+  },
+  "tIc2/h": {
+    "context": "input helper text, search attributes",
+    "string": "속성 이름으로 검색"
+  },
+  "SZt9kC": {
+    "context": "export filtered items to csv file",
+    "string": "현재 검색 ({number})"
+  },
+  "jj3Cb8": {
+    "context": "informations about product prices etc, header",
+    "string": "재무 정보"
+  },
+  "oOFrUd": {
+    "context": "export products to csv file, button",
+    "string": "상품 내보내기"
+  },
+  "dc5KWn": {
+    "context": "products export type label",
+    "string": "상품"
+  },
+  "xkjRu5": {
+    "context": "export products to csv file, dialog header",
+    "string": "정보 내보내기"
+  },
+  "zDvDnG": {
+    "context": "modal header",
+    "string": "제공한 URL의 미디어가 미디어 갤러리에 표시됩니다. 갤러리 순서를 정의할 수 있습니다."
+  },
+  "4W/CKn": {
+    "context": "modal button",
+    "string": "URL 업로드"
+  },
+  "7FL+WZ": {
+    "context": "export products to csv file, button",
+    "string": "상품 내보내기"
+  },
+  "FwHWUm": {
+    "context": "alert",
+    "string": "SKU 한도 도달"
+  },
+  "Kw0jHS": {
+    "context": "created products counter",
+    "string": "{max}개 중 {count}개 SKU 사용"
+  },
+  "kIvvax": {
+    "string": "상품 검색..."
+  },
+  "aFLtLk": {
+    "context": "tab name",
+    "string": "모든 상품"
+  },
+  "5Vwnu+": {
+    "string": "SKU 한도에 도달하여 더 이상 스토어에 SKU를 추가할 수 없습니다. 한도를 늘리려면 관리자에게 문의하세요."
+  },
+  "diOQm7": {
+    "context": "product status",
+    "string": "구매 가능"
+  },
+  "pbGIUg": {
+    "context": "sales channel",
+    "string": "채널"
+  },
+  "Bx367s": {
+    "context": "product is hidden",
+    "string": "숨김"
+  },
+  "pBTTtU": {
+    "context": "product kind",
+    "string": "상품 종류"
+  },
+  "Sna+WK": {
+    "context": "product status",
+    "string": "품절"
+  },
+  "b1zuN9": {
+    "string": "가격"
+  },
+  "3Z8972": {
+    "context": "product",
+    "string": "재고 수량"
+  },
+  "g+GAf4": {
+    "context": "product visibility",
+    "string": "가시성"
+  },
+  "6Y1nQd": {
+    "context": "product is visible",
+    "string": "공개"
+  },
+  "Jz/Cb+": {
+    "context": "product type",
+    "string": "단일"
+  },
+  "+VEhV8": {
+    "context": "product channels",
+    "string": "가용성"
+  },
+  "Sd0Ppm": {
+    "context": "product publication date",
+    "string": "{date}에 게시됨"
+  },
+  "qpQ0uB": {
+    "context": "product publication date",
+    "string": "게시되지 않음"
+  },
+  "kVTWtR": {
+    "context": "product updated at",
+    "string": "마지막 업데이트"
+  },
+  "r0hgpM": {
+    "context": "product publication date",
+    "string": "{date}에 게시 예정"
+  },
+  "XUU9sU": {
+    "context": "section header",
+    "string": "모든 미디어"
+  },
+  "Ihp4D3": {
+    "context": "header",
+    "string": "미디어 수정"
+  },
+  "9RvXNg": {
+    "context": "section header",
+    "string": "미디어 정보"
+  },
+  "cW1RIo": {
+    "context": "section header",
+    "string": "미디어 보기"
+  },
+  "9CEu8k": {
+    "context": "modal button images upload",
+    "string": "이미지 업로드"
+  },
+  "Q2UXlW": {
+    "context": "modal button url upload",
+    "string": "URL 업로드"
+  },
+  "/Mcvt4": {
+    "context": "section header",
+    "string": "미디어"
+  },
+  "mGiA6q": {
+    "context": "modal button upload",
+    "string": "업로드"
+  },
+  "JjeZEG": {
+    "context": "section header",
+    "string": "상품 구성"
+  },
+  "Be+J13": {
+    "string": "설정 가능"
+  },
+  "v+Pkm+": {
+    "context": "field is optional",
+    "string": "*선택 사항. 상품을 컬렉션에 추가하면 사용자가 더 쉽게 찾을 수 있습니다."
+  },
+  "anK7jD": {
+    "string": "상품 타입"
+  },
+  "3rIMq/": {
+    "context": "product shipping",
+    "string": "배송"
+  },
+  "SUbxSK": {
+    "context": "product weight",
+    "string": "무게"
+  },
+  "eAFU/E": {
+    "context": "product inventory, checkbox",
+    "string": "현재 선주문 중인 옵션"
+  },
+  "2qJc9y": {
+    "string": "종료일 취소"
+  },
+  "7wkGxW": {
+    "context": "app has been installed",
+    "string": "{unitsLeft}개 남음"
+  },
+  "xB7BTp": {
+    "string": "SKU (재고 관리 단위)"
+  },
+  "KTAg0f": {
+    "context": "tabel column header",
+    "string": "창고 이름"
+  },
+  "7Ii5ZQ": {
+    "string": "종료일 설정"
+  },
+  "bp/i0x": {
+    "context": "header",
+    "string": "수량"
+  },
+  "Gz+4CI": {
+    "context": "info text",
+    "string": "선주문 상품은 모든 창고에서 사용할 수 있습니다. 판매 수량에 대한 임계값을 설정할 수 있습니다. 입력을 비워두면 판매 제한이 없는 것으로 간주됩니다. 판매된 상품은 선택한 배송 지역에 할당된 창고에 할당됩니다."
+  },
+  "NcY4ph": {
+    "string": "채널별 임계값이 남아 있더라도 초과할 수 없는 임계값"
+  },
+  "JyQEHU": {
+    "context": "tabel column header",
+    "string": "채널"
+  },
+  "TjGYna": {
+    "context": "product inventory, checkbox",
+    "string": "재고 추적"
+  },
+  "cBHRxx": {
+    "context": "button",
+    "string": "창고 할당"
+  },
+  "REVk27": {
+    "context": "info text",
+    "string": "선주문 종료일을 설정하세요. 종료일이 되면 상품은 자동으로 선주문에서 일반 판매로 전환됩니다."
+  },
+  "ekXood": {
+    "string": "무제한"
+  },
+  "RJ5QxE": {
+    "string": "글로벌 임계값"
+  },
+  "jABdx1": {
+    "string": "활성 재고 추적은 재고 변경을 자동으로 계산합니다."
+  },
+  "TfY/Pi": {
+    "context": "checkbox",
+    "string": "이 상품에 세금 부과"
+  },
+  "CdIHMu": {
+    "context": "select tax ratte",
+    "string": "세율"
+  },
+  "iYH3Y7": {
+    "context": "checkbox",
+    "string": "상품 타입의 세율 재정의"
+  },
+  "8uo4v1": {
+    "context": "title",
+    "string": "결제 한도"
+  },
+  "n3+6w5": {
+    "context": "input helper text",
+    "string": "고객은 여기에 표시된 수량보다 많은 수량을 결제당 구매할 수 없습니다."
+  },
+  "C7I2lg": {
+    "context": "input label",
+    "string": "결제당 수량 제한 (선택 사항)"
+  },
+  "W3JbSQ": {
+    "context": "create product variants",
+    "string": "옵션을 어떻게 생성하시겠습니까?"
+  },
+  "vXA5xU": {
+    "context": "option description",
+    "string": "옵션 생성기를 사용하여 선택한 속성 값의 매트릭스를 만들어 옵션을 생성합니다."
+  },
+  "uxZZXx": {
+    "context": "option",
+    "string": "옵션 생성기를 통해 여러 옵션 생성"
+  },
+  "EzU7KV": {
+    "context": "option description",
+    "string": "옵션 상세 뷰를 사용하여 새 옵션 생성"
+  },
+  "9EMudJ": {
+    "context": "option",
+    "string": "단일 옵션 생성"
+  },
+  "XDeh5D": {
+    "context": "dialog header",
+    "string": "옵션 생성"
+  },
+  "f3B4tc": {
+    "context": "attributes, section header",
+    "string": "옵션 속성"
+  },
+  "o6260f": {
+    "context": "attributes, section header",
+    "string": "옵션 선택 속성"
+  },
+  "7hNjaI": {
+    "context": "button",
+    "string": "옵션 삭제"
+  },
+  "sw8Wl2": {
+    "context": "variant pricing section subtitle",
+    "string": "가격을 정의할 채널이 없습니다. 먼저 옵션을 채널에 추가하여 가격을 정의해야 합니다."
+  },
+  "U9CIo7": {
+    "context": "button",
+    "string": "옵션 저장"
+  },
+  "TPCRKr": {
+    "context": "variant price, header",
+    "string": "가격"
+  },
+  "ClFzoD": {
+    "string": "선택된 값은 설정 가능한 상품의 옵션을 만드는 데 사용됩니다."
+  },
+  "Xr5zxu": {
+    "string": "선택 항목에 따라 {variantsNumber}개의 SKU가 카탈로그에 추가되며, 이는 한도를 {aboveLimitVariantsNumber}만큼 초과합니다. 한도를 늘리려면 관리자에게 문의하세요."
+  },
+  "lVZ5n7": {
+    "context": "variant attribute",
+    "string": "속성"
+  },
+  "TDXskW": {
+    "context": "variant attribute",
+    "string": "속성 선택"
+  },
+  "7WEC+G": {
+    "context": "page title",
+    "string": "가격 및 SKU"
+  },
+  "GQcp83": {
+    "context": "variant stock, header",
+    "string": "재고 및 창고"
+  },
+  "NXpFlL": {
+    "context": "product attribute values, page title",
+    "string": "값 선택"
+  },
+  "CrbI/c": {
+    "context": "variant channel price",
+    "string": "{channel} 가격"
+  },
+  "rVaB7c": {
+    "context": "attribute values, variant creation step",
+    "string": "값 선택"
+  },
+  "ucYPtV": {
+    "context": "variant attribute",
+    "string": "속성 선택"
+  },
+  "slKV5G": {
+    "context": "variant creation step",
+    "string": "요약"
+  },
+  "lra7Ej": {
+    "string": "모든 SKU에 단일 가격 적용"
+  },
+  "J0UdxG": {
+    "string": "지금은 가격 책정 건너뛰기"
+  },
+  "L5rthO": {
+    "string": "각 SKU에 속성별 고유 재고 적용"
+  },
+  "EGG8f+": {
+    "string": "각 SKU에 속성별 고유 가격 적용"
+  },
+  "STp3Hl": {
+    "string": "모든 SKU에 단일 재고 적용"
+  },
+  "+bFHzi": {
+    "context": "button",
+    "string": "다음"
+  },
+  "rHXF43": {
+    "string": "생성될 옵션의 요약입니다. 생성된 각 옵션에 대해 가격, 재고 및 SKU를 변경할 수 있습니다."
+  },
+  "BIqhVQ": {
+    "string": "지금은 재고 건너뛰기"
+  },
+  "Q3j++G": {
+    "context": "create multiple variants, button",
+    "string": "생성"
+  },
+  "S5PVx1": {
+    "context": "variant creator summary card header",
+    "string": "생성된 옵션"
+  },
+  "/Qb92c": {
+    "string": "선택 항목에 따라 {numberOfProducts}개의 상품이 생성됩니다. 이 단계에서 새 상품의 가격과 재고를 사용자 정의하세요."
+  },
+  "k4brJy": {
+    "string": "재고 관리 코드"
+  },
+  "Sx7QVu": {
+    "context": "variant creation step",
+    "string": "가격 및 SKU"
+  },
+  "iigydN": {
+    "string": "선택 항목에 따라 8개의 상품이 생성됩니다. 이 단계에서 새 상품의 가격과 재고를 사용자 정의하세요."
+  },
+  "esg2wu": {
+    "context": "previous step, button",
+    "string": "이전"
+  },
+  "V76IV7": {
+    "context": "variant name",
+    "string": "옵션"
+  },
+  "rbkmfG": {
+    "context": "button",
+    "string": "옵션 삭제"
+  },
+  "WwNtFn": {
+    "context": "delete product variant",
+    "string": "{name}을(를) 삭제하시겠습니까?"
+  },
+  "GFJabu": {
+    "context": "dialog header",
+    "string": "옵션 삭제"
+  },
+  "XMvH/d": {
+    "context": "button label",
+    "string": "수락"
+  },
+  "dTCWqt": {
+    "string": "상품의 선주문을 종료하려고 합니다. 이 옵션의 {variantGlobalSoldUnits}개가 판매되었습니다. 판매된 수량은 적절한 창고에 할당됩니다. 남은 임계값 재고를 창고에 추가하는 것을 잊지 마세요."
+  },
+  "Y4cy0i": {
+    "context": "dialog header",
+    "string": "선주문 종료"
+  },
+  "iPk640": {
+    "context": "dialog header",
+    "string": "미디어 선택"
+  },
+  "2J6EFz": {
+    "context": "button",
+    "string": "미디어 선택"
+  },
+  "JfKvrV": {
+    "context": "select variant media",
+    "string": "상품 미디어에서 특정 옵션 미디어를 선택하세요."
+  },
+  "vZMs8f": {
+    "context": "default product variant indicator",
+    "string": "기본값"
+  },
+  "1kdQdO": {
+    "context": "section header",
+    "string": "옵션"
+  },
+  "3C3Nj5": {
+    "context": "button",
+    "string": "옵션 추가"
+  },
+  "gF7hbK": {
+    "context": "variant name",
+    "string": "새 옵션"
+  },
+  "EsZH44": {
+    "context": "VariantDetailsChannelsAvailabilityCard item subtitle hidden",
+    "string": "숨김"
+  },
+  "rJ3lkW": {
+    "context": "VariantDetailsChannelsAvailabilityCard item subtitle published",
+    "string": "{publicationDate}부터 게시됨"
+  },
+  "jqJqdE": {
+    "context": "VariantDetailsChannelsAvailabilityCard no items available",
+    "string": "이 옵션은 어떤 채널에서도 사용할 수 없습니다."
+  },
+  "3+KwtP": {
+    "context": "VariantDetailsChannelsAvailabilityCard subtitle",
+    "string": "{availableChannelsCount}개 중 {publishedInChannelsCount}개에서 사용 가능"
+  },
+  "sedoZ3": {
+    "context": "VariantDetailsChannelsAvailabilityCard title",
+    "string": "가용성"
+  },
+  "Xm9qOu": {
+    "context": "product pricing, section header",
+    "string": "가격"
+  },
+  "JFtFgc": {
+    "context": "tabel column header",
+    "string": "판매가"
+  },
+  "KQSONM": {
+    "context": "tabel column header",
+    "string": "가격"
+  },
+  "VvA7ai": {
+    "context": "info text",
+    "string": "가격이 할당되지 않은 채널은 상위 채널을 사용하여 가격을 정의합니다. 가격은 채널의 통화로 변환됩니다."
+  },
+  "c8UT0c": {
+    "context": "tabel column header",
+    "string": "채널 이름"
+  },
+  "2zCmiR": {
+    "context": "tabel column header",
+    "string": "원가"
+  },
+  "SZH0fw": {
+    "context": "set variant as default, button",
+    "string": "기본값으로 설정"
+  },
+  "6+sMz4": {
+    "context": "product variant inventory",
+    "string": "모든 위치에서 사용 불가"
+  },
+  "7mK2vs": {
+    "context": "product variant inventory",
+    "string": "사용 불가"
+  },
+  "n02c9W": {
+    "context": "product variant price",
+    "string": "가격"
+  },
+  "uVssds": {
+    "context": "product variant inventory",
+    "string": "{stockQuantity}개 사용 가능"
+  },
+  "FSinkL": {
+    "context": "variant stock status",
+    "string": "사용 가능한 재고 위치:"
+  },
+  "HcjV6k": {
+    "context": "button",
+    "string": "옵션 생성"
+  },
+  "qbqMpk": {
+    "context": "product variant preorder threshold",
+    "string": "선주문 중"
+  },
+  "wWYYBR": {
+    "context": "product variant inventory",
+    "string": "{numLocations}개 위치에서 {numAvailable}개 사용 가능"
+  },
+  "rIJbNC": {
+    "string": "다양한 사이즈나 색상과 같이 여러 버전으로 제공되는 상품에 옵션을 사용하세요."
+  },
+  "JtZ71e": {
+    "context": "filtering option",
+    "string": "모든 창고"
+  },
+  "kL3C+K": {
+    "context": "product variant inventory status",
+    "string": "재고"
+  },
+  "3VyHbJ": {
+    "context": "button",
+    "string": "옵션 생성"
+  },
+  "9PmyrU": {
+    "context": "product variant inventory",
+    "string": "재고 없음"
+  },
+  "80FeaT": {
+    "context": "product variant preorder threshold",
+    "string": "{globalThreshold} 글로벌 임계값"
+  },
+  "OTek3r": {
+    "context": "product variant name",
+    "string": "옵션"
+  },
+  "uCn/rd": {
+    "context": "dialog header",
+    "string": "이미지 삭제"
+  },
+  "BUKMzM": {
+    "string": "옵션이 제거되었습니다."
+  },
+  "T6dXGG": {
+    "context": "header",
+    "string": "옵션 생성"
+  },
+  "VEext+": {
+    "string": "이 이미지를 삭제하시겠습니까?"
+  },
+  "MyM2oR": {
+    "context": "window title",
+    "string": "옵션 생성"
+  },
+  "PXx4Jk": {
+    "context": "window title",
+    "string": "상품 생성"
+  },
+  "NBP8uu": {
+    "context": "page header",
+    "string": "새 상품"
+  },
+  "DO8+uV": {
+    "string": "상품이 생성되었습니다."
+  },
+  "yDkmX7": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 상품을 삭제하시겠습니까?} other {{displayQuantity}개의 상품을 삭제하시겠습니까?}}"
+  },
+  "5QKsu+": {
+    "context": "waiting for export to end, header",
+    "string": "CSV 내보내는 중"
+  },
+  "F4WdSO": {
+    "context": "dialog header",
+    "string": "상품 삭제"
+  },
+  "dPYqy0": {
+    "string": "요청한 CSV를 현재 내보내고 있습니다. 준비되는 대로 이메일 주소로 전송됩니다."
+  },
+  "YKyNm9": {
+    "context": "label",
+    "string": "기프트 카드"
+  },
+  "X/K4LI": {
+    "context": "label",
+    "string": "일반"
+  },
+  "vlVTmY": {
+    "string": "상품이 제거되었습니다."
+  },
+  "ZHF4Z9": {
+    "context": "delete product dialog subtitle",
+    "string": "{name}을(를) 삭제하시겠습니까?"
+  },
+  "TWVx7O": {
+    "context": "delete product dialog title",
+    "string": "상품 삭제"
+  },
+  "ukdRUv": {
+    "context": "delete variant dialog subtitle",
+    "string": "{counter,plural,one {이 옵션을 삭제하시겠습니까?} other {{displayQuantity}개의 옵션을 삭제하시겠습니까?}}"
+  },
+  "6iw4VR": {
+    "context": "delete variant dialog title",
+    "string": "상품 옵션 삭제"
+  },
+  "oChkS4": {
+    "context": "success message",
+    "string": "옵션을 성공적으로 생성했습니다."
+  },
+  "z+wMgQ": {
+    "context": "window title",
+    "string": "옵션 생성"
+  },
+  "IeoGgH": {
+    "context": "variant created success message",
+    "string": "옵션이 생성되었습니다."
+  },
+  "aI80kg": {
+    "string": "속성"
+  },
+  "kFYlu2": {
+    "string": "Saleor가 읽기 전용 모드로 실행 중입니다. 변경 사항이 저장되지 않았습니다."
+  },
+  "rqtV5d": {
+    "context": "order status",
+    "string": "결제 준비 완료"
+  },
+  "oLMXDv": {
+    "context": "order status",
+    "string": "처리 준비 완료"
+  },
+  "XJSRDK": {
+    "context": "payment status",
+    "string": "완전히 환불 됨"
+  },
+  "nwnwJ0": {
+    "context": "payment status",
+    "string": "거부됨"
+  },
+  "bu/fC1": {
+    "context": "button",
+    "string": "제거"
+  },
+  "TKmub+": {
+    "string": "이 필드는 필수입니다."
+  },
+  "4Dc2j0": {
+    "context": "order status",
+    "string": "반품됨"
+  },
+  "kJQczl": {
+    "context": "sales section name",
+    "string": "판매"
+  },
+  "RaycYK": {
+    "context": "button",
+    "string": "저장"
+  },
+  "rqiCWU": {
+    "string": "변경 사항이 저장되었습니다."
+  },
+  "a+x05s": {
+    "context": "select option, button",
+    "string": "선택"
+  },
+  "rfvBAF": {
+    "context": "select all options, button",
+    "string": "모두 선택"
+  },
+  "byP6IC": {
+    "string": "선택됨"
+  },
+  "hqVMLQ": {
+    "context": "button",
+    "string": "보내기"
+  },
+  "8xsKUv": {
+    "context": "service accounts section name",
+    "string": "서비스 계정"
+  },
+  "Fvvgoi": {
+    "string": "세션이 만료되었습니다. 계속하려면 다시 로그인해주세요."
+  },
+  "D9ie4n": {
+    "context": "shipping section name",
+    "string": "배송 방법"
+  },
+  "nNeWAx": {
+    "context": "dialog header",
+    "string": "배송 방법 삭제"
+  },
+  "ER/yBq": {
+    "context": "max price in channel",
+    "string": "최대 가격"
+  },
+  "aZDHYr": {
+    "context": "price rates info",
+    "string": "이 요금은 모든 주문에 적용됩니다."
+  },
+  "kN6SLs": {
+    "string": "최소 가격"
+  },
+  "u5c/tR": {
+    "context": "channels discount info",
+    "string": "할인이 할당되지 않은 채널은 상위 채널을 사용하여 가격을 정의합니다. 가격은 채널의 통화로 변환됩니다."
+  },
+  "yatGsm": {
+    "context": "card title",
+    "string": "주문 금액"
+  },
+  "Dgp38J": {
+    "context": "checkbox label",
+    "string": "주문 금액 제한"
+  },
+  "vjsfyn": {
+    "string": "최대 가격"
+  },
+  "0FexL7": {
+    "context": "min price in channel",
+    "string": "최소 가격"
+  },
+  "7v8suW": {
+    "context": "info text",
+    "string": "이 요금은 모든 주문에 적용됩니다."
+  },
+  "r2dojI": {
+    "context": "checkbox label",
+    "string": "주문 무게 제한"
+  },
+  "vWapBZ": {
+    "context": "card title",
+    "string": "주문 무게"
+  },
+  "w+5Djm": {
+    "string": "최소 주문 무게"
+  },
+  "u0V06N": {
+    "string": "최대 주문 무게"
+  },
+  "TnTi/a": {
+    "context": "pricing card title",
+    "string": "가격"
+  },
+  "5ZvuVw": {
+    "string": "주어진 쿼리와 일치하는 상품이 없습니다."
+  },
+  "FzEew9": {
+    "context": "assign products to shipping rate and save, button",
+    "string": "할당 및 저장"
+  },
+  "xZhxBJ": {
+    "context": "dialog header",
+    "string": "상품 할당"
+  },
+  "Gg4+K7": {
+    "string": "상품 없음"
+  },
+  "t3aiWF": {
+    "context": "section header",
+    "string": "제외된 상품"
+  },
+  "ZIc5lM": {
+    "string": "상품 이름"
+  },
+  "TLYeo5": {
+    "context": "label",
+    "string": "배송비 설명"
+  },
+  "v17Lly": {
+    "context": "label",
+    "string": "최대 배송 시간"
+  },
+  "GD/bom": {
+    "context": "label",
+    "string": "최소 배송 시간"
+  },
+  "FkDObY": {
+    "context": "label",
+    "string": "배송비 이름"
+  },
+  "4Kq3O6": {
+    "string": "이 단위는 기본 배송 무게로 사용됩니다."
+  },
+  "Rp/Okl": {
+    "string": "배송 무게 단위"
+  },
+  "llBnr+": {
+    "string": "창고 이름"
+  },
+  "yzYXW/": {
+    "context": "header, dialog",
+    "string": "새 창고 생성"
+  },
+  "LHPVg/": {
+    "context": "assign countries to shipping zone and save, button",
+    "string": "할당 및 저장"
+  },
+  "AjInNW": {
+    "context": "dialog description",
+    "string": "아래 목록에서 배송 지역에 추가할 국가를 선택하세요."
+  },
+  "f2F1NJ": {
+    "context": "section title",
+    "string": "빠른 선택"
+  },
+  "K/ic0P": {
+    "context": "checkbox label",
+    "string": "그 외 모든 국가"
+  },
+  "G+9nOZ": {
+    "context": "checkbox description",
+    "string": "선택하면, 다른 배송 지역에 선택되지 않은 모든 국가가 추가됩니다."
+  },
+  "pGDYG5": {
+    "context": "search label",
+    "string": "국가 검색"
+  },
+  "1rpzrM": {
+    "context": "search placeholder",
+    "string": "국가 이름으로 검색"
+  },
+  "55LMJv": {
+    "context": "country list header",
+    "string": "국가"
+  },
+  "6fxdUO": {
+    "context": "section header",
+    "string": "새 배송 지역 생성"
+  },
+  "y7mfbl": {
+    "string": "현재 이 배송 지역에 할당된 국가가 없습니다."
+  },
+  "G0+gAp": {
+    "context": "shipping section header",
+    "string": "배송"
+  },
+  "FkRNk+": {
+    "context": "field placeholder",
+    "string": "배송 지역 설명."
+  },
+  "YpukUN": {
+    "context": "label",
+    "string": "배송 지역 이름"
+  },
+  "axFFaD": {
+    "context": "range input label",
+    "string": "우편번호 (끝)"
+  },
+  "DM/Ha1": {
+    "context": "add postal code range, button",
+    "string": "추가"
+  },
+  "1T1fP8": {
+    "context": "range input label",
+    "string": "우편번호 (시작)"
+  },
+  "8InCjD": {
+    "string": "포함/제외 목록에 추가할 우편번호 범위를 제공하세요."
+  },
+  "2Xt+sw": {
+    "context": "dialog header",
+    "string": "우편번호 추가"
+  },
+  "Pyjarj": {
+    "string": "이 배송비에는 할당된 우편번호가 없습니다."
+  },
+  "7qsOwa": {
+    "context": "action",
+    "string": "우편번호 포함"
+  },
+  "ju8zHP": {
+    "string": "추가된 우편번호는 이 배송 방법을 사용하는 것에서 제외됩니다. 추가된 것이 없으면 모든 우편번호가 해당 배송비를 사용할 수 있습니다."
+  },
+  "1lk/oS": {
+    "context": "button",
+    "string": "우편번호 범위 추가"
+  },
+  "ud0w8h": {
+    "context": "number of postal code ranges",
+    "string": "{number}개 우편번호 범위"
+  },
+  "/Zee1r": {
+    "string": "추가된 우편번호만 이 배송비를 사용할 수 있습니다."
+  },
+  "FcTTvh": {
+    "context": "postal codes, header",
+    "string": "우편번호"
+  },
+  "YpLVVc": {
+    "context": "action",
+    "string": "우편번호 제외"
+  },
+  "RXPGi/": {
+    "context": "page title",
+    "string": "가격 기반 요금 생성"
+  },
+  "PRlD0A": {
+    "string": "배송"
+  },
+  "NDm2Fe": {
+    "context": "page title",
+    "string": "무게 기반 요금 생성"
+  },
+  "EKoPNg": {
+    "context": "shipping method price",
+    "string": "가격"
+  },
+  "WR8rir": {
+    "context": "button",
+    "string": "요금 생성"
+  },
+  "njUQPz": {
+    "context": "shipping method price range",
+    "string": "가격 범위"
+  },
+  "RUzdUH": {
+    "string": "배송비를 찾을 수 없습니다."
+  },
+  "FjrExY": {
+    "context": "price based shipping methods, section header",
+    "string": "가격 기반 요금"
+  },
+  "aYhcie": {
+    "context": "shipping method weight range",
+    "string": "무게 범위"
+  },
+  "foB6wx": {
+    "context": "weight based shipping methods, section header",
+    "string": "무게 기반 요금"
+  },
+  "aPCrsp": {
+    "context": "shipping method name",
+    "string": "이름"
+  },
+  "n25d+d": {
+    "context": "WarehousesSection select field add text",
+    "string": "새 창고 추가"
+  },
+  "/cow4T": {
+    "context": "WarehousesSection select field placeholder",
+    "string": "창고 선택"
+  },
+  "wjKYSU": {
+    "context": "WarehousesSection subtitle",
+    "string": "이 배송 지역의 상품을 배송할 창고를 선택하세요. 이 창고 주소는 세금 계산에도 사용됩니다."
+  },
+  "t/R8nK": {
+    "context": "ShippingZoneSettingsCard title",
+    "string": "설정"
+  },
+  "uULcph": {
+    "context": "header",
+    "string": "배송"
+  },
+  "h5r9+x": {
+    "context": "sort shipping methods by zone, section header",
+    "string": "지역별 배송"
+  },
+  "mIUNgR": {
+    "context": "button",
+    "string": "배송 지역 생성"
+  },
+  "aMwxYb": {
+    "string": "국가"
+  },
+  "gRa/TS": {
+    "context": "shipping zone",
+    "string": "이름"
+  },
+  "IhK1F3": {
+    "string": "배송 지역을 찾을 수 없습니다."
+  },
+  "Gfbp36": {
+    "context": "dialog header",
+    "string": "배송에서 상품 할당 해제"
+  },
+  "p/Fd7s": {
+    "context": "unassign products from shipping rate and save, button",
+    "string": "할당 해제 및 저장"
+  },
+  "57IYpr": {
+    "context": "error message",
+    "string": "값이 유효하지 않습니다."
+  },
+  "pwqwcy": {
+    "context": "error message",
+    "string": "최대 가격은 최소 가격보다 낮을 수 없습니다."
+  },
+  "qf/m5l": {
+    "string": "{shippingZoneName} 배송 지역을 삭제하시겠습니까?"
+  },
+  "k3EI/U": {
+    "context": "dialog header",
+    "string": "배송 지역 삭제"
+  },
+  "cpZLRH": {
+    "context": "dialog header",
+    "string": "배송 지역 삭제"
+  },
+  "C9pcQx": {
+    "context": "dialog content",
+    "string": "{counter,plural,one {이 배송 지역을 삭제하시겠습니까?} other {{displayQuantity}개의 배송 지역을 삭제하시겠습니까?}}"
+  },
+  "YdeHZX": {
+    "context": "unassign products from shipping method, button",
+    "string": "할당 해제"
+  },
+  "1zuQ2P": {
+    "context": "unassign country",
+    "string": "{countryName}을(를) 이 배송 지역에서 제거하시겠습니까?"
+  },
+  "M6s/9e": {
+    "context": "unassign country, dialog header",
+    "string": "배송 지역에서 제거"
+  },
+  "MXZuVP": {
+    "context": "remove country from shipping zone and save, button",
+    "string": "제거 및 저장"
+  },
+  "H27/Gy": {
+    "context": "error message",
+    "string": "최대 무게는 최소 무게보다 낮을 수 없습니다."
+  },
+  "/8/Ffn": {
+    "context": "button",
+    "string": "표시"
+  },
+  "viFkCw": {
+    "context": "site settings section name",
+    "string": "사이트 설정"
+  },
+  "+do3gl": {
+    "context": "input helper text",
+    "string": "이 숫자는 결제 라인에서 구매할 수 있는 상품 수량을 정의합니다. 이 설정은 옵션별로 재정의할 수 있습니다. 이 설정을 비워두면 제한이 없음을 의미합니다."
+  },
+  "QclvqG": {
+    "context": "input label",
+    "string": "결제 라인 한도"
+  },
+  "X7fqfM": {
+    "context": "title",
+    "string": "예약된 재고"
+  },
+  "C4aDMy": {
+    "context": "description",
+    "string": "결제 중인 재고가 고객을 위해 예약되는 시간을 설정하세요. 인증된 사용자와 익명 사용자에 대해 별도의 값을 설정할 수 있습니다."
+  },
+  "+T0oJ7": {
+    "context": "input label",
+    "string": "익명 사용자 재고 예약 (분)"
+  },
+  "OaKyz4": {
+    "context": "input label",
+    "string": "인증된 사용자 재고 예약 (분)"
+  },
+  "YEv+6G": {
+    "context": "input helper text",
+    "string": "이 설정을 비워두면 재고가 예약되지 않음을 의미합니다."
+  },
+  "+jCDvp": {
+    "context": "section header",
+    "string": "스토어 정보"
+  },
+  "Av74Fa": {
+    "context": "section description",
+    "string": "모든 채널에 전역적으로 적용될 기본 결제 규칙을 설정할 수 있습니다."
+  },
+  "DASYUF": {
+    "context": "section title",
+    "string": "결제 설정"
+  },
+  "pRYGUR": {
+    "context": "section description",
+    "string": "이 주소는 인보이스 생성 및 배송비 계산에 사용됩니다. 여기에 제공하는 이메일 주소는 고객의 연락처 주소로 사용됩니다."
+  },
+  "rPX1f2": {
+    "context": "section title",
+    "string": "회사 정보"
+  },
+  "LVa5ew": {
+    "string": "Saleor에 예상치 못한 문제가 발생했습니다."
+  },
+  "AQFMYU": {
+    "context": "staff section name",
+    "string": "직원"
+  },
+  "23g7PY": {
+    "context": "dialog header",
+    "string": "직원 초대"
+  },
+  "hw9Fah": {
+    "context": "button",
+    "string": "초대 보내기"
+  },
+  "P+kVxW": {
+    "context": "card description",
+    "string": "사용자는 다음에 할당됩니다:"
+  },
+  "XMrYaA": {
+    "context": "checkbox label",
+    "string": "사용자 활성"
+  },
+  "YJ4TXc": {
+    "context": "tab name",
+    "string": "모든 직원"
+  },
+  "OaA0f9": {
+    "string": "직원 한도에 도달하여 더 이상 스토어에 직원을 추가할 수 없습니다. 한도를 늘리려면 관리자에게 문의하세요."
+  },
+  "pA8Mlv": {
+    "context": "alert",
+    "string": "직원 한도 도달"
+  },
+  "aDbrOK": {
+    "string": "직원 검색"
+  },
+  "4JcNaA": {
+    "context": "button",
+    "string": "직원 초대"
+  },
+  "9xlPgt": {
+    "context": "used staff users counter",
+    "string": "{max}명 중 {count}명 사용"
+  },
+  "HR9OTW": {
+    "context": "staff member's account",
+    "string": "활성화"
+  },
+  "Fc3O3r": {
+    "context": "staff member's account",
+    "string": "비활성화됨"
+  },
+  "utaSh3": {
+    "context": "staff member's account",
+    "string": "상태"
+  },
+  "xJQX5t": {
+    "string": "직원을 찾을 수 없습니다."
+  },
+  "cMFlOp": {
+    "context": "input label",
+    "string": "새로운 비밀번호"
+  },
+  "qEJT8e": {
+    "string": "새 비밀번호는 8자 이상이어야 합니다."
+  },
+  "+kb2lM": {
+    "context": "dialog header",
+    "string": "비밀번호 변경"
+  },
+  "GXdwyR": {
+    "context": "input label",
+    "string": "이전 비밀번호"
+  },
+  "mm0CXe": {
+    "string": "보안 문제를 피하기 위해 매달 비밀번호를 변경해야 합니다."
+  },
+  "N3Zot1": {
+    "context": "button",
+    "string": "비밀번호 변경"
+  },
+  "ZhDQel": {
+    "context": "header",
+    "string": "비밀번호"
+  },
+  "JJgJwi": {
+    "string": "이것을 선택하면 대시보드의 언어가 변경됩니다."
+  },
+  "e822us": {
+    "string": "모든 통화 및 날짜 조정은 완료되었지만, 언어 번역은 다양한 완료 수준에 있습니다."
+  },
+  "mr9jbO": {
+    "string": "선호 언어"
+  },
+  "CLeDae": {
+    "context": "section header",
+    "string": "환경설정"
+  },
+  "+2VzH4": {
+    "context": "avatar change button",
+    "string": "변경"
+  },
+  "VTITVe": {
+    "context": "section header",
+    "string": "직원 정보"
+  },
+  "11lR5V": {
+    "context": "avatar delete button",
+    "string": "삭제"
+  },
+  "K/gnGg": {
+    "string": "이 사용자를 비활성화하려면 아래 확인란의 선택을 취소하세요."
+  },
+  "7yKZvp": {
+    "context": "section header",
+    "string": "사용자 상태"
+  },
+  "GhXwO/": {
+    "context": "dialog header",
+    "string": "직원 삭제"
+  },
+  "fzpXvv": {
+    "string": "{email}님의 아바타를 삭제하시겠습니까?"
+  },
+  "VKWPBf": {
+    "context": "dialog header",
+    "string": "직원 아바타 삭제"
+  },
+  "gxPjIQ": {
+    "string": "{email}님을 직원 목록에서 삭제하시겠습니까?"
+  },
+  "QirE3M": {
+    "string": "시작일"
+  },
+  "tWbE34": {
+    "string": "시작 시간"
+  },
+  "tzMNF3": {
+    "string": "상태"
+  },
+  "RrCui3": {
+    "string": "요약"
+  },
+  "5elC9k": {
+    "context": "taxes section name",
+    "string": "세금"
+  },
+  "lnQAos": {
+    "context": "header",
+    "string": "세금"
+  },
+  "3BTtL2": {
+    "string": "국가를 찾을 수 없습니다."
+  },
+  "/JENWS": {
+    "string": "감면 세율"
+  },
+  "07KB2d": {
+    "string": "국가 코드"
+  },
+  "0GJfWd": {
+    "string": "국가 이름"
+  },
+  "la9cZ4": {
+    "string": "세율"
+  },
+  "QHB48n": {
+    "context": "header",
+    "string": "{countryName}의 세율"
+  },
+  "Ubath+": {
+    "string": "감면세 카테고리를 찾을 수 없습니다."
+  },
+  "4EuJKs": {
+    "string": "모든 상품 가격은 세금이 포함되어 입력됩니다."
+  },
+  "98isC5": {
+    "string": "스토어프론트의 고객에게 총액 표시"
+  },
+  "FNKhkx": {
+    "string": "배송비에 세금 부과"
+  },
+  "+OV+Gj": {
+    "context": "button",
+    "string": "세금 가져오기"
+  },
+  "HtQGEH": {
+    "string": "세율을 성공적으로 가져왔습니다."
+  },
+  "u3sYPH": {
+    "context": "independent of any particular day, eg. 11:35",
+    "string": "시간"
+  },
+  "+xTpT1": {
+    "string": "속성"
+  },
+  "5fCMUI": {
+    "context": "translations section name",
+    "string": "번역"
+  },
+  "tUlsq+": {
+    "string": "번역 중"
+  },
+  "QUyUJy": {
+    "string": "메인 상품"
+  },
+  "bh+Keo": {
+    "string": "{numberOfFields}개 번역, {numberOfTranslatedFields}개 완료"
+  },
+  "Xtd0AT": {
+    "string": "원본 문자열"
+  },
+  "/vCXIP": {
+    "string": "번역"
+  },
+  "vTN5DZ": {
+    "context": "button",
+    "string": "취소"
+  },
+  "T/5OyA": {
+    "string": "아직 번역 없음"
+  },
+  "DRMMDs": {
+    "string": "속성 이름"
+  },
+  "SPBLzT": {
+    "context": "header",
+    "string": "번역 속성 \"{attribute}\" - {languageCode}"
+  },
+  "UvD+xp": {
+    "context": "attribute values",
+    "string": "값 {number}"
+  },
+  "JE0TAx": {
+    "context": "section name",
+    "string": "가격"
+  },
+  "US3IPU": {
+    "string": "검색 엔진 설명"
+  },
+  "XitW/z": {
+    "string": "번역 카테고리 \"{categoryName}\" - {languageCode}"
+  },
+  "HlEpii": {
+    "string": "검색 엔진 제목"
+  },
+  "Bphmwe": {
+    "context": "header",
+    "string": "번역 컬렉션 \"{collectionName}\" - {languageCode}"
+  },
+  "GsBRWL": {
+    "string": "언어"
+  },
+  "FemBUF": {
+    "context": "header",
+    "string": "{language}로 번역"
+  },
+  "7NFfmz": {
+    "string": "상품"
+  },
+  "CxfKLC": {
+    "string": "페이지"
+  },
+  "VKb1MS": {
+    "string": "카테고리"
+  },
+  "RzsKm8": {
+    "string": "배송비"
+  },
+  "c8nvms": {
+    "string": "판매"
+  },
+  "etP0+D": {
+    "string": "바우처"
+  },
+  "ikRuLs": {
+    "context": "translation progress",
+    "string": "{max} 중 {current}"
+  },
+  "vcwrgW": {
+    "string": "번역 가능한 엔티티를 찾을 수 없습니다."
+  },
+  "LWmYSU": {
+    "string": "완료된 번역"
+  },
+  "X6PF8z": {
+    "context": "entity (product, collection, shipping method) name",
+    "string": "이름"
+  },
+  "ptPPVk": {
+    "string": "언어를 찾을 수 없습니다."
+  },
+  "y1Z3or": {
+    "string": "언어"
+  },
+  "oUWXLO": {
+    "context": "header",
+    "string": "번역 페이지 \"{pageName}\" - {languageCode}"
+  },
+  "PajjqE": {
+    "context": "attribute list",
+    "string": "속성 {number}"
+  },
+  "gvOzOl": {
+    "string": "페이지 제목"
+  },
+  "98WMlR": {
+    "context": "header",
+    "string": "번역 상품 옵션 \"{productName}\" - {languageCode}"
+  },
+  "T1f2Yl": {
+    "string": "옵션 이름"
+  },
+  "22x9tu": {
+    "context": "header",
+    "string": "번역 상품 \"{productName}\" - {languageCode}"
+  },
+  "zjkAMs": {
+    "context": "header",
+    "string": "번역 세일 \"{saleName}\" - {languageCode}"
+  },
+  "s40PZt": {
+    "string": "세일 이름"
+  },
+  "GpqEl5": {
+    "context": "shipping method description",
+    "string": "설명"
+  },
+  "1UKx20": {
+    "context": "header",
+    "string": "번역 배송 방법 \"{shippingMethodName}\" - {languageCode}"
+  },
+  "1tXSSK": {
+    "context": "header",
+    "string": "번역 바우처 \"{voucherName}\" - {languageCode}"
+  },
+  "sfErC+": {
+    "string": "바우처 이름"
+  },
+  "MKtgZB": {
+    "string": "직원만 대시보드에 접근할 수 있습니다."
+  },
+  "+x84Ji": {
+    "context": "order status",
+    "string": "미확인"
+  },
+  "vN3qdA": {
+    "context": "button",
+    "string": "실행 취소"
+  },
+  "oB0y5Y": {
+    "context": "order status",
+    "string": "미완료"
+  },
+  "FBtqtl": {
+    "context": "payment status",
+    "string": "미결제"
+  },
+  "Lx1ima": {
+    "context": "button",
+    "string": "이미지 업로드"
+  },
+  "m8cjcK": {
+    "context": "add authorization key error",
+    "string": "이 유형의 인증 키가 이미 존재합니다."
+  },
+  "+x4cZH": {
+    "string": "직원만 할당할 수 있습니다."
+  },
+  "aggaJg": {
+    "string": "이 속성은 이미 이 상품 타입에 할당되었습니다."
+  },
+  "u24Ppd": {
+    "string": "이 속성은 이 상품 타입에 할당할 수 없습니다."
+  },
+  "cd13nN": {
+    "context": "product attribute error",
+    "string": "모든 속성은 값을 가져야 합니다."
+  },
+  "lLwtgs": {
+    "string": "이 상품 타입에서는 옵션이 비활성화되어 있습니다."
+  },
+  "IFWHn0": {
+    "context": "error message",
+    "string": "청구지 주소가 설정되지 않았습니다."
+  },
+  "ij7olm": {
+    "context": "error message",
+    "string": "이 처리는 취소할 수 없습니다."
+  },
+  "BM1JiJ": {
+    "context": "error message",
+    "string": "이 주문은 취소할 수 없습니다."
+  },
+  "nOo0oL": {
+    "context": "error message",
+    "string": "처리할 상품이 충분하지 않습니다."
+  },
+  "Xb6BJ9": {
+    "context": "error message",
+    "string": "수동 결제는 환불할 수 없습니다."
+  },
+  "WzA5Ll": {
+    "string": "마지막 그룹에서 사용자를 제거할 수 없습니다."
+  },
+  "sZ27WU": {
+    "context": "error message",
+    "string": "사전 승인된 결제만 무효화할 수 있습니다."
+  },
+  "gKdGxP": {
+    "context": "error message",
+    "string": "미리 인증된 결제수단에 한하여 보관 가능"
+  },
+  "DK+8PB": {
+    "string": "이 채널은 이미 생성되었습니다."
+  },
+  "V2BBQu": {
+    "string": "두 채널의 통화가 동일해야 합니다."
+  },
+  "QFCUEt": {
+    "string": "슬러그는 고유해야 합니다."
+  },
+  "AY7Tuz": {
+    "string": "동일한 객체가 두 목록에 모두 있을 수 없습니다."
+  },
+  "E8T3e+": {
+    "string": "그룹을 동시에 추가하고 제거할 수 없습니다."
+  },
+  "abTH5q": {
+    "context": "error message",
+    "string": "이메일 주소가 설정되지 않았습니다."
+  },
+  "c5pMZ8": {
+    "string": "API 오류"
+  },
+  "d9UqaJ": {
+    "context": "error message",
+    "string": "재고 부족으로 수량을 변경할 수 없습니다."
+  },
+  "577R2r": {
+    "string": "잘못된 값"
+  },
+  "pC6/1z": {
+    "string": "잘못된 매니페스트 형식"
+  },
+  "eu98dw": {
+    "string": "잘못된 비밀번호"
+  },
+  "D2qihU": {
+    "string": "권한이 유효하지 않습니다."
+  },
+  "g/BrOt": {
+    "string": "URL 형식이 잘못되었습니다."
+  },
+  "AdmPca": {
+    "context": "error message",
+    "string": "최대값은 최소값보다 작을 수 없습니다."
+  },
+  "0AQH0Q": {
+    "string": "플러그인이 잘못 설정되어 활성화할 수 없습니다."
+  },
+  "FuAV5G": {
+    "string": "이 이름은 이미 사용 중입니다. 다른 이름을 입력하세요."
+  },
+  "3AqOxp": {
+    "context": "no category set error",
+    "string": "상품 카테고리가 설정되지 않았습니다."
+  },
+  "Wlc67M": {
+    "context": "error message",
+    "string": "배송지 주소 없이 주문에 대한 배송 방법을 선택할 수 없습니다."
+  },
+  "r+8q4B": {
+    "context": "error message",
+    "string": "임시 주문만 수정할 수 있습니다."
+  },
+  "PCoO4D": {
+    "context": "error message",
+    "string": "페이지를 찾을 수 없습니다."
+  },
+  "Fz3kic": {
+    "context": "error message",
+    "string": "청구지 주소가 설정되지 않았거나 인보이스를 보낼 준비가 되지 않았습니다."
+  },
+  "N43t3/": {
+    "context": "error message",
+    "string": "인보이스에 번호가 설정되지 않았습니다."
+  },
+  "C4hCsD": {
+    "string": "앱이 권한 범위를 벗어났습니다."
+  },
+  "1n1tOR": {
+    "string": "그룹이 권한 범위를 벗어났습니다."
+  },
+  "4prRLv": {
+    "string": "권한이 범위를 벗어났습니다."
+  },
+  "KRqgfo": {
+    "string": "사용자가 권한 범위를 벗어났습니다."
+  },
+  "cY42ht": {
+    "string": "비밀번호는 전체가 숫자로만 구성될 수 없습니다."
+  },
+  "Y1B0PN": {
+    "context": "error message",
+    "string": "주문과 관련된 결제가 없습니다."
+  },
+  "vVviA2": {
+    "string": "이 권한들은 범위를 벗어났습니다."
+  },
+  "mYs3tb": {
+    "string": "상품 가격은 0보다 낮을 수 없습니다."
+  },
+  "VEE4gD": {
+    "context": "error message",
+    "string": "선택한 배송지 주소에 대해 배송 방법이 유효하지 않습니다."
+  },
+  "ychKsb": {
+    "context": "error message",
+    "string": "이 주문에는 배송 방법이 필요합니다."
+  },
+  "rZf1qL": {
+    "context": "bulk variant create error",
+    "string": "SKU는 고유해야 합니다."
+  },
+  "nKjLjT": {
+    "context": "error message",
+    "string": "슬러그는 각 창고마다 고유해야 합니다."
+  },
+  "wn3di2": {
+    "string": "이 비밀번호는 너무 흔하게 사용됩니다."
+  },
+  "LR3HlT": {
+    "string": "이 비밀번호는 너무 짧습니다."
+  },
+  "1wyZpQ": {
+    "string": "이 비밀번호들은 너무 유사합니다."
+  },
+  "TDhHMi": {
+    "string": "이 값은 고유해야 합니다."
+  },
+  "qDwvZ4": {
+    "string": "알 수 없는 오류"
+  },
+  "DILs4b": {
+    "string": "지원되지 않는 미디어 제공자 또는 잘못된 URL"
+  },
+  "vP7g2+": {
+    "context": "error message",
+    "string": "인보이스에 URL이 설정되지 않았습니다."
+  },
+  "Z6QAbw": {
+    "string": "이 옵션에는 디지털 콘텐츠가 없습니다."
+  },
+  "i3Mvj8": {
+    "context": "product attribute error",
+    "string": "이 옵션은 이미 존재합니다."
+  },
+  "iUy2dx": {
+    "context": "vouchers section name",
+    "string": "바우처"
+  },
+  "ycMLN9": {
+    "context": "warehouses section name",
+    "string": "창고"
+  },
+  "43Nlay": {
+    "context": "warehouse",
+    "string": "주소 정보"
+  },
+  "GhcypC": {
+    "context": "header",
+    "string": "창고 생성"
+  },
+  "DTL7sE": {
+    "context": "dialog content",
+    "string": "{warehouseName}을(를) 삭제하시겠습니까?"
+  },
+  "ny4zrH": {
+    "context": "dialog title",
+    "string": "창고 삭제"
+  },
+  "YkOzse": {
+    "context": "used warehouses counter",
+    "string": "{max}개 중 {count}개 창고 사용"
+  },
+  "caMMWN": {
+    "string": "창고 검색"
+  },
+  "2yU+q9": {
+    "context": "tab name",
+    "string": "모든 창고"
+  },
+  "5HwLx9": {
+    "context": "alert",
+    "string": "창고 한도 도달"
+  },
+  "kFQvXv": {
+    "string": "창고 한도에 도달하여 더 이상 스토어에 창고를 추가할 수 없습니다. 한도를 늘리려면 관리자에게 문의하세요."
+  },
+  "wmdHhD": {
+    "context": "button",
+    "string": "창고 생성"
+  },
+  "PFXGaR": {
+    "string": "배송 지역"
+  },
+  "2gsiR1": {
+    "string": "창고를 찾을 수 없습니다."
+  },
+  "aCJwVq": {
+    "context": "warehouse",
+    "string": "이름"
+  },
+  "16PGt9": {
+    "context": "WarehouseSettings all warehouses label",
+    "string": "모든 창고"
+  },
+  "LEZZkK": {
+    "context": "WarehouseSettings all warehouses description",
+    "string": "선택하면 고객이 이 창고를 픽업 지점으로 선택할 수 있습니다. 주문된 상품은 다른 창고에서 여기로 배송될 수 있습니다."
+  },
+  "OBQ+th": {
+    "context": "WarehouseSettings disabled warehouse label",
+    "string": "비활성화됨"
+  },
+  "M8z5WZ": {
+    "context": "WarehouseSettings disabled warehouse description",
+    "string": "선택하면 고객이 이 창고를 픽업 지점으로 선택할 수 없습니다."
+  },
+  "tVybuM": {
+    "context": "WarehouseSettings local warehouse label",
+    "string": "로컬 재고만"
+  },
+  "6G41zU": {
+    "context": "WarehouseSettings local warehouse description",
+    "string": "선택하면 고객이 이 창고를 픽업 지점으로 선택할 수 있습니다. 주문된 상품은 이 창고 재고에서만 처리됩니다."
+  },
+  "cdiRSf": {
+    "context": "WarehouseSettings no shipping zones assigned",
+    "string": "이 창고에는 할당된 배송 지역이 없습니다."
+  },
+  "MIC9W7": {
+    "context": "WarehouseSettings pickup title",
+    "string": "픽업"
+  },
+  "wpli4O": {
+    "context": "WarehouseSettings private stock label",
+    "string": "비공개 재고"
+  },
+  "XlPKAR": {
+    "context": "WarehouseSettings private stock description",
+    "string": "활성화하면 이 창고의 재고가 표시되지 않습니다."
+  },
+  "86pLaG": {
+    "context": "WarehouseSettings public stock label",
+    "string": "공개 재고"
+  },
+  "Ff+Gsm": {
+    "context": "WarehouseSettings public stock description",
+    "string": "활성화하면 이 창고의 재고가 표시됩니다."
+  },
+  "//iaFx": {
+    "context": "WarehouseSettings title",
+    "string": "설정"
+  },
+  "6nSTuC": {
+    "context": "webhooks section name",
+    "string": "웹훅"
+  },
+  "hS+ZjH": {
+    "context": "delete webhook",
+    "string": "이 웹훅을 삭제하시겠습니까?"
+  },
+  "o5KXAN": {
+    "context": "delete webhook",
+    "string": "{name}을(를) 삭제하시겠습니까?"
+  },
+  "X90ElB": {
+    "context": "dialog header",
+    "string": "웹훅 삭제"
+  },
+  "snUby7": {
+    "context": "header",
+    "string": "이름 없는 웹훅 상세"
+  },
+  "Ryh3iR": {
+    "context": "header",
+    "string": "웹훅 생성"
+  },
+  "OPtrMg": {
+    "context": "header",
+    "string": "{webhookName} 상세"
+  },
+  "QEvH8Q": {
+    "context": "section description",
+    "string": "이 웹훅에 대한 비동기 이벤트를 등록할 권한을 할당하세요."
+  },
+  "fHopox": {
+    "context": "section description",
+    "string": "이 웹훅에 대한 동기 이벤트를 등록할 권한을 할당하세요."
+  },
+  "TjbB4Y": {
+    "context": "section subheader",
+    "string": "비동기 이벤트"
+  },
+  "GLewww": {
+    "context": "section header",
+    "string": "이벤트"
+  },
+  "9Yhddc": {
+    "context": "input label",
+    "string": "등록된 이벤트"
+  },
+  "dQdxLT": {
+    "context": "section subheader",
+    "string": "동기 이벤트"
+  },
+  "NPfmdK": {
+    "context": "webhook input label",
+    "string": "비밀 키"
+  },
+  "tA5HJx": {
+    "context": "webhook input help text",
+    "string": "비밀 키는 각 페이로드와 함께 해시 서명을 만드는 데 사용됩니다. *선택 필드"
+  },
+  "u9/vj9": {
+    "context": "webhook input label",
+    "string": "대상 URL"
+  },
+  "0MetrR": {
+    "context": "webhook input help text",
+    "string": "이 URL은 웹훅 POST 요청을 받습니다."
+  },
+  "WDy0tF": {
+    "context": "section header",
+    "string": "웹훅 정보"
+  },
+  "D0KaT6": {
+    "context": "webhook input label",
+    "string": "웹훅 이름"
+  },
+  "W+x5ZI": {
+    "context": "webhooks active label",
+    "string": "웹훅 활성"
+  },
+  "IBCBi1": {
+    "context": "webhook active description",
+    "string": "이 웹훅을 비활성화하려면 아래 확인란의 선택을 취소하세요."
+  },
+  "1+M/52": {
+    "context": "section header",
+    "string": "웹훅 상태"
+  },
+  "wbjuR4": {
+    "string": "웹훅을 찾을 수 없습니다."
+  },
+  "wlr0Si": {
+    "context": "button",
+    "string": "웹훅 생성"
+  },
+  "jqnwW9": {
+    "context": "header",
+    "string": "웹훅"
+  },
+  "a/QJBx": {
+    "context": "user action bar",
+    "string": "작업"
+  },
+  "1eCau/": {
+    "string": "이름 없는 웹훅"
+  },
+  "OTpV1t": {
+    "context": "webhook name",
+    "string": "이름"
+  },
+  "JVaz1C": {
+    "context": "window title",
+    "string": "웹훅 생성"
+  },
+  "a5msuh": {
+    "string": "네"
+  },
+  "g/FRtd": {
+    "context": "table column header, allocated product quantity",
+    "string": "할당됨"
+  },
+  "MNZY28": {
+    "context": "table column header",
+    "string": "채널 임계값"
+  },
+  "ge/xFX": {
+    "context": "table column header",
+    "string": "수량"
+  },
+  "HcQEUk": {
+    "context": "table column header, sold units preorder quantity",
+    "string": "판매 수량"
+  },
+  "XWGZLL": {
+    "context": "transaction reference subtitle",
+    "string": "거래 참조"
+  },
+  "Y9lv8z": {
+    "context": "product unavailability",
+    "string": "구매 불가"
+  },
+  "CEavJt": {
+    "context": "section header",
+    "string": "무제한"
+  },
+  "Gkip05": {
+    "context": "button",
+    "string": "할당 해제"
+  },
+  "KSp+8B": {
+    "context": "product available for purchase date",
+    "string": "{date}에 구매 가능해집니다."
+  },
+  "hAcUEl": {
+    "context": "product publication date label",
+    "string": "{date}에 게시됩니다."
+  }
+}
