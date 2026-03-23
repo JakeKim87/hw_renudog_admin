@@ -36,13 +36,7 @@ const CustomerAddresses: React.FC<CustomerAddressesProps> = props => {
   return (
     <DashboardCard>
       <DashboardCard.Header>
-        <DashboardCard.Title>
-          {intl.formatMessage({
-            id: "BfJGij",
-            defaultMessage: "Address Information",
-            description: "header",
-          })}
-        </DashboardCard.Title>
+        <DashboardCard.Title>주소 정보</DashboardCard.Title>
         <DashboardCard.Toolbar>
           <Link to={manageAddressHref}>
             <Button data-test-id="manage-addresses" disabled={disabled} variant="secondary">

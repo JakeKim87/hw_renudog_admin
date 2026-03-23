@@ -284,6 +284,5 @@ export const defaultGraphiQLQuery = `query ProductDetails($id: ID!) {
       id
       grade
     }
-    visibleForUserTypes
   }
 }`;

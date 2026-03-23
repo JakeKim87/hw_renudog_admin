@@ -23,7 +23,6 @@ interface ProductVisibilityProps {
   data: {
     visibility: string;
     visibleForTiers: string[];
-    visibleForUserTypes: string[];
   };
   disabled: boolean;
   errors: ProductErrorFragment[];
@@ -39,10 +38,7 @@ const ProductVisibility: React.FC<ProductVisibilityProps> = ({
   onChange,
 }) => {
   const intl = useIntl();
-  const formErrors = getFormErrors(
-    ["visibility", "visibleForTiers", "visibleForUserTypes"],
-    errors,
-  );
+  const formErrors = getFormErrors(["visibility", "visibleForTiers"], errors);
 
   const tierChoices =
     membershipTiers?.map(tier => ({
@@ -52,15 +48,6 @@ const ProductVisibility: React.FC<ProductVisibilityProps> = ({
 
   const selectedTierOptions = tierChoices.filter(choice =>
     (data.visibleForTiers || []).includes(choice.value),
-  );
-
-  const userTypeChoices = [
-    { label: "병원", value: "HOSPITAL" },
-    { label: "대리점", value: "AGENCY" },
-  ];
-
-  const selectedUserTypeOptions = userTypeChoices.filter(choice =>
-    (data.visibleForUserTypes || []).includes(choice.value),
   );
 
   return (
@@ -128,25 +115,6 @@ const ProductVisibility: React.FC<ProductVisibilityProps> = ({
                 helperText={getProductErrorMessage(formErrors.visibleForTiers, intl)}
               />
             </Box> */}
-
-            {/* ▼▼▼ 회원 타입 선택 UI 추가 ▼▼▼ */}
-            <Box marginTop={4}>
-              <Multiselect
-                name="visibleForUserTypes"
-                label="회원 타입 선택"
-                disabled={disabled}
-                options={userTypeChoices}
-                value={selectedUserTypeOptions}
-                onChange={selectedOptions => {
-                  const selectedValues = selectedOptions.map(option => option.value);
-                  onChange({
-                    target: { name: "visibleForUserTypes", value: selectedValues },
-                  });
-                }}
-                error={!!formErrors.visibleForUserTypes}
-                helperText={getProductErrorMessage(formErrors.visibleForUserTypes, intl)}
-              />
-            </Box>
           </>
         )}
       </DashboardCard.Content>

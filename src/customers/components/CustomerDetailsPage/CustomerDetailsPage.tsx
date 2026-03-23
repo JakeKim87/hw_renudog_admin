@@ -7,7 +7,6 @@ import { CardSpacer } from "@dashboard/components/CardSpacer";
 import { ConfirmButton, ConfirmButtonTransitionState } from "@dashboard/components/ConfirmButton";
 import Form from "@dashboard/components/Form";
 import { DetailPageLayout } from "@dashboard/components/Layouts";
-import { Metadata } from "@dashboard/components/Metadata/Metadata";
 import { MetadataFormData } from "@dashboard/components/Metadata/types";
 import RequirePermissions from "@dashboard/components/RequirePermissions";
 import { Savebar } from "@dashboard/components/Savebar";
@@ -18,6 +17,8 @@ import { useExtensions } from "@dashboard/extensions/hooks/useExtensions";
 import {
   AccountErrorFragment,
   AddressFragment,
+  CashManageMutationResult,
+  CustomerCashHistoryQuery,
   CustomerDepositHistoryQuery,
   CustomerDetailsQuery,
   CustomerPointHistoryQuery,
@@ -59,6 +60,7 @@ import { useIntl } from "react-intl";
 
 import { getUserName } from "../../../misc";
 import CustomerAddresses from "../CustomerAddresses";
+import CustomerCashHistoryCard from "../CustomerCashHistoryCard/CustomerCashHistoryCard";
 import CustomerDepositHistoryCard from "../CustomerDepositHistoryCard/CustomerDepositHistoryCard";
 import CustomerDetails from "../CustomerDetails";
 import CustomerInfo from "../CustomerInfo";
@@ -66,141 +68,139 @@ import CustomerOrders from "../CustomerOrders";
 import CustomerPointHistoryCard from "../CustomerPointHistoryCard/CustomerPointHistoryCard";
 import CustomerStats from "../CustomerStats";
 
-interface CustomerLegacyOrderCardProps {
-  onUpload: (file: File) => void;
-  uploadOpts: LegacyOrderBulkCreateMutationResult;
-}
+// interface CustomerLegacyOrderCardProps {
+//   onUpload: (file: File) => void;
+//   uploadOpts: LegacyOrderBulkCreateMutationResult;
+// }
 
-const CustomerLegacyOrderCard: React.FC<CustomerLegacyOrderCardProps> = ({
-  onUpload,
-  uploadOpts,
-}) => {
-  const intl = useIntl();
-  const inputRef = useRef<HTMLInputElement>(null);
-  const uploadState: ConfirmButtonTransitionState = uploadOpts.loading ? "loading" : "default";
+// const CustomerLegacyOrderCard: React.FC<CustomerLegacyOrderCardProps> = ({
+//   onUpload,
+//   uploadOpts,
+// }) => {
+//   const intl = useIntl();
+//   const inputRef = useRef<HTMLInputElement>(null);
+//   const uploadState: ConfirmButtonTransitionState = uploadOpts.loading ? "loading" : "default";
 
-  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (file) {
-      onUpload(file);
-      event.target.value = "";
-    }
-  };
+//   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+//     const file = event.target.files?.[0];
+//     if (file) {
+//       onUpload(file);
+//       event.target.value = "";
+//     }
+//   };
 
-  const handleButtonClick = () => {
-    inputRef.current?.click();
-  };
+//   const handleButtonClick = () => {
+//     inputRef.current?.click();
+//   };
 
-  return (
-    <Card>
-      <CardHeader
-        title={intl.formatMessage({
-          id: "legacy_order_upload_title",
-          defaultMessage: "과거 주문 내역 업로드",
-        })}
-      />
-      <CardContent>
-        <Typography variant="body2">
-          {intl.formatMessage({
-            id: "legacy_order_upload_desc",
-            defaultMessage: "엑셀 파일을 업로드하여 과거 주문 내역을 일괄 등록합니다.",
-          })}
-        </Typography>
-        <CardSpacer />
-        <input
-          type="file"
-          ref={inputRef}
-          style={{ display: "none" }}
-          accept=".xlsx, .xls"
-          onChange={handleFileChange}
-        />
-        <Button
-          variant="contained"
-          color="primary"
-          onClick={handleButtonClick}
-          disabled={uploadState === "loading"}
-          data-test-id="upload-legacy-order-button"
-        >
-          {uploadState === "loading"
-            ? intl.formatMessage({ id: "uploading", defaultMessage: "업로드 중..." })
-            : intl.formatMessage({
-                id: "excel_file_upload",
-                defaultMessage: "엑셀 파일 업로드",
-              })}
-        </Button>
-      </CardContent>
-    </Card>
-  );
-};
+//   return (
+//     <Card>
+//       <CardHeader
+//         title={intl.formatMessage({
+//           id: "legacy_order_upload_title",
+//           defaultMessage: "과거 주문 내역 업로드",
+//         })}
+//       />
+//       <CardContent>
+//         <Typography variant="body2">
+//           {intl.formatMessage({
+//             id: "legacy_order_upload_desc",
+//             defaultMessage: "엑셀 파일을 업로드하여 과거 주문 내역을 일괄 등록합니다.",
+//           })}
+//         </Typography>
+//         <CardSpacer />
+//         <input
+//           type="file"
+//           ref={inputRef}
+//           style={{ display: "none" }}
+//           accept=".xlsx, .xls"
+//           onChange={handleFileChange}
+//         />
+//         <Button
+//           variant="contained"
+//           color="primary"
+//           onClick={handleButtonClick}
+//           disabled={uploadState === "loading"}
+//           data-test-id="upload-legacy-order-button"
+//         >
+//           {uploadState === "loading"
+//             ? intl.formatMessage({ id: "uploading", defaultMessage: "업로드 중..." })
+//             : intl.formatMessage({
+//                 id: "excel_file_upload",
+//                 defaultMessage: "엑셀 파일 업로드",
+//               })}
+//         </Button>
+//       </CardContent>
+//     </Card>
+//   );
+// };
 
-interface CustomerExchangeCancellationCardProps {
-  onUpload: (file: File) => void;
-  uploadOpts: ExchangeCancellationBulkCreateMutationResult;
-}
+// interface CustomerExchangeCancellationCardProps {
+//   onUpload: (file: File) => void;
+//   uploadOpts: ExchangeCancellationBulkCreateMutationResult;
+// }
 
-const CustomerExchangeCancellationCard: React.FC<CustomerExchangeCancellationCardProps> = ({
-  onUpload,
-  uploadOpts,
-}) => {
-  const intl = useIntl();
-  const inputRef = useRef<HTMLInputElement>(null);
-  const uploadState: ConfirmButtonTransitionState = uploadOpts.loading ? "loading" : "default";
+// const CustomerExchangeCancellationCard: React.FC<CustomerExchangeCancellationCardProps> = ({
+//   onUpload,
+//   uploadOpts,
+// }) => {
+//   const intl = useIntl();
+//   const inputRef = useRef<HTMLInputElement>(null);
+//   const uploadState: ConfirmButtonTransitionState = uploadOpts.loading ? "loading" : "default";
 
-  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (file) {
-      onUpload(file);
-      // 같은 파일을 다시 업로드할 수 있도록 input 값을 초기화합니다.
-      event.target.value = "";
-    }
-  };
+//   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+//     const file = event.target.files?.[0];
+//     if (file) {
+//       onUpload(file);
+//       // 같은 파일을 다시 업로드할 수 있도록 input 값을 초기화합니다.
+//       event.target.value = "";
+//     }
+//   };
 
-  const handleButtonClick = () => {
-    inputRef.current?.click();
-  };
+//   const handleButtonClick = () => {
+//     inputRef.current?.click();
+//   };
 
-  return (
-    <Card>
-      <CardHeader
-        title={intl.formatMessage({
-          id: "exchange_cancellation_upload_title",
-          defaultMessage: "교환/취소 내역 업로드",
-        })}
-      />
-      <CardContent>
-        <Typography variant="body2">
-          {intl.formatMessage({
-            id: "exchange_cancellation_upload_desc",
-            defaultMessage:
-              "엑셀 파일을 업로드하여 교환 또는 취소 내역을 일괄 등록합니다.",
-          })}
-        </Typography>
-        <CardSpacer />
-        {/* 숨겨진 파일 입력 필드 */}
-        <input
-          type="file"
-          ref={inputRef}
-          style={{ display: "none" }}
-          accept=".xlsx, .xls"
-          onChange={handleFileChange}
-        />
-        {/* 사용자가 클릭할 버튼 */}
-        <Button
-          variant="contained"
-          color="primary"
-          onClick={handleButtonClick}
-          disabled={uploadState === "loading"}
-          data-test-id="upload-excel-button"
-        >
-          {uploadState === "loading"
-            ? intl.formatMessage({ id: "uploading", defaultMessage: "업로드 중..." })
-            : intl.formatMessage({ id: "excel_file_upload", defaultMessage: "엑셀 파일 업로드" })}
-        </Button>
-      </CardContent>
-    </Card>
-  );
-};
-
+//   return (
+//     <Card>
+//       <CardHeader
+//         title={intl.formatMessage({
+//           id: "exchange_cancellation_upload_title",
+//           defaultMessage: "교환/취소 내역 업로드",
+//         })}
+//       />
+//       <CardContent>
+//         <Typography variant="body2">
+//           {intl.formatMessage({
+//             id: "exchange_cancellation_upload_desc",
+//             defaultMessage: "엑셀 파일을 업로드하여 교환 또는 취소 내역을 일괄 등록합니다.",
+//           })}
+//         </Typography>
+//         <CardSpacer />
+//         {/* 숨겨진 파일 입력 필드 */}
+//         <input
+//           type="file"
+//           ref={inputRef}
+//           style={{ display: "none" }}
+//           accept=".xlsx, .xls"
+//           onChange={handleFileChange}
+//         />
+//         {/* 사용자가 클릭할 버튼 */}
+//         <Button
+//           variant="contained"
+//           color="primary"
+//           onClick={handleButtonClick}
+//           disabled={uploadState === "loading"}
+//           data-test-id="upload-excel-button"
+//         >
+//           {uploadState === "loading"
+//             ? intl.formatMessage({ id: "uploading", defaultMessage: "업로드 중..." })
+//             : intl.formatMessage({ id: "excel_file_upload", defaultMessage: "엑셀 파일 업로드" })}
+//         </Button>
+//       </CardContent>
+//     </Card>
+//   );
+// };
 
 // --- ADDED START ---
 interface BalanceManageDialogProps {
@@ -232,7 +232,7 @@ const BalanceManageDialog: React.FC<BalanceManageDialogProps> = ({
 
   const handleConfirm = () => {
     const numericAmount = typeof amount === "string" ? parseFloat(amount) : amount;
-    
+
     if (!isNaN(numericAmount)) {
       onConfirm({ amount: numericAmount, reason });
       handleClose();
@@ -241,7 +241,7 @@ const BalanceManageDialog: React.FC<BalanceManageDialogProps> = ({
 
   const handleAmountChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value;
-    
+
     if (/^-?\d*$/.test(value)) {
       setAmount(value);
     }
@@ -251,13 +251,32 @@ const BalanceManageDialog: React.FC<BalanceManageDialogProps> = ({
     <Dialog open={open} onClose={handleClose} fullWidth maxWidth="xs">
       <DialogTitle>{title}</DialogTitle>
       <DialogContent>
-        <TextField name="amount" label={amountLabel} type="tel" value={amount} onChange={handleAmountChange} fullWidth autoFocus />
+        <TextField
+          name="amount"
+          label={amountLabel}
+          type="tel"
+          value={amount}
+          onChange={handleAmountChange}
+          fullWidth
+          autoFocus
+        />
         <CardSpacer />
-        <TextField name="reason" label={intl.formatMessage({ id: "reason", defaultMessage: "사유" })} value={reason} onChange={e => setReason(e.target.value)} fullWidth multiline />
+        <TextField
+          name="reason"
+          label={intl.formatMessage({ id: "reason", defaultMessage: "사유" })}
+          value={reason}
+          onChange={e => setReason(e.target.value)}
+          fullWidth
+          multiline
+        />
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleClose} color="primary">취소</Button>
-        <ConfirmButton transitionState={confirmButtonState} onClick={handleConfirm}>확인</ConfirmButton>
+        <Button onClick={handleClose} color="primary">
+          취소
+        </Button>
+        <ConfirmButton transitionState={confirmButtonState} onClick={handleConfirm}>
+          확인
+        </ConfirmButton>
       </DialogActions>
     </Dialog>
   );
@@ -267,53 +286,88 @@ interface CustomerWalletProps {
   customer: CustomerDetailsQuery["user"];
   pointManageOpts: PointManageMutationResult;
   depositManageOpts: DepositManageMutationResult;
+  cashManageOpts: CashManageMutationResult;
   onPointManage: (data: PointData) => void;
   onDepositManage: (data: DepositData) => void;
+  onCashManage: (data: CashData) => void;
 }
 
 const CustomerWallet: React.FC<CustomerWalletProps> = ({
   customer,
   onPointManage,
   onDepositManage,
+  onCashManage,
   pointManageOpts,
   depositManageOpts,
+  cashManageOpts,
 }) => {
-  const intl = useIntl();
-  const [dialog, setDialog] = useState<"none" | "point" | "deposit">("none");
+  const [dialog, setDialog] = useState<"none" | "point" | "deposit" | "cash">("none");
 
   const pointBalance = customer?.pointWallet?.balance ?? 0;
   const depositBalance = customer?.depositWallet?.balance ?? 0;
-  const pointConfirmState: ConfirmButtonTransitionState = pointManageOpts.loading ? "loading" : "default";
-  const depositConfirmState: ConfirmButtonTransitionState = depositManageOpts.loading ? "loading" : "default";
+  const cashBalance = customer?.cashWallet?.balance ?? 0;
+
+  const pointConfirmState: ConfirmButtonTransitionState = pointManageOpts.loading
+    ? "loading"
+    : "default";
+  const depositConfirmState: ConfirmButtonTransitionState = depositManageOpts.loading
+    ? "loading"
+    : "default";
+
+  const cashConfirmState: ConfirmButtonTransitionState = cashManageOpts.loading
+    ? "loading"
+    : "default";
 
   return (
     <>
       <Card>
         <CardContent>
-          <Typography variant="h6">{intl.formatMessage({ id: "walletManagement", defaultMessage: "지갑 관리" })}</Typography>
           <CardSpacer />
-          <Typography>{intl.formatMessage({ id: "pointsBalance", defaultMessage: "포인트 잔액:" })} {pointBalance.toLocaleString()} P</Typography>
-          <Button color="primary" onClick={() => setDialog("point")}>{intl.formatMessage({ id: "managePoints", defaultMessage: "포인트 관리" })}</Button>
+          <Typography>
+            {"포인트 잔액:"} {pointBalance.toLocaleString()} P
+          </Typography>
+          <Button color="primary" onClick={() => setDialog("point")}>
+            포인트 관리
+          </Button>
           <CardSpacer />
-          <Typography>{intl.formatMessage({ id: "depositsBalance", defaultMessage: "예치금 잔액:" })} {depositBalance.toLocaleString()} 원</Typography>
-          <Button color="primary" onClick={() => setDialog("deposit")}>{intl.formatMessage({ id: "manageDeposits", defaultMessage: "예치금 관리" })}</Button>
+          <Typography>
+            {"예치금 잔액:"} {depositBalance.toLocaleString()} 원
+          </Typography>
+          <Button color="primary" onClick={() => setDialog("deposit")}>
+            예치금 관리
+          </Button>
+          <CardSpacer />
+          <Typography style={{ color: cashBalance > 0 ? "#d32f2f" : "#666", fontWeight: 600 }}>
+            {"미수금(후불) 잔액:"} {cashBalance.toLocaleString()} 원
+          </Typography>
+          <Button color="secondary" onClick={() => setDialog("cash")}>
+            미수금 관리
+          </Button>
         </CardContent>
       </Card>
       <BalanceManageDialog
         open={dialog === "point"}
         onClose={() => setDialog("none")}
-        title={intl.formatMessage({ id: "managePoints", defaultMessage: "포인트 관리" })}
-        amountLabel={intl.formatMessage({ id: "pointsAmount", defaultMessage: "포인트 (차감은 음수로 입력)" })}
+        title="포인트 관리"
+        amountLabel="포인트 (차감은 음수로 입력)"
         confirmButtonState={pointConfirmState}
         onConfirm={({ amount, reason }) => onPointManage({ points: amount, reason })}
       />
       <BalanceManageDialog
         open={dialog === "deposit"}
         onClose={() => setDialog("none")}
-        title={intl.formatMessage({ id: "manageDeposits", defaultMessage: "예치금 관리" })}
-        amountLabel={intl.formatMessage({ id: "depositsAmount", defaultMessage: "예치금 (차감은 음수로 입력)" })}
+        title="예치금 관리"
+        amountLabel="예치금 (차감은 음수로 입력)"
         confirmButtonState={depositConfirmState}
         onConfirm={({ amount, reason }) => onDepositManage({ amount, reason })}
+      />
+      <BalanceManageDialog
+        open={dialog === "cash"}
+        onClose={() => setDialog("none")}
+        title="미수금(후불 결제) 관리"
+        amountLabel="금액 (입금 확인 시 음수[-] 입력)"
+        confirmButtonState={cashConfirmState}
+        onConfirm={({ amount, reason }) => onCashManage({ amount, reason })}
       />
     </>
   );
@@ -334,10 +388,9 @@ export interface CustomerDetailsPageFormData extends MetadataFormData {
   departmentName: string;
   managerName: string;
   managerContact: string;
-  salesRepresentative: string; 
+  salesRepresentative: string;
 }
 
-// --- ADDED START ---
 export interface PointData {
   points: number;
   reason: string;
@@ -346,7 +399,10 @@ export interface DepositData {
   amount: number;
   reason: string;
 }
-// --- ADDED END ---
+export interface CashData {
+  amount: number;
+  reason: string;
+}
 
 export interface CustomerDetailsPageProps {
   customerId: string;
@@ -358,12 +414,16 @@ export interface CustomerDetailsPageProps {
   onDelete: () => void;
   pointManageOpts: PointManageMutationResult;
   depositManageOpts: DepositManageMutationResult;
+  cashManageOpts: CashManageMutationResult;
   onPointManage: (data: PointData) => void;
   onDepositManage: (data: DepositData) => void;
+  onCashManage: (data: CashData) => void;
   depositHistoryData: CustomerDepositHistoryQuery["user"];
   depositHistoryLoading: boolean;
   pointHistoryData: CustomerPointHistoryQuery["user"];
   pointHistoryLoading: boolean;
+  cashHistoryData: CustomerCashHistoryQuery["user"];
+  cashHistoryLoading: boolean;
   onDepositCancel: (historyId: string) => void;
   depositCancelOpts: MutationResult;
   tiers: MembershipTierFragment[];
@@ -388,12 +448,16 @@ const CustomerDetailsPage: React.FC<CustomerDetailsPageProps> = ({
   onDelete,
   pointManageOpts,
   depositManageOpts,
+  cashManageOpts,
   onPointManage,
   onDepositManage,
+  onCashManage,
   depositHistoryData,
   depositHistoryLoading,
   pointHistoryData,
   pointHistoryLoading,
+  cashHistoryData,
+  cashHistoryLoading,
   onDepositCancel,
   depositCancelOpts,
   tiers,
@@ -448,7 +512,7 @@ const CustomerDetailsPage: React.FC<CustomerDetailsPageProps> = ({
     <Form confirmLeave initial={initialForm} onSubmit={onSubmit} disabled={disabled}>
       {({ change, data, isSaveDisabled, submit }) => {
         const changeMetadata = makeMetadataChangeHandler(change);
-        
+
         return (
           <DetailPageLayout>
             <TopNav href={customerBackLink} title={getUserName(customer, true)}>
@@ -552,10 +616,24 @@ const CustomerDetailsPage: React.FC<CustomerDetailsPageProps> = ({
                   onDepositCancel={onDepositCancel}
                   depositCancelOpts={depositCancelOpts}
                 />
+                <CardSpacer />
+                <CustomerCashHistoryCard
+                  cashData={cashHistoryData}
+                  cashHistoryLoading={cashHistoryLoading}
+                />
               </RequirePermissions>
             </DetailPageLayout.Content>
             <DetailPageLayout.RightSidebar>
-              <RequirePermissions requiredPermissions={[PermissionEnum.MANAGE_ORDERS]}>
+              <CustomerWallet
+                customer={customer}
+                onPointManage={onPointManage}
+                onDepositManage={onDepositManage}
+                onCashManage={onCashManage}
+                pointManageOpts={pointManageOpts}
+                depositManageOpts={depositManageOpts}
+                cashManageOpts={cashManageOpts}
+              />
+              {/* <RequirePermissions requiredPermissions={[PermissionEnum.MANAGE_ORDERS]}>
                 <CustomerExchangeCancellationCard
                   onUpload={onExchangeCancellationUpload}
                   uploadOpts={exchangeCancellationUploadOpts}
@@ -566,7 +644,7 @@ const CustomerDetailsPage: React.FC<CustomerDetailsPageProps> = ({
                   uploadOpts={legacyOrderUploadOpts}
                 />
                 <CardSpacer />
-              </RequirePermissions>
+              </RequirePermissions> */}
               <CustomerAddresses
                 customer={customer}
                 disabled={disabled}
@@ -577,13 +655,6 @@ const CustomerDetailsPage: React.FC<CustomerDetailsPageProps> = ({
               <CardSpacer />
               {/* --- ADDED START --- */}
               <RequirePermissions requiredPermissions={[PermissionEnum.MANAGE_USERS]}>
-                <CustomerWallet
-                  customer={customer}
-                  onPointManage={onPointManage}
-                  onDepositManage={onDepositManage}
-                  pointManageOpts={pointManageOpts}
-                  depositManageOpts={depositManageOpts}
-                />
                 <CardSpacer />
               </RequirePermissions>
               {/* --- ADDED END --- */}

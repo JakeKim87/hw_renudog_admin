@@ -44,6 +44,11 @@ export const customerDetailsFragment = gql`
     depositWallet {
       balance
     }
+    cashWallet {
+      id
+      balance
+      updatedAt
+    }
     membership {
       tier {
         id

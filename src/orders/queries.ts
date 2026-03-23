@@ -44,7 +44,6 @@ export const orderListQuery = gql`
           user {
             id
             email
-            userType
             businessName
           }
           chargeStatus

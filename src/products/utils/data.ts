@@ -239,7 +239,6 @@ export function getProductUpdatePageFormData(
     useChannelDefaultRate: product?.useChannelDefaultRate ?? true,
     visibility: product?.visibility ?? "PUBLIC",
     visibleForTiers: product?.visibleForTiers?.map(tier => tier.id) ?? [],
-    visibleForUserTypes: product?.visibleForUserTypes ?? [],
   };
 }
 

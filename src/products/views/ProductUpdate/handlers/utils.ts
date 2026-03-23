@@ -48,7 +48,6 @@ export function getProductUpdateVariables(
       useChannelDefaultRate: data.useChannelDefaultRate,
       visibility: data.visibility as ProductVisibilityEnum,
       visibleForTiers: data.visibleForTiers,
-      visibleForUserTypes: data.visibleForUserTypes,
     },
   };
 

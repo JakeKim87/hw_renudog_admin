@@ -560,6 +560,11 @@ export const CustomerDetailsFragmentDoc = gql`
   depositWallet {
     balance
   }
+  cashWallet {
+    id
+    balance
+    updatedAt
+  }
   membership {
     tier {
       id
@@ -2430,7 +2435,6 @@ export const OrderDetailsFragmentDoc = gql`
   user {
     id
     email
-    userType
     businessName
     representativeName
     businessPhone
@@ -3220,7 +3224,6 @@ export const ProductFragmentDoc = gql`
     id
     grade
   }
-  visibleForUserTypes
   defaultVariant {
     id
   }
@@ -8608,6 +8611,50 @@ export function useDepositManageMutation(baseOptions?: ApolloReactHooks.Mutation
 export type DepositManageMutationHookResult = ReturnType<typeof useDepositManageMutation>;
 export type DepositManageMutationResult = Apollo.MutationResult<Types.DepositManageMutation>;
 export type DepositManageMutationOptions = Apollo.BaseMutationOptions<Types.DepositManageMutation, Types.DepositManageMutationVariables>;
+export const CashManageDocument = gql`
+    mutation CashManage($userId: ID!, $amount: Float!, $reason: String!) {
+  cashManage(userId: $userId, amount: $amount, reason: $reason) {
+    cashWallet {
+      id
+      balance
+      updatedAt
+    }
+    cashSystemErrors {
+      field
+      message
+      code
+    }
+  }
+}
+    `;
+export type CashManageMutationFn = Apollo.MutationFunction<Types.CashManageMutation, Types.CashManageMutationVariables>;
+
+/**
+ * __useCashManageMutation__
+ *
+ * To run a mutation, you first call `useCashManageMutation` within a React component and pass it any options that fit your needs.
+ * When your component renders, `useCashManageMutation` returns a tuple that includes:
+ * - A mutate function that you can call at any time to execute the mutation
+ * - An object with fields that represent the current status of the mutation's execution
+ *
+ * @param baseOptions options that will be passed into the mutation, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options-2;
+ *
+ * @example
+ * const [cashManageMutation, { data, loading, error }] = useCashManageMutation({
+ *   variables: {
+ *      userId: // value for 'userId'
+ *      amount: // value for 'amount'
+ *      reason: // value for 'reason'
+ *   },
+ * });
+ */
+export function useCashManageMutation(baseOptions?: ApolloReactHooks.MutationHookOptions<Types.CashManageMutation, Types.CashManageMutationVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return ApolloReactHooks.useMutation<Types.CashManageMutation, Types.CashManageMutationVariables>(CashManageDocument, options);
+      }
+export type CashManageMutationHookResult = ReturnType<typeof useCashManageMutation>;
+export type CashManageMutationResult = Apollo.MutationResult<Types.CashManageMutation>;
+export type CashManageMutationOptions = Apollo.BaseMutationOptions<Types.CashManageMutation, Types.CashManageMutationVariables>;
 export const DepositCancelDocument = gql`
     mutation DepositCancel($historyId: ID!) {
   depositCancel(historyId: $historyId) {
@@ -9145,6 +9192,71 @@ export function useCustomerPointHistoryLazyQuery(baseOptions?: ApolloReactHooks.
 export type CustomerPointHistoryQueryHookResult = ReturnType<typeof useCustomerPointHistoryQuery>;
 export type CustomerPointHistoryLazyQueryHookResult = ReturnType<typeof useCustomerPointHistoryLazyQuery>;
 export type CustomerPointHistoryQueryResult = Apollo.QueryResult<Types.CustomerPointHistoryQuery, Types.CustomerPointHistoryQueryVariables>;
+export const CustomerCashHistoryDocument = gql`
+    query CustomerCashHistory($id: ID!, $first: Int, $after: String, $before: String, $last: Int) {
+  user(id: $id) {
+    id
+    cashWallet {
+      balance
+      totalAccumulatedCash
+      updatedAt
+    }
+    cashHistories(first: $first, after: $after, before: $before, last: $last) {
+      edges {
+        node {
+          id
+          createdAt
+          reason
+          amount
+          balanceAfterTransaction
+          order {
+            id
+            number
+          }
+        }
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
+        hasPreviousPage
+        startCursor
+      }
+    }
+  }
+}
+    `;
+
+/**
+ * __useCustomerCashHistoryQuery__
+ *
+ * To run a query within a React component, call `useCustomerCashHistoryQuery` and pass it any options that fit your needs.
+ * When your component renders, `useCustomerCashHistoryQuery` returns an object from Apollo Client that contains loading, error, and data properties
+ * you can use to render your UI.
+ *
+ * @param baseOptions options that will be passed into the query, supported options are listed on: https://www.apollographql.com/docs/react/api/react-hooks/#options;
+ *
+ * @example
+ * const { data, loading, error } = useCustomerCashHistoryQuery({
+ *   variables: {
+ *      id: // value for 'id'
+ *      first: // value for 'first'
+ *      after: // value for 'after'
+ *      before: // value for 'before'
+ *      last: // value for 'last'
+ *   },
+ * });
+ */
+export function useCustomerCashHistoryQuery(baseOptions: ApolloReactHooks.QueryHookOptions<Types.CustomerCashHistoryQuery, Types.CustomerCashHistoryQueryVariables>) {
+        const options = {...defaultOptions, ...baseOptions}
+        return ApolloReactHooks.useQuery<Types.CustomerCashHistoryQuery, Types.CustomerCashHistoryQueryVariables>(CustomerCashHistoryDocument, options);
+      }
+export function useCustomerCashHistoryLazyQuery(baseOptions?: ApolloReactHooks.LazyQueryHookOptions<Types.CustomerCashHistoryQuery, Types.CustomerCashHistoryQueryVariables>) {
+          const options = {...defaultOptions, ...baseOptions}
+          return ApolloReactHooks.useLazyQuery<Types.CustomerCashHistoryQuery, Types.CustomerCashHistoryQueryVariables>(CustomerCashHistoryDocument, options);
+        }
+export type CustomerCashHistoryQueryHookResult = ReturnType<typeof useCustomerCashHistoryQuery>;
+export type CustomerCashHistoryLazyQueryHookResult = ReturnType<typeof useCustomerCashHistoryLazyQuery>;
+export type CustomerCashHistoryQueryResult = Apollo.QueryResult<Types.CustomerCashHistoryQuery, Types.CustomerCashHistoryQueryVariables>;
 export const ListAllDepositHistoriesDocument = gql`
     query ListAllDepositHistories($after: String, $before: String, $first: Int, $last: Int, $filter: DepositHistoryFilterInput) {
   allDepositHistories(
@@ -15412,7 +15524,6 @@ export const OrderListDocument = gql`
         user {
           id
           email
-          userType
           businessName
         }
         chargeStatus

@@ -123,7 +123,6 @@ export function createHandler(
         useChannelDefaultRate: formData.useChannelDefaultRate,
         visibility: formData.visibility as ProductVisibilityEnum,
         visibleForTiers: formData.visibleForTiers,
-        visibleForUserTypes: formData.visibleForUserTypes,
       },
     };
     const result = await productCreate(productVariables);

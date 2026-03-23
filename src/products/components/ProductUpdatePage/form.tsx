@@ -185,7 +185,6 @@ export function useProductUpdateForm(
     ...getMetadata(data, isMetadataModified, isPrivateMetadataModified),
     visibility: data.visibility,
     visibleForTiers: data.visibleForTiers,
-    visibleForUserTypes: data.visibleForUserTypes,
     attributes: mergeAttributes(
       attributes.data,
       getRichTextAttributesFromMap(attributes.data, await getAttributeRichTextValues()),

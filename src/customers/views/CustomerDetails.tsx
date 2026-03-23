@@ -8,6 +8,8 @@ import {
   ExchangeCancellationBulkCreateMutationVariables,
   LegacyOrderBulkCreateMutationVariables,
   PointManageMutationVariables,
+  useCashManageMutation,
+  useCustomerCashHistoryQuery,
   useCustomerDepositHistoryQuery,
   useCustomerPointHistoryQuery,
   useDepositCancelMutation,
@@ -31,9 +33,10 @@ import React from "react";
 import { FormattedMessage, useIntl } from "react-intl";
 
 import CustomerDetailsPage, {
+  CashData,
   CustomerDetailsPageFormData,
-  DepositData, // --- ADDED ---
-  PointData,   // --- ADDED ---
+  DepositData,
+  PointData,
 } from "../components/CustomerDetailsPage";
 import { useCustomerDetails } from "../hooks/useCustomerDetails";
 import { CustomerDetailsProvider } from "../providers/CustomerDetailsProvider";
@@ -126,7 +129,7 @@ const CustomerDetailsViewInner: React.FC<CustomerDetailsViewProps> = ({ id, para
           status: "success",
           text: "예치금이 성공적으로 처리되었습니다.",
         });
-        
+
         if (refetch) refetch();
       } else {
         notify({
@@ -137,22 +140,51 @@ const CustomerDetailsViewInner: React.FC<CustomerDetailsViewProps> = ({ id, para
     },
   });
 
+  const {
+    data: cashHistoryData,
+    loading: cashHistoryLoading,
+    refetch: refetchCashHistory, // 새로고침 함수
+  } = useCustomerCashHistoryQuery({
+    variables: { id, first: 20 },
+    skip: !id,
+    fetchPolicy: "cache-and-network",
+  });
+
+  const [cashManage, cashManageOpts] = useCashManageMutation({
+    onCompleted: data => {
+      if (data.cashManage.cashSystemErrors.length === 0) {
+        notify({
+          status: "success",
+          text: "미수금 처리가 완료되었습니다.",
+        });
+        if (refetch) refetch();
+      } else {
+        notify({
+          status: "error",
+          text: data.cashManage.cashSystemErrors[0]?.message || "오류가 발생했습니다.",
+        });
+      }
+    },
+  });
+
   const [updateMetadata] = useUpdateMetadataMutation({});
   const [updatePrivateMetadata] = useUpdatePrivateMetadataMutation({});
-  
+
   const { data: pointData, loading: pointLoading } = useCustomerPointHistoryQuery({
     variables: { id, first: 20 },
     skip: !id,
     fetchPolicy: "cache-and-network",
   });
 
-
-  const { data: depositData, loading: depositLoading, refetch: refetchDeposits } =
-    useCustomerDepositHistoryQuery({
-      variables: { id, first: 20 },
-      skip: !id,
-      fetchPolicy: "cache-and-network",
-    });
+  const {
+    data: depositData,
+    loading: depositLoading,
+    refetch: refetchDeposits,
+  } = useCustomerDepositHistoryQuery({
+    variables: { id, first: 20 },
+    skip: !id,
+    fetchPolicy: "cache-and-network",
+  });
 
   const [depositCancel, depositCancelOpts] = useDepositCancelMutation({
     onCompleted: data => {
@@ -169,50 +201,47 @@ const CustomerDetailsViewInner: React.FC<CustomerDetailsViewProps> = ({ id, para
       } else {
         notify({
           status: "error",
-          text: data.depositCancel.errors[0]?.message || intl.formatMessage(commonMessages.somethingWentWrong),
+          text:
+            data.depositCancel.errors[0]?.message ||
+            intl.formatMessage(commonMessages.somethingWentWrong),
         });
       }
     },
   });
 
-  const [
-    uploadExchangeCancellations,
-    uploadExchangeCancellationsOpts,
-  ] = useExchangeCancellationBulkCreateMutation({
-    onCompleted: data => {
-      const errors = data.exchangeCancellationBulkCreate.exchangeCancellationErrors;
-      if (errors.length === 0) {
-        notify({
-          status: "success",
-          text: intl.formatMessage(
-            {
-              id: "exchange_cancellation_upload_success",
-              defaultMessage: "{count}개의 교환/취소 내역이 성공적으로 업로드되었습니다.",
-            },
-            {
-              count: data.exchangeCancellationBulkCreate.createdCount,
-            },
-          ),
-        });
-      } else {
-        // 엑셀 파일 처리 중 발생한 오류를 사용자에게 알려줍니다.
-        const errorMessage = errors[0];
-        notify({
-          status: "error",
-          title: intl.formatMessage({
-            id: "upload_error_title",
-            defaultMessage: "업로드 실패",
-          }),
-          text: `행 ${errorMessage.rowIndex}: ${errorMessage.message}`,
-        });
-      }
-    },
-  });
+  const [uploadExchangeCancellations, uploadExchangeCancellationsOpts] =
+    useExchangeCancellationBulkCreateMutation({
+      onCompleted: data => {
+        const errors = data.exchangeCancellationBulkCreate.exchangeCancellationErrors;
+        if (errors.length === 0) {
+          notify({
+            status: "success",
+            text: intl.formatMessage(
+              {
+                id: "exchange_cancellation_upload_success",
+                defaultMessage: "{count}개의 교환/취소 내역이 성공적으로 업로드되었습니다.",
+              },
+              {
+                count: data.exchangeCancellationBulkCreate.createdCount,
+              },
+            ),
+          });
+        } else {
+          // 엑셀 파일 처리 중 발생한 오류를 사용자에게 알려줍니다.
+          const errorMessage = errors[0];
+          notify({
+            status: "error",
+            title: intl.formatMessage({
+              id: "upload_error_title",
+              defaultMessage: "업로드 실패",
+            }),
+            text: `행 ${errorMessage.rowIndex}: ${errorMessage.message}`,
+          });
+        }
+      },
+    });
 
-  const [
-    uploadLegacyOrders,
-    uploadLegacyOrdersOpts,
-  ] = useLegacyOrderBulkCreateMutation({
+  const [uploadLegacyOrders, uploadLegacyOrdersOpts] = useLegacyOrderBulkCreateMutation({
     onCompleted: data => {
       const errors = data.legacyOrderBulkCreate.legacyOrderErrors;
       if (errors.length === 0) {
@@ -348,10 +377,20 @@ const CustomerDetailsViewInner: React.FC<CustomerDetailsViewProps> = ({ id, para
     depositManage({ variables });
   };
 
+  const handleCashManage = (data: CashData) => {
+    cashManage({
+      variables: {
+        userId: id,
+        amount: data.amount,
+        reason: data.reason,
+      },
+    });
+  };
+
   const saveButtonBarState: ConfirmButtonTransitionState = updateCustomerOpts.loading
     ? "loading"
     : "default";
-  
+
   const removeButtonState: ConfirmButtonTransitionState = removeCustomerOpts.loading
     ? "loading"
     : "default";
@@ -362,9 +401,7 @@ const CustomerDetailsViewInner: React.FC<CustomerDetailsViewProps> = ({ id, para
       <CustomerDetailsPage
         customerId={id}
         customer={user}
-        disabled={
-          loading || updateCustomerOpts.loading || removeCustomerOpts.loading
-        }
+        disabled={loading || updateCustomerOpts.loading || removeCustomerOpts.loading}
         errors={updateCustomerOpts.data?.customerUpdate.errors || []}
         saveButtonBar={saveButtonBarState}
         onSubmit={handleSubmit}
@@ -377,12 +414,16 @@ const CustomerDetailsViewInner: React.FC<CustomerDetailsViewProps> = ({ id, para
         }
         pointManageOpts={pointManageOpts}
         depositManageOpts={depositManageOpts}
+        cashManageOpts={cashManageOpts}
         onPointManage={handlePointManage}
         onDepositManage={handleDepositManage}
+        onCashManage={handleCashManage}
         depositHistoryData={depositData?.user}
         depositHistoryLoading={loading || depositLoading}
         pointHistoryData={pointData?.user}
         pointHistoryLoading={loading || pointLoading}
+        cashHistoryData={cashHistoryData?.user}
+        cashHistoryLoading={loading || cashHistoryLoading}
         onDepositCancel={handleDepositCancel}
         depositCancelOpts={depositCancelOpts}
         tiers={tiers}

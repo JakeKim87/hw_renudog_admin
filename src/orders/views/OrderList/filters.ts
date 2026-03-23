@@ -4,7 +4,6 @@ import {
   OrderFilterInput,
   OrderStatusFilter,
   PaymentMethodTypeEnum,
-  UserType,
 } from "@dashboard/graphql";
 import { OrderListUrlQueryParams } from "@dashboard/orders/urls";
 
@@ -65,10 +64,6 @@ export function getFilterVariables(
 
   if (params.query) {
     filter.search = params.query;
-  }
-
-  if (params.userType) {
-    filter.userType = [params.userType as UserType];
   }
 
   return filter;

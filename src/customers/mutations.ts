@@ -103,33 +103,50 @@ export const bulkRemoveCustomers = gql`
 
 export const pointManage = gql`
   mutation PointManage($userId: ID!, $points: Int!, $reason: String!) {
-  pointManage(userId: $userId, points: $points, reason: $reason) {
-    pointWallet {
-      id
-      balance
-    }
-    pointSystemErrors {
-      field
-      message
-      code
+    pointManage(userId: $userId, points: $points, reason: $reason) {
+      pointWallet {
+        id
+        balance
+      }
+      pointSystemErrors {
+        field
+        message
+        code
+      }
     }
   }
-}
 `;
 export const depositManage = gql`
   mutation DepositManage($userId: ID!, $amount: Int!, $reason: String!) {
-  depositManage(userId: $userId, amount: $amount, reason: $reason) {
-    depositWallet {
-      id
-      balance
-    }
-    depositSystemErrors {
-      field
-      message
-      code
+    depositManage(userId: $userId, amount: $amount, reason: $reason) {
+      depositWallet {
+        id
+        balance
+      }
+      depositSystemErrors {
+        field
+        message
+        code
+      }
     }
   }
-}
+`;
+
+export const cashManage = gql`
+  mutation CashManage($userId: ID!, $amount: Float!, $reason: String!) {
+    cashManage(userId: $userId, amount: $amount, reason: $reason) {
+      cashWallet {
+        id
+        balance
+        updatedAt
+      }
+      cashSystemErrors {
+        field
+        message
+        code
+      }
+    }
+  }
 `;
 
 export const DepositCancel = gql`

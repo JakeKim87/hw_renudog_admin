@@ -1,6 +1,6 @@
 import { DateTime } from "@dashboard/components/Date";
 import { Pill } from "@dashboard/components/Pill";
-import { DeliveryStatus, OrderDetailsFragment, OrderStatus, UserType } from "@dashboard/graphql";
+import { DeliveryStatus, OrderDetailsFragment, OrderStatus } from "@dashboard/graphql";
 import { transformDeliveryStatus, transformOrderStatus } from "@dashboard/misc";
 import { StatusType } from "@dashboard/types";
 import { makeStyles } from "@saleor/macaw-ui";
@@ -45,21 +45,14 @@ const Title: React.FC<TitleProps> = props => {
   }
   // 2. 'COMPLETED'가 아니라면, 'FULFILLED'인지 확인합니다.
   else if (order.status === OrderStatus.FULFILLED) {
-    if (order.user.userType === UserType.AGENCY) {
-      pillData = {
-        localized: "출고 완료",
-        status: StatusType.INFO, // 파란색 계열
-      };
-    } else {
-      const deliveryStatus = order.fulfillments?.[0]?.deliveryStatus as DeliveryStatus;
+    const deliveryStatus = order.fulfillments?.[0]?.deliveryStatus as DeliveryStatus;
 
-      if (deliveryStatus) {
-        // 'FULFILLED'이면서 deliveryStatus가 있으면, 배송 상태를 기준으로 표시
-        pillData = transformDeliveryStatus(deliveryStatus);
-      } else {
-        // (예외 처리) 'FULFILLED'인데 deliveryStatus가 없는 경우, 기존 방식대로 '처리 완료' 표시
-        pillData = transformOrderStatus(order.status, intl);
-      }
+    if (deliveryStatus) {
+      // 'FULFILLED'이면서 deliveryStatus가 있으면, 배송 상태를 기준으로 표시
+      pillData = transformDeliveryStatus(deliveryStatus);
+    } else {
+      // (예외 처리) 'FULFILLED'인데 deliveryStatus가 없는 경우, 기존 방식대로 '처리 완료' 표시
+      pillData = transformOrderStatus(order.status, intl);
     }
   }
   // 3. 'COMPLETED'도 'FULFILLED'도 아닌 나머지 모든 상태는 기존 방식을 따릅니다.

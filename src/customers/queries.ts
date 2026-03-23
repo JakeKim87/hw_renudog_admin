@@ -164,3 +164,39 @@ export const CustomerPointHistory = gql`
     }
   }
 `;
+
+export const CustomerCashHistory = gql`
+  query CustomerCashHistory($id: ID!, $first: Int, $after: String, $before: String, $last: Int) {
+    user(id: $id) {
+      id
+      # 현재 미수금 요약 정보 (선택 사항)
+      cashWallet {
+        balance
+        totalAccumulatedCash
+        updatedAt
+      }
+      # 미수금 상세 내역
+      cashHistories(first: $first, after: $after, before: $before, last: $last) {
+        edges {
+          node {
+            id
+            createdAt
+            reason
+            amount # 변동 금액 (발생 +, 상환 -)
+            balanceAfterTransaction # 변동 후 미수금 잔액
+            order {
+              id
+              number
+            }
+          }
+        }
+        pageInfo {
+          endCursor
+          hasNextPage
+          hasPreviousPage
+          startCursor
+        }
+      }
+    }
+  }
+`;

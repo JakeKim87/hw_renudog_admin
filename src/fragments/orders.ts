@@ -431,7 +431,6 @@ export const fragmentOrderDetails = gql`
     user {
       id
       email
-      userType
       businessName
       representativeName
       businessPhone

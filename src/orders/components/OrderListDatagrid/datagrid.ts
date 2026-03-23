@@ -18,7 +18,6 @@ import {
   OrderListQuery,
   OrderStatus,
   PaymentChargeStatusEnum,
-  UserType,
 } from "@dashboard/graphql";
 import {
   getStatusColor,
@@ -151,36 +150,10 @@ export function getCustomerCellContent(
     (m: any) => m.key === "is_express_delivery" && m.value === "true",
   );
 
-  const userType = rowData?.user?.userType;
-
   // 1. 급송 처리
   if (isExpress) {
     const expressDisplayName = `${displayName} (급송)`;
     return statusCell("error", expressDisplayName, COMMON_CELL_PROPS);
-  }
-
-  // 2. 고객 유형 처리
-  if (userType) {
-    let tagText = "";
-    // ✅ 변수 타입을 string이 아닌 'PillColor'로 지정합니다.
-    let pillColor: PillColor | null = null;
-
-    if (userType === UserType.HOSPITAL) {
-      tagText = "[병원]";
-      // ✅ hueToPillColorLight 함수를 사용하여 'PillColor' 객체를 생성합니다.
-      // 숫자는 색상(hue) 값이며, 210은 파란색 계열입니다.
-      pillColor = hueToPillColorLight(210);
-    } else if (userType === UserType.AGENCY) {
-      tagText = "[대리점]";
-      // ✅ 140은 녹색 계열입니다.
-      pillColor = hueToPillColorLight(140);
-    }
-
-    if (tagText) {
-      const fullDisplayName = `${displayName} ${tagText}`;
-      // ✅ 생성된 PillColor 객체를 pillCell 함수에 전달합니다.
-      return pillCell(fullDisplayName, pillColor, COMMON_CELL_PROPS);
-    }
   }
 
   // 3. 기본 처리
@@ -202,20 +175,6 @@ export function getStatusCellContent(
   }
 
   if (rowData.status === OrderStatus.FULFILLED) {
-    const userType = rowData?.user?.userType;
-    if (userType === UserType.AGENCY) {
-      const transformedDeliveryStatus = {
-        localized: "출고 완료",
-        status: StatusType.INFO, // 파란색 계열
-      };
-      const color = getStatusColor({
-        status: transformedDeliveryStatus.status,
-        currentTheme,
-      });
-
-      return pillCell(transformedDeliveryStatus.localized, color, COMMON_CELL_PROPS);
-    }
-
     const deliveryStatus = rowData.fulfillments?.[0]?.deliveryStatus;
 
     if (deliveryStatus) {

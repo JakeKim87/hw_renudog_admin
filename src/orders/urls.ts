@@ -1,4 +1,4 @@
-import { TransactionActionEnum, UserType } from "@dashboard/graphql";
+import { TransactionActionEnum } from "@dashboard/graphql";
 import { stringifyQs } from "@dashboard/utils/urls";
 import urlJoin from "url-join";
 
@@ -33,7 +33,6 @@ export enum OrderListUrlFiltersEnum {
   paymentMethod = "paymentMethod",
   category = "category",
   number = "number",
-  userType = "userType",
 }
 export enum OrderListUrlFiltersWithMultipleValues {
   status = "status",
@@ -66,9 +65,7 @@ export type OrderListUrlQueryParams = BulkAction &
   OrderListUrlFilters &
   OrderListUrlSort &
   Pagination &
-  ActiveTab & {
-    userType?: UserType;
-  };
+  ActiveTab;
 export const orderListUrl = (params?: OrderListUrlQueryParams): string => {
   const orderList = orderListPath;
 

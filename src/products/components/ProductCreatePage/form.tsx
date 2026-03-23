@@ -99,7 +99,6 @@ export interface ProductCreateFormData extends MetadataFormData {
   useChannelDefaultRate: boolean;
   visibility: string;
   visibleForTiers: string[];
-  visibleForUserTypes: string[];
 }
 export interface ProductCreateData extends ProductCreateFormData {
   attributes: AttributeInput[];
@@ -108,7 +107,8 @@ export interface ProductCreateData extends ProductCreateFormData {
 }
 
 export interface ProductCreateHandlers
-  extends Record<
+  extends
+    Record<
       | "changeMetadata"
       | "selectCategory"
       | "selectCollection"
@@ -133,8 +133,7 @@ export interface ProductCreateHandlers
   selectAttributeReferenceMetadata: FormsetMetadataChange<AttributeValuesMetadata[]>;
 }
 export interface UseProductCreateFormOutput
-  extends CommonUseFormResultWithHandlers<ProductCreateData, ProductCreateHandlers>,
-    RichTextProps {
+  extends CommonUseFormResultWithHandlers<ProductCreateData, ProductCreateHandlers>, RichTextProps {
   disabled: boolean;
   formErrors: FormErrors<ProductCreateData>;
   validationErrors: ProductErrorWithAttributesFragment[];
@@ -142,8 +141,10 @@ export interface UseProductCreateFormOutput
 
 export type UseProductCreateFormRenderProps = Omit<UseProductCreateFormOutput, "richText">;
 
-export interface UseProductCreateFormOpts
-  extends Record<"categories" | "collections" | "taxClasses", Option[]> {
+export interface UseProductCreateFormOpts extends Record<
+  "categories" | "collections" | "taxClasses",
+  Option[]
+> {
   setSelectedCategory: React.Dispatch<React.SetStateAction<string>>;
   setSelectedCollections: React.Dispatch<React.SetStateAction<Option[]>>;
   setSelectedTaxClass: React.Dispatch<React.SetStateAction<string>>;
@@ -209,7 +210,6 @@ function useProductCreateForm(
     useChannelDefaultRate: true,
     visibility: "PUBLIC",
     visibleForTiers: [],
-    visibleForUserTypes: [],
   };
   const form = useForm(
     {

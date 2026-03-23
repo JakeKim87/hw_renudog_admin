@@ -219,6 +219,8 @@
       "AttributeValue",
       "AttributeValueTranslatableContent",
       "AttributeValueTranslation",
+      "CashHistory",
+      "CashWallet",
       "Category",
       "CategoryTranslatableContent",
       "CategoryTranslation",

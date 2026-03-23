@@ -81,19 +81,12 @@ const CustomerInfo: React.FC<CustomerInfoProps> = props => {
   return (
     <DashboardCard>
       <DashboardCard.Header>
-        <DashboardCard.Title>
-          {/* 헤더 제목을 '고객 정보'로 변경 */}
-          <FormattedMessage id="zJ5Lz4" defaultMessage="고객 정보" description="header" />
-        </DashboardCard.Title>
+        <DashboardCard.Title>고객 정보</DashboardCard.Title>
       </DashboardCard.Header>
 
       <DashboardCard.Content className={classes.content}>
         {/* --- 3. JSX에 새로운 섹션과 필드 추가 --- */}
-        
-        {/* 기존: 개인 정보 */}
-        <Text>
-          <FormattedMessage {...commonMessages.generalInformations} />
-        </Text>
+
         <Grid variant="uniform">
           <TextField
             data-test-id="customer-first-name"
@@ -106,7 +99,7 @@ const CustomerInfo: React.FC<CustomerInfoProps> = props => {
             value={data.firstName ?? ""}
             onChange={onChange}
           />
-          <TextField
+          {/* <TextField
             data-test-id="customer-last-name"
             disabled={disabled}
             error={!!formErrors.lastName}
@@ -116,28 +109,26 @@ const CustomerInfo: React.FC<CustomerInfoProps> = props => {
             label={intl.formatMessage(commonMessages.lastName)}
             value={data.lastName ?? ""}
             onChange={onChange}
-          />
+          /> */}
         </Grid>
         <Grid variant="uniform" className={classes.gridSpacer}>
-            <TextField
-              data-test-id="customer-email"
-              disabled={disabled}
-              error={!!formErrors.email}
-              fullWidth
-              helperText={getAccountErrorMessage(formErrors.email, intl)}
-              name="email"
-              type="email"
-              label={intl.formatMessage(commonMessages.email)}
-              value={data.email}
-              onChange={onChange}
-            />
+          <TextField
+            data-test-id="customer-email"
+            disabled={disabled}
+            error={!!formErrors.email}
+            fullWidth
+            helperText={getAccountErrorMessage(formErrors.email, intl)}
+            name="email"
+            type="email"
+            label={intl.formatMessage(commonMessages.email)}
+            value={data.email}
+            onChange={onChange}
+          />
         </Grid>
 
         {/* 신규: 사업자 정보 */}
         <Hr className={classes.hr} />
-        <Text>
-          <FormattedMessage id="B5t6pA" defaultMessage="사업자 정보" description="section header" />
-        </Text>
+        <Text>사업자 정보</Text>
         <Grid variant="uniform">
           <TextField
             disabled={disabled}
@@ -211,58 +202,62 @@ const CustomerInfo: React.FC<CustomerInfoProps> = props => {
           />
         </Grid>
         <Grid variant="uniform" className={classes.gridSpacer}>
-            <TextField
-              disabled={disabled}
-              error={!!formErrors.departmentName}
-              fullWidth
-              helperText={getAccountErrorMessage(formErrors.departmentName, intl)}
-              name="departmentName"
-              label="담당 부서명"
-              value={data.departmentName ?? ""}
-              onChange={onChange}
-            />
+          <TextField
+            disabled={disabled}
+            error={!!formErrors.departmentName}
+            fullWidth
+            helperText={getAccountErrorMessage(formErrors.departmentName, intl)}
+            name="departmentName"
+            label="담당 부서명"
+            value={data.departmentName ?? ""}
+            onChange={onChange}
+          />
         </Grid>
         <Hr className={classes.hr} />
-      <Text>
-        <FormattedMessage id="businessAddress" defaultMessage="사업장 주소" description="section header" />
-      </Text>
-      <Grid variant="uniform" className={classes.gridSpacer}>
-        <TextField
-          disabled={disabled}
-          error={!!formErrors["businessAddress.postalCode"]}
-          fullWidth
-          helperText={getAccountErrorMessage(formErrors["businessAddress.postalCode"], intl)}
-          name="businessAddress.postalCode" // name을 중첩된 형태로 지정
-          label="우편번호"
-          value={businessAddress?.postalCode ?? ""}
-          onChange={onChange}
-        />
-      </Grid>
-      <Grid variant="uniform" className={classes.gridSpacer}>
-        <TextField
-          disabled={disabled}
-          error={!!formErrors["businessAddress.streetAddress1"]}
-          fullWidth
-          helperText={getAccountErrorMessage(formErrors["businessAddress.streetAddress1"], intl)}
-          name="businessAddress.streetAddress1"
-          label="기본 주소"
-          value={businessAddress?.streetAddress1 ?? ""}
-          onChange={onChange}
-        />
-      </Grid>
-      <Grid variant="uniform" className={classes.gridSpacer}>
-        <TextField
-          disabled={disabled}
-          error={!!formErrors["businessAddress.streetAddress2"]}
-          fullWidth
-          helperText={getAccountErrorMessage(formErrors["businessAddress.streetAddress2"], intl)}
-          name="businessAddress.streetAddress2"
-          label="상세 주소"
-          value={businessAddress?.streetAddress2 ?? ""}
-          onChange={onChange}
-        />
-      </Grid>
-      <Hr className={classes.hr} />
+        <Text>
+          <FormattedMessage
+            id="businessAddress"
+            defaultMessage="사업장 주소"
+            description="section header"
+          />
+        </Text>
+        <Grid variant="uniform" className={classes.gridSpacer}>
+          <TextField
+            disabled={disabled}
+            error={!!formErrors["businessAddress.postalCode"]}
+            fullWidth
+            helperText={getAccountErrorMessage(formErrors["businessAddress.postalCode"], intl)}
+            name="businessAddress.postalCode" // name을 중첩된 형태로 지정
+            label="우편번호"
+            value={businessAddress?.postalCode ?? ""}
+            onChange={onChange}
+          />
+        </Grid>
+        <Grid variant="uniform" className={classes.gridSpacer}>
+          <TextField
+            disabled={disabled}
+            error={!!formErrors["businessAddress.streetAddress1"]}
+            fullWidth
+            helperText={getAccountErrorMessage(formErrors["businessAddress.streetAddress1"], intl)}
+            name="businessAddress.streetAddress1"
+            label="기본 주소"
+            value={businessAddress?.streetAddress1 ?? ""}
+            onChange={onChange}
+          />
+        </Grid>
+        <Grid variant="uniform" className={classes.gridSpacer}>
+          <TextField
+            disabled={disabled}
+            error={!!formErrors["businessAddress.streetAddress2"]}
+            fullWidth
+            helperText={getAccountErrorMessage(formErrors["businessAddress.streetAddress2"], intl)}
+            name="businessAddress.streetAddress2"
+            label="상세 주소"
+            value={businessAddress?.streetAddress2 ?? ""}
+            onChange={onChange}
+          />
+        </Grid>
+        <Hr className={classes.hr} />
       </DashboardCard.Content>
     </DashboardCard>
   );

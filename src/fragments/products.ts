@@ -235,7 +235,6 @@ export const productFragmentDetails = gql`
       id
       grade
     }
-    visibleForUserTypes
     defaultVariant {
       id
     }

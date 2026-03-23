@@ -10,7 +10,6 @@ import {
   OrderFulfillmentUpdateDeliveryStatusMutationVariables,
   OrderStatus,
   useOrderCompleteMutation,
-  UserType,
 } from "@dashboard/graphql";
 import useNotifier from "@dashboard/hooks/useNotifier";
 import { orderHasTransactions } from "@dashboard/orders/types";
@@ -41,7 +40,6 @@ interface OrderFulfilledProductsCardProps {
   deliveryStatusUpdateLoading: boolean;
   onOrderUpdate: () => void;
   children?: React.ReactNode;
-  userType?: UserType;
 }
 
 const statusesToMergeLines = [
@@ -71,15 +69,13 @@ const OrderFulfilledProductsCard: React.FC<OrderFulfilledProductsCardProps> = pr
     dataTestId,
     onDeliveryStatusUpdate,
     onOrderUpdate,
-    userType,
   } = props;
 
   const [isDialogOpen, setIsDialogOpen] = useState(false);
   const notify = useNotifier();
 
-  const isAgency = userType === UserType.AGENCY;
   const deliveryStatusMessages: Record<DeliveryStatus, string> = {
-    PREPARING: isAgency ? "출고 완료" : "배송 준비 중",
+    PREPARING: "배송 준비 중",
     IN_TRANSIT: "배송 중",
     DELIVERED: "배송 완료",
     DELIVERY_FAILED: "배송 실패",
@@ -174,18 +170,16 @@ const OrderFulfilledProductsCard: React.FC<OrderFulfilledProductsCardProps> = pr
                   구매 확정
                 </Button>
               )}
-            {!isOrderFinalized &&
-              !isAgency &&
-              fulfillment?.status === FulfillmentStatus.FULFILLED && (
-                <Button
-                  variant="secondary"
-                  size="small"
-                  onClick={() => setIsDialogOpen(true)}
-                  data-test-id="change-delivery-status-button"
-                >
-                  배송 상태 변경
-                </Button>
-              )}
+            {!isOrderFinalized && fulfillment?.status === FulfillmentStatus.FULFILLED && (
+              <Button
+                variant="secondary"
+                size="small"
+                onClick={() => setIsDialogOpen(true)}
+                data-test-id="change-delivery-status-button"
+              >
+                배송 상태 변경
+              </Button>
+            )}
 
             {!isOrderFinalized && cancelableStatuses.includes(fulfillment?.status) && (
               <Button
@@ -195,7 +189,7 @@ const OrderFulfilledProductsCard: React.FC<OrderFulfilledProductsCardProps> = pr
                 icon={<Trash2 />}
               />
             )}
-            {!isOrderFinalized && !isAgency && (
+            {!isOrderFinalized && (
               <ActionButtons
                 orderId={order?.id}
                 status={fulfillment?.status}

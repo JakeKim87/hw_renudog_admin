@@ -160,7 +160,6 @@ const OrderListPage: React.FC<OrderListPageProps> = React.memo(
     );
 
     const [paymentMethod, setPaymentMethod] = useState(params.paymentMethod || "");
-    const [userType, setUserType] = useState(params.userType || "");
     const [category, setCategory] = useState(params.category || "");
 
     // URL 파라미터가 변경될 때 검색어 상태를 동기화
@@ -237,7 +236,6 @@ const OrderListPage: React.FC<OrderListPageProps> = React.memo(
         deliveryStatus: !isOrderStatus ? processingStatus : undefined,
         paymentMethod: paymentMethod || undefined,
         category: category || undefined,
-        userType: userType || undefined,
         after: undefined,
         before: undefined,
         asc: params.asc,
@@ -257,7 +255,6 @@ const OrderListPage: React.FC<OrderListPageProps> = React.memo(
       setProcessingStatus("");
       setPaymentMethod("");
       setCategory("");
-      setUserType("");
       onSearchChange(""); // 검색어 초기화
 
       const preservedParams = {
@@ -403,31 +400,6 @@ const OrderListPage: React.FC<OrderListPageProps> = React.memo(
                 </FormControl>
               </div>
             )}
-            <div className={classes.filterGroup}>
-              <InputLabel shrink>고객 유형</InputLabel>
-              <FormControl variant="outlined" size="small" className={classes.formControl}>
-                <Select
-                  value={userType}
-                  onChange={e => setUserType(e.target.value as string)}
-                  displayEmpty
-                  renderValue={selected => {
-                    if (!selected) {
-                      return "고객 유형 선택";
-                    }
-                    // 값에 따라 표시될 텍스트를 매핑합니다.
-                    const options = {
-                      HOSPITAL: "병원",
-                      AGENCY: "대리점",
-                    };
-                    return options[selected as keyof typeof options];
-                  }}
-                >
-                  <MenuItem value="">전체</MenuItem>
-                  <MenuItem value="HOSPITAL">병원</MenuItem>
-                  <MenuItem value="AGENCY">대리점</MenuItem>
-                </Select>
-              </FormControl>
-            </div>
             <div className={classes.filterGroup}>
               <InputLabel shrink>결제 방식</InputLabel>
               <FormControl variant="outlined" size="small" className={classes.formControl}>

@@ -401,7 +401,6 @@ const OrderDetailsPage: React.FC<OrderDetailsPageProps> = props => {
               onOrderUpdate={handleOrderUpdate}
               onDeliveryStatusUpdate={updateDeliveryStatus}
               deliveryStatusUpdateLoading={updateDeliveryStatusLoading}
-              userType={order.user.userType}
             />
           ))}
         <OrderPaymentOrTransaction
